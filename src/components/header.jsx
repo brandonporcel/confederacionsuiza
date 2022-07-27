@@ -1,30 +1,38 @@
-import React from "react";
-import "./styles.css";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './styles.css';
 
 function Header() {
-  return (
-    <div className="header">
-      <div className="navLogo">
-        <a href="#">
-          <img src="hl2_logo.png" alt="Logo de la Institución" width="100px" />
-        </a>
-        <h1>Confederación Suiza</h1>
-      </div>
-      <div className="navBar">
-        <ul>
-          <li>
-            <a href="#">Institucional</a>
-          </li>
-          <li>
-            <a href="#">Especialidades</a>
-          </li>
-          <li>
-            <a href="#">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  );
+	return (
+		<div className="header">
+			<div className="navLogo">
+				<Link to="/">
+					{/* habia q pasarlo a la carpeta public */}
+					<img
+						src="./images/logo.png"
+						alt="Logo de la Institución"
+						width="100px"
+						height="100px"
+					/>
+				</Link>
+
+				<h1>Confederación Suiza</h1>
+			</div>
+			<div className="navBar">
+				<ul>
+					<li>
+						<Link to="/institucional">Institucional</Link>
+					</li>
+					<li>
+						<a href="#especialdades">Especialidades</a>
+					</li>
+					<li>
+						<a href="#contacto">Contacto</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	);
 }
 
 export default Header;
