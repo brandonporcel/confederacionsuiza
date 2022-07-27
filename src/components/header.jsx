@@ -8,15 +8,16 @@ function Header() {
 			<div className="navLogo">
 				<Link to="/">
 					{/* habia q pasarlo a la carpeta public */}
-					<img
-						src="./images/logo.png"
-						alt="Logo de la Institución"
-						width="100px"
-						height="100px"
-					/>
+					<div className="navLogo-img-ctn">
+						<img
+							src="./images/logo.png"
+							alt="Logo de la Institución"
+							width="100px"
+							height="100px"
+						/>
+					</div>
+					<h1>Confederación Suiza</h1>
 				</Link>
-
-				<h1>Confederación Suiza</h1>
 			</div>
 			<div className="navBar">
 				<ul>
