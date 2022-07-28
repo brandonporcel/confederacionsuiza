@@ -10,7 +10,7 @@ function Header() {
 					{/* habia q pasarlo a la carpeta public */}
 					<div className="navLogo-img-ctn">
 						<img
-							src="./images/logo.png"
+							src="./images/logo.jpg"
 							alt="Logo de la Institución"
 							width="100px"
 							height="100px"

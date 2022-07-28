@@ -20,12 +20,14 @@ a {
 /* variables */
 :root {
 	scroll-behavior: smooth;
+	--header-height: 50%;
 	--main-font: 'Encode Sans', sans-serif;
 	--white-font: #fff;
 	--gray-header: #333333;
 	--gray-text: #707a83;
 	--gray-secondary: #8b9394;
 	--btn-blue: #2081e2;
+	--btn-blue-hover: #2e8eee;
 	--titles-color: #04111d;
 	--blue-footer: #1868b7;
 	--skyblue: #f3fbfe;
@@ -33,4 +35,5 @@ a {
 }
 body {
 	font-family: var(--main-font);
+	overflow-x: hidden;
 }
