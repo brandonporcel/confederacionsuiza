@@ -1,27 +1,54 @@
 /* agregué variables, usalas porfi. es para si un futuro queremos cambiar algo, va a ser mas facil  */
 .header {
 	display: flex;
+	margin: 8px 0px 8px 0px;
 	width: 100%;
 	height: var(--header-height);
-	border: 1px solid red;
-	/* background-color: red; */
 	color: var(--gray-header);
 }
 
-.navLinks {
+.navBar {
+	padding-right: 90px;
+    width: 40%;
+    display: flex;
+}
+
+.navBar .navLinks-ctn{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navBar .navLinks-ctn li{
+	display: flex;
+	padding: 5px 10px 5px 10px;
+	align-items: center;
+}
+
+.navBar .navLinks-ctn .navLinks {
 	color: inherit;
 	font-weight: 500;
 }
 
 /* lo puse en un contenedor porque en el reset de css las img tienen q tener 100% width. buenas practicas:) */
-.navLogo-img-ctn {
+.navLogo {
+	display: flex;
+	width: 60%;
+	padding-left: 100px;
+
+}
+
+.navLogo .navLogo-ctn{
+	display: flex;
+}
+
+.navLogo .navLogo-img-ctn {
 	width: 50px;
 	height: 50px;
 }
 
-.navLogo {
-	display: flex;
-	width: 40%;
-	/* background-color: blue; */
-	border: 1px solid blue;
+.navLogo .navLogo-h1-ctn{
+	width: 60%;
+	font-size: 9px;
+	padding: 0px 10px 0px 10px;
 }

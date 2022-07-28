@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="header">
       <div className="navLogo">
-        <Link to="/">
+        <Link to="/" className="navLogo-ctn">
           {/* habia q pasarlo a la carpeta public */}
           <div className="navLogo-img-ctn">
             <img
@@ -16,11 +16,13 @@ function Header() {
               height="100px"
             />
           </div>
-          <h1>Confederación Suiza</h1>
+          <div className="navLogo-h1-ctn">
+            <h1>Confederación Suiza</h1>
+          </div>
         </Link>
       </div>
       <div className="navBar">
-        <ul>
+        <ul className="navLinks-ctn">
           <li>
             <Link className="navLinks" to="/institucional">
               Institucional
