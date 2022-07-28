@@ -37,12 +37,13 @@ export default function EspecialidadItem({ title, description, thumbnail }) {
                 margin-bottom: 20px;
             }
             p{
-                height: 60px;
-    font-size: 14px;
-    /* width: 285px; */
-    /* text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden; */
+                height: 55px;
+                font-size: 14px;
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;
             }
         }
     `;

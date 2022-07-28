@@ -1,25 +1,29 @@
 /* agregué variables, usalas porfi. es para si un futuro queremos cambiar algo, va a ser mas facil  */
 .header {
 	display: flex;
-	margin: 8px 0px 8px 0px;
+	position: sticky;
+	top: 0;
+	z-index: 20;
+	padding: 8px 0;
 	width: 100%;
+	background-color: #fff;
 	height: var(--header-height);
 	color: var(--gray-header);
 }
 
 .navBar {
 	padding-right: 90px;
-    width: 40%;
-    display: flex;
+	width: 40%;
+	display: flex;
 }
 
-.navBar .navLinks-ctn{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+.navBar .navLinks-ctn {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
 }
 
-.navBar .navLinks-ctn li{
+.navBar .navLinks-ctn li {
 	display: flex;
 	padding: 5px 10px 5px 10px;
 	align-items: center;
@@ -35,10 +39,9 @@
 	display: flex;
 	width: 60%;
 	padding-left: 100px;
-
 }
 
-.navLogo .navLogo-ctn{
+.navLogo .navLogo-ctn {
 	display: flex;
 }
 
@@ -47,7 +50,7 @@
 	height: 50px;
 }
 
-.navLogo .navLogo-h1-ctn{
+.navLogo .navLogo-h1-ctn {
 	width: 60%;
 	font-size: 9px;
 	padding: 0px 10px 0px 10px;

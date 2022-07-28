@@ -10,7 +10,7 @@ export default function Home() {
 			<Header />
 			<Hero />
 			<Especialidades />
-			<section style={{ height: '100vh' }}>especiadlidaes</section>
+			<section style={{ height: '100vh' }}>Proyectos</section>
 			<Footer />
 		</>
 	);
