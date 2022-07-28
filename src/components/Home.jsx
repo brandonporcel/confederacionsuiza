@@ -1,15 +1,16 @@
 import React from 'react';
+import Footer from './Footer';
 import Header from './header';
 import Hero from './Hero';
 
 export default function Home() {
 	return (
-		<div>
+		<>
 			<Header />
 			<Hero />
 			<section id="especialidades"></section>
-			<section>pryectos</section>
-			<section id="footer"></section>
-		</div>
+			<section style={{ height: '100vh' }}>especiadlidaes</section>
+			<Footer />
+		</>
 	);
 }
