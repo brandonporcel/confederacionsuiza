@@ -1,14 +1,15 @@
+/* agregué variables, usalas porfi. es para si un futuro queremos cambiar algo, va a ser mas facil  */
 .header {
 	display: flex;
 	width: 100%;
 	height: var(--header-height);
 	border: 1px solid red;
 	/* background-color: red; */
+	color: var(--gray-header);
 }
 
-a {
-	/* agregué variables, usalas porfi. es para si un futuro queremos cambiar algo, va a ser mas facil  */
-	color: var(--gray-header);
+.navLinks {
+	color: inherit;
 	font-weight: 500;
 }
 

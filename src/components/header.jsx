@@ -10,7 +10,7 @@ function Header() {
 					{/* habia q pasarlo a la carpeta public */}
 					<div className="navLogo-img-ctn">
 						<img
-							src="./assets/images/logo.jpg"
+							src="./images/logo.jpg"
 							alt="Logo de la Institución"
 							width="100px"
 							height="100px"
@@ -22,13 +22,19 @@ function Header() {
 			<div className="navBar">
 				<ul>
 					<li>
-						<Link to="/institucional">Institucional</Link>
+						<Link className="navLinks" to="/institucional">
+							Institucional
+						</Link>
 					</li>
 					<li>
-						<a href="#especialdades">Especialidades</a>
+						<a className="navLinks" href="#especialdades">
+							Especialidades
+						</a>
 					</li>
 					<li>
-						<a href="#contacto">Contacto</a>
+						<a className="navLinks" href="#contacto">
+							Contacto
+						</a>
 					</li>
 				</ul>
 			</div>
