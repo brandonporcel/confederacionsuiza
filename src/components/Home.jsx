@@ -3,6 +3,7 @@ import Especialidades from './Especialidades';
 import Footer from './Footer';
 import Header from './header';
 import Hero from './Hero';
+import Proyectos from './Proyectos';
 
 export default function Home() {
 	return (
@@ -10,7 +11,7 @@ export default function Home() {
 			<Header />
 			<Hero />
 			<Especialidades />
-			<section style={{ height: '100vh' }}>Proyectos</section>
+			<Proyectos />
 			<Footer />
 		</>
 	);

@@ -22,26 +22,27 @@ const especialidades = [
 			'Un técnico en computación e informática puede desempeñarse en el diseño y desarrollo de sistemas informáticos, aplicaciones y base de datos, entre otros',
 	},
 ];
-const EspecialidadesCtn = styled.section`
-	/* height: 100vh; */
-	/* background: red; */
-	padding: 50px 100px;
-	.sectionTitle {
-		text-align: center;
-		margin-bottom: 50px;
-		color: var(--titles-color);
-	}
-	.specialtyCtn {
-		display: flex;
-		justify-content: space-between;
-		margin-bottom: 50px;
-		.specialtyItem {
-			background: red;
-			margin-bottom: 20px;
-		}
-	}
-`;
+
 export default function Especialidades() {
+	const EspecialidadesCtn = styled.section`
+		/* height: 100vh; */
+		/* background: red; */
+		padding: 50px 100px;
+		.sectionTitle {
+			text-align: center;
+			margin-bottom: 50px;
+			color: var(--titles-color);
+		}
+		.specialtyCtn {
+			display: flex;
+			justify-content: space-between;
+
+			.specialtyItem {
+				background: red;
+				margin-bottom: 20px;
+			}
+		}
+	`;
 	return (
 		<EspecialidadesCtn id="especialidades">
 			<h2 className="sectionTitle">1er Ciclo y Especialidades</h2>
