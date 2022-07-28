@@ -1,4 +1,5 @@
 import React from 'react';
+import Especialidades from './Especialidades';
 import Footer from './Footer';
 import Header from './header';
 import Hero from './Hero';
@@ -8,7 +9,7 @@ export default function Home() {
 		<>
 			<Header />
 			<Hero />
-			<section id="especialidades"></section>
+			<Especialidades />
 			<section style={{ height: '100vh' }}>especiadlidaes</section>
 			<Footer />
 		</>
