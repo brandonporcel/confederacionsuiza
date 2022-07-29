@@ -7,7 +7,6 @@ function Header() {
     <div className="header">
       <div className="navLogo">
         <Link to="/" className="navLogo-ctn">
-          {/* habia q pasarlo a la carpeta public */}
           <div className="navLogo-img-ctn">
             <img
               src="./images/logo.jpg"
@@ -16,8 +15,8 @@ function Header() {
               height="100px"
             />
           </div>
-          <div className="navLogo-h1-ctn">
-            <h1>Confederación Suiza</h1>
+          <div className="navLogo-h2-ctn">
+            <h2>Confederación Suiza</h2>
           </div>
         </Link>
       </div>
@@ -31,11 +30,11 @@ function Header() {
           <li className="navList-item">
             Especialidades
             <ul className="navList-submenu">
-              <li>Ciclo Básico</li>
+              <li className="navList-subItem">Ciclo Básico</li>
               <hr />
-              <li>Computación</li>
+              <li className="navList-subItem">Computación</li>
               <hr />
-              <li>Automor</li>
+              <li className="navList-subItem">Automor</li>
             </ul>
           </li>
           <li className="navList-item">Contacto</li>
