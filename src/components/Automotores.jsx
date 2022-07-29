@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function Proyectos() {
+export default function Automotores() {
 	return (
-		<div>
-			Proyectos lololol
+		<>
+			rellerno Automotores
 			<br />
 			<br />
 			<br />
@@ -16,14 +16,6 @@ export default function Proyectos() {
 			<br />
 			<br />
 			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-		</div>
+		</>
 	);
 }

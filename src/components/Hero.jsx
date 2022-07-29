@@ -19,7 +19,7 @@ const Containter = styled.div`
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background-color: rgba(0, 0, 0, 0.25);
+		background-color: rgba(0, 0, 0, 0.4);
 	}
 	.content {
 		z-index: 10;
@@ -47,12 +47,17 @@ export default function Hero() {
 				<h1>Escuela Técnica Confederacion Suiza</h1>
 				<div className="content-cta">
 					<p>
-						Bienvenidos al sitio oficial de nuestra escuela. Acá encontraras
-						toda la información que necesites y más.
+						Bienvenido al sitio oficial de nuestra escuela. Acá encontraras toda
+						la información y novedades que necesites y más.
 					</p>
+
 					<div className="content-buttons">
-						<Button type="bg">Especialidades</Button>
-						<Button type="noBg">Contacto</Button>
+						<a href="#especialidades">
+							<Button type="bg">Especialidades</Button>
+						</a>
+						<a href="#contacto">
+							<Button type="noBg">Contacto</Button>
+						</a>
 					</div>
 				</div>
 			</div>

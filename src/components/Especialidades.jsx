@@ -26,7 +26,7 @@ const especialidades = [
 
 export default function Especialidades() {
 	return (
-		<section id="especialidades" className="section">
+		<section id="especialidades" className="section tooLarge">
 			<h2 className="sectionTitle">1er Ciclo y Especialidades</h2>
 			<div className="flexBetween">
 				{especialidades.map((el, i) => (

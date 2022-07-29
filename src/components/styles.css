@@ -1,45 +1,41 @@
-/* agregué variables, usalas porfi. es para si un futuro queremos cambiar algo, va a ser mas facil  */
 .header {
 	display: flex;
 	position: sticky;
+	justify-content: space-between;
 	top: 0;
 	z-index: 20;
-	padding: 8px 0;
+	padding: 8px 100px;
 	width: 100%;
 	background-color: #fff;
 	height: var(--header-height);
 	color: var(--gray);
 	box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
 }
-.navList{
-	box-sizing: border-box;
-	width: 40%;
-}
 
-.navList .navList-ctn{
+.navList .navList-ctn {
 	height: 100%;
 	display: flex;
 	justify-content: space-around;
-	margin: 0 100px;
 	align-items: center;
 }
 
-.navList .navList-ctn .navList-item{
-	position:relative;
+.navList .navList-ctn .navList-item {
+	position: relative;
 	cursor: pointer;
 	padding: 15px 15px;
-
+	color: var(--gray);
+	font-weight: 500;
 }
 
-.navList .navList-ctn .navList-item:hover{
-	color: #00000095;
+.navList .navList-ctn .navList-item:hover {
+	color: var(--gray-third);
 }
 
-.navList .navList-ctn .navList-item:hover ul{
+.navList .navList-ctn .navList-item:hover ul {
 	visibility: visible;
 }
 
-.navList .navList-ctn .navList-item .navList-submenu{
+.navList .navList-ctn .navList-item .navList-submenu {
 	position: absolute;
 	width: 175px;
 	top: 50px;
@@ -52,22 +48,25 @@
 	border-radius: 10px;
 }
 
-.navList .navList-ctn .navList-item .navList-submenu .navList-subItem{
+.navList .navList-ctn .navList-item .navList-submenu .navList-subItem {
 	color: var(--gray);
 	width: 100%;
 	padding: 10px 10px;
 	text-align: left;
+	font-weight: 500;
 }
 
-.navList .navList-ctn .navList-item .navList-submenu .navList-subItem:hover{
-	color: #00000095;
+.navList .navList-ctn .navList-item .navList-submenu .navList-subItem:hover {
+	color: var(--gray-third);
+}
+.navList-submenu hr {
+	background-color: #e5e8eb;
+	height: 0.5px;
+	border: none;
 }
 
-/* lo puse en un contenedor porque en el reset de css las img tienen q tener 100% width. buenas practicas:) */
 .navLogo {
 	display: flex;
-	width: 60%;
-	padding-left: 100px;
 }
 
 .navLogo .navLogo-ctn {

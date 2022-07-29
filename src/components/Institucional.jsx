@@ -1,11 +1,7 @@
-import Footer from './Footer';
-import Header from './header';
-
 export default function Institucional() {
 	return (
 		<>
-			<Header />
-			sdajdhsajkdhasjkd
+			rellerno institucional
 			<br />
 			<br />
 			<br />
@@ -15,7 +11,6 @@ export default function Institucional() {
 			<br />
 			<br />
 			<br />
-			<Footer />
 		</>
 	);
 }

@@ -32,7 +32,7 @@ a {
 	--titles-color: #04111d;
 	--blue-footer: #1868b7;
 	--conocelasuiza-color: #f3fbfe;
-	--section-p: 80px;
+	--shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
 }
 body {
 	font-family: var(--main-font);
@@ -42,6 +42,10 @@ body {
 .section {
 	padding: 70px 100px 40px;
 }
+.section.tooLarge {
+	max-width: 90%;
+	margin: 0 auto;
+}
 .sectionTitle {
 	text-align: center;
 	margin-bottom: 40px;
@@ -50,4 +54,11 @@ body {
 .flexBetween {
 	display: flex;
 	justify-content: space-between;
+}
+/*  */
+@media screen and (max-width: 1300px) {
+	.section.tooLarge {
+		max-width: 100%;
+		/* padding: 70px 20px 40px; */
+	}
 }

@@ -14,6 +14,7 @@ const FooterContentCtn = styled.div`
 				height: 100px;
 			}
 			.title-footer {
+				font-weight: 600;
 				span {
 					display: block;
 					font-weight: 500;
@@ -44,6 +45,8 @@ const FooterContentCtn = styled.div`
 		.footerSection {
 			h4 {
 				margin-bottom: 20px;
+				font-size: 18px;
+				font-weight: 600;
 			}
 			ul {
 				li {

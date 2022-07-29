@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function Proyectos() {
+export default function CicloBasico() {
 	return (
-		<div>
-			Proyectos lololol
+		<>
+			rellerno CicloBasico
 			<br />
 			<br />
 			<br />
@@ -16,14 +16,6 @@ export default function Proyectos() {
 			<br />
 			<br />
 			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-		</div>
+		</>
 	);
 }
