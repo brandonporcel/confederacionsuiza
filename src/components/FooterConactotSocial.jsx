@@ -11,10 +11,10 @@ const ContactSocial = styled.div`
 			color: var(--white);
 			display: flex;
 			align-items: center;
-			margin-bottom: 5px;
+			margin-bottom: 10px;
 			.svg {
-				width: 24px;
-				height: 24px;
+				width: 20px;
+				height: 20px;
 				margin-right: 10px;
 			}
 		}

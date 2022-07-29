@@ -4,6 +4,7 @@ import Especialidades from './Especialidades';
 import Footer from './Footer';
 import Header from './header';
 import Hero from './Hero';
+import Novedades from './Novedades';
 import Proyectos from './Proyectos';
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
 		<>
 			<Header />
 			<Hero />
+			<Novedades />
 			<Especialidades />
 			<Proyectos />
 			<ConoceLaSuiza />
