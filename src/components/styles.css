@@ -10,28 +10,50 @@
 	height: var(--header-height);
 	color: var(--gray-header);
 }
-
-.navBar {
-	padding-right: 90px;
+.navList{
+	box-sizing: border-box;
 	width: 40%;
-	display: flex;
 }
 
-.navBar .navLinks-ctn {
-	width: 100%;
+.navList .navList-ctn{
+	height: 100%;
 	display: flex;
 	justify-content: space-around;
-}
-
-.navBar .navLinks-ctn li {
-	display: flex;
-	padding: 5px 10px 5px 10px;
+	margin: 0 100px;
 	align-items: center;
 }
 
-.navBar .navLinks-ctn .navLinks {
-	color: inherit;
-	font-weight: 500;
+.navList .navList-ctn .navList-item{
+	position:relative;
+	cursor: pointer;
+	padding: 15px 15px;
+}
+
+.navList .navList-ctn .navList-item:hover ul{
+	visibility: visible;
+}
+
+.navList .navList-ctn .navList-item .navList-submenu{
+	position: absolute;
+	width: 175px;
+	top: 50px;
+	left: -1px;
+	padding: 4px 10px;
+	display: flex;
+	flex-direction: column;
+	visibility: hidden;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.navList .navList-ctn .navList-item .navList-submenu li{
+	width: 100%;
+	padding: 10px 10px;
+	text-align: left;
+}
+
+.navList .navList-ctn .navList-item .navList-submenu li:hover{
+	color: #00000095;
 }
 
 /* lo puse en un contenedor porque en el reset de css las img tienen q tener 100% width. buenas practicas:) */

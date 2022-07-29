@@ -21,17 +21,54 @@ function Header() {
           </div>
         </Link>
       </div>
-      <div className="navBar">
+      <nav className="navList">
+        <ul className="navList-ctn">
+          <li className="navList-item">
+            <Link className="navLinks" to="/institucional">
+              Institucional
+            </Link>
+          </li>
+          <li className="navList-item">
+            Especialidades
+            <ul className="navList-submenu">
+              <li>Ciclo Básico</li>
+              <hr />
+              <li>Computación</li>
+              <hr />
+              <li>Automor</li>
+            </ul>
+          </li>
+          <li className="navList-item">Contacto</li>
+        </ul>
+      </nav>
+      {/* <div className="navBar">
         <ul className="navLinks-ctn">
           <li>
             <Link className="navLinks" to="/institucional">
               Institucional
             </Link>
           </li>
-          <li>
+          <li className="navLinks-submenu">
             <a className="navLinks" href="#especialdades">
               Especialidades
             </a>
+            <ul className="navLinks-submenu-ctn">
+              <li>
+                <Link className="navLinks" to="/institucional">
+                  Ciclo Básico
+                </Link>
+              </li>
+              <li>
+                <Link className="navLinks" to="/institucional">
+                  Computación
+                </Link>
+              </li>
+              <li>
+                <Link className="navLinks" to="/institucional">
+                  Automotores
+                </Link>
+              </li>
+            </ul>
           </li>
           <li>
             <a className="navLinks" href="#contacto">
@@ -39,7 +76,7 @@ function Header() {
             </a>
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 }
