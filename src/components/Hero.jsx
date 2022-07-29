@@ -12,7 +12,6 @@ const Containter = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	padding: 100px;
 	&:after {
 		content: '';
 		position: absolute;
@@ -25,7 +24,7 @@ const Containter = styled.div`
 	.content {
 		z-index: 10;
 
-		color: var(--white-font);
+		color: var(--white);
 		h1 {
 			max-width: 700px;
 			font-size: 62px;
@@ -43,7 +42,7 @@ const Containter = styled.div`
 `;
 export default function Hero() {
 	return (
-		<Containter>
+		<Containter className="section">
 			<div className="content">
 				<h1>Escuela Técnica Confederacion Suiza</h1>
 				<div className="content-cta">

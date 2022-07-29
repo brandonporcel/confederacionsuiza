@@ -41,42 +41,6 @@ function Header() {
           <li className="navList-item">Contacto</li>
         </ul>
       </nav>
-      {/* <div className="navBar">
-        <ul className="navLinks-ctn">
-          <li>
-            <Link className="navLinks" to="/institucional">
-              Institucional
-            </Link>
-          </li>
-          <li className="navLinks-submenu">
-            <a className="navLinks" href="#especialdades">
-              Especialidades
-            </a>
-            <ul className="navLinks-submenu-ctn">
-              <li>
-                <Link className="navLinks" to="/institucional">
-                  Ciclo Básico
-                </Link>
-              </li>
-              <li>
-                <Link className="navLinks" to="/institucional">
-                  Computación
-                </Link>
-              </li>
-              <li>
-                <Link className="navLinks" to="/institucional">
-                  Automotores
-                </Link>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a className="navLinks" href="#contacto">
-              Contacto
-            </a>
-          </li>
-        </ul>
-      </div> */}
     </div>
   );
 }

@@ -25,11 +25,11 @@ const FooterContentCtn = styled.div`
 			width: 28px;
 			padding: 5px;
 			path {
-				fill: var(--white-font);
+				fill: var(--white);
 			}
 			&:hover {
 				cursor: pointer;
-				background: var(--white-font);
+				background: var(--white);
 				path {
 					fill: var(--blue-footer);
 				}
