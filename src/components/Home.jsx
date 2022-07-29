@@ -1,4 +1,5 @@
 import React from 'react';
+import ConoceLaSuiza from './ConoceLaSuiza';
 import Especialidades from './Especialidades';
 import Footer from './Footer';
 import Header from './header';
@@ -12,6 +13,7 @@ export default function Home() {
 			<Hero />
 			<Especialidades />
 			<Proyectos />
+			<ConoceLaSuiza />
 			<Footer />
 		</>
 	);

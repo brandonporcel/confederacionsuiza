@@ -31,43 +31,30 @@ const proyectos = [
 		thumbnail:
 			'https://scontent.feze17-1.fna.fbcdn.net/v/t1.6435-9/56509914_1513882648754057_1057467346806898688_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=e3f864&_nc_ohc=ahxS_K82gtYAX-9nPcI&_nc_ht=scontent.feze17-1.fna&oh=00_AT9BF2UDXIeKAHhUyacT7iHWdDOJV1FuUvw6f4qlCPALlQ&oe=6308054A',
 		year: '2019',
-		specialty: '🎒',
+		specialty: '📚',
 	},
 ];
 export default function Proyectos() {
 	const ProyectosCtn = styled.section`
-		/* height: 100vh; */
-		/* height: min-content; */
-		padding: 50px 100px;
 		text-align: center;
 		.sectionTitle {
-			text-align: center;
-			margin-bottom: 50px;
 			span {
-				color: var(--btn-blue);
+				color: var(--blue);
 			}
 		}
-		.specialtyCtn {
-			display: flex;
-			justify-content: space-around;
-			/* .specialtyItem {
-				background: red;
-				margin-bottom: 20px;
-			} */
-			margin-bottom: 40px;
-		}
-
 		.seeMore {
-			color: var(--btn-blue);
+			margin-top: 40px;
+			display: inline-block;
+			color: var(--blue);
 			text-decoration: underline;
 		}
 	`;
 	return (
-		<ProyectosCtn id="proyectos">
+		<ProyectosCtn id="proyectos" className="section">
 			<h2 className="sectionTitle">
 				Proyectos de <span>los/as estudiantes</span>
 			</h2>
-			<div className="specialtyCtn">
+			<div className="flexBetween">
 				{proyectos.map((el, i) => (
 					<ProyectoItem
 						key={i}

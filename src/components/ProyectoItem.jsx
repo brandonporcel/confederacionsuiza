@@ -30,7 +30,7 @@ export default function ProyectoItem({
 				content: '${specialty}';
 				position: absolute;
 				border-radius: 50%;
-				background: white;
+				background: var(--white);
 				z-index: 30;
 				left: 130px;
 				bottom: -20px;
@@ -51,18 +51,17 @@ export default function ProyectoItem({
 			text-align: center;
 			padding: 10px 20px;
 			margin-top: 10px;
+			color: var(--gray-secondary);
 			h5 {
 				font-size: 16px;
-				color: #111;
+				color: var(--gray);
 			}
 			small {
 				font-size: 12px;
 				font-weight: 500;
-				color: #595b61;
 			}
 			p {
 				font-size: 14px;
-				color: #595b61;
 				font-weight: 500;
 			}
 		}

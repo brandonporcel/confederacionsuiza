@@ -8,7 +8,7 @@ const ContactSocial = styled.div`
 	.contact {
 		margin-bottom: 20px;
 		&-item-ctn {
-			color: var(--white-font);
+			color: var(--white);
 			display: flex;
 			align-items: center;
 			margin-bottom: 5px;

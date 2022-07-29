@@ -1,7 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-export default function EspecialidadItem({ title, description, thumbnail }) {
+export default function EspecialidadItem({
+	title,
+	description,
+	thumbnail,
+	specialty,
+}) {
 	const EspecialidadItemCtn = styled.div`
         height: 575px;
         width: 325px;
@@ -23,7 +28,7 @@ export default function EspecialidadItem({ title, description, thumbnail }) {
             
         }
         .content {
-            color: var(--white-font);
+            color: var(--white);
             position: absolute;
             bottom: 0;
             padding: 20px;
@@ -37,7 +42,7 @@ export default function EspecialidadItem({ title, description, thumbnail }) {
                 margin-bottom: 20px;
             }
             p{
-                height: 55px;
+                height: 52px;
                 font-size: 14px;
                 display: -webkit-box;
                 -webkit-line-clamp: 3;
@@ -49,7 +54,7 @@ export default function EspecialidadItem({ title, description, thumbnail }) {
     `;
 	return (
 		<EspecialidadItemCtn>
-			<Link to="/ciclobasico">
+			<Link to={`/${specialty}`}>
 				<div className="content">
 					<h4>{title}</h4>
 					<p>{description}</p>

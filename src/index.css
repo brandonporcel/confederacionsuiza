@@ -23,18 +23,31 @@ a {
 	scroll-behavior: smooth;
 	--header-height: 50%;
 	--main-font: 'Encode Sans', sans-serif;
-	--white-font: #fff;
-	--gray-header: #333333;
-	--gray-text: #707a83;
-	--gray-secondary: #8b9394;
-	--btn-blue: #2081e2;
-	--btn-blue-hover: #2e8eee;
+	--white: #fff;
+	--gray: #333333;
+	--gray-secondary: #595b61;
+	--gray-third: #8b9394;
+	--blue: #2081e2;
+	--blue-hover: #2e8eee;
 	--titles-color: #04111d;
 	--blue-footer: #1868b7;
-	--skyblue: #f3fbfe;
+	--conocelasuiza-color: #f3fbfe;
 	--section-p: 80px;
 }
 body {
 	font-family: var(--main-font);
 	overflow-x: hidden;
+}
+/* globals classes */
+.section {
+	padding: 70px 100px 40px;
+}
+.sectionTitle {
+	text-align: center;
+	margin-bottom: 40px;
+	color: var(--titles-color);
+}
+.flexBetween {
+	display: flex;
+	justify-content: space-between;
 }
