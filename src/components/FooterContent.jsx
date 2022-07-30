@@ -87,7 +87,11 @@ export default function FooterContent() {
 							<Link to="/institucional">Institucional</Link>
 						</li>
 						<li>
-							<a href="https://sites.google.com/view/aulasvirtualeset26">
+							<a
+								href="https://sites.google.com/view/aulasvirtualeset26"
+								target="_blank"
+								rel="noreferrer"
+							>
 								Novedades
 							</a>
 						</li>
@@ -95,7 +99,11 @@ export default function FooterContent() {
 							<Link to="/proyectos">Proyectos</Link>
 						</li>
 						<li>
-							<a href="https://www.instagram.com/lacoopedelasuiza/">
+							<a
+								href="https://www.instagram.com/lacoopedelasuiza/"
+								target="_blank"
+								rel="noreferrer"
+							>
 								Cooperadora
 							</a>
 						</li>

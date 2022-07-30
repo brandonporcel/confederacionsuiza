@@ -26,7 +26,9 @@ a {
 	--white: #fff;
 	--gray: #333333;
 	--gray-secondary: #595b61;
-	--gray-third: #8b9394;
+	--gray-third: #707a83;
+	/* hr */
+	--gray-line: #e5e8eb;
 	--blue: #2081e2;
 	--blue-hover: #2e8eee;
 	--titles-color: #04111d;
@@ -54,6 +56,15 @@ body {
 .flexBetween {
 	display: flex;
 	justify-content: space-between;
+}
+.specialtyCtn {
+	font-size: 17px;
+	color: var(--gray-secondary);
+}
+.specialtyCtn p {
+	text-align: justify;
+	margin-bottom: 20px;
+	color: var(--gray-third);
 }
 /*  */
 @media screen and (max-width: 1300px) {
