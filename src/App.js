@@ -9,6 +9,7 @@ import Home from './components/Home/Home';
 import Institucional from './components/Institucional';
 import Proyectos from './components/Proyectos';
 import Contacto from './components/Contacto';
+import Proyecto from './components/Proyecto';
 
 function App() {
 	return (
@@ -21,6 +22,7 @@ function App() {
 				<Route path="/automotores" element={<Automotores />} />
 				<Route path="/computacion" element={<Computacion />} />
 				<Route path="/proyectos" element={<Proyectos />} />
+				<Route path="/proyecto" element={<Proyecto />} />
 				<Route path="/contacto" element={<Contacto />} />
 			</Routes>
 			<Footer />

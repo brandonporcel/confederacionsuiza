@@ -4,7 +4,26 @@ import TitleDescriptionVideo from './TitleDescriptionVideo';
 import EspecialidadProgramas from './SubTitleAndDescription';
 import ImgGallery from './ImgGallery';
 import Banner from './Banner';
-
+const galleryImages = [
+	{
+		id: 0,
+		title: 'confederacion suiza imagen institucional',
+		active: null,
+		url: 'http://4.bp.blogspot.com/_yX4lBoSwV0c/STgc03_q9oI/AAAAAAAAAHU/lnsPTnSL3HY/s320/EDIFICIO_2.JPG',
+	},
+	{
+		id: 1,
+		title: 'confederacion suiza imagen institucional',
+		active: null,
+		url: 'http://1.bp.blogspot.com/_SrsBWUoWIYs/TFrzE84N1AI/AAAAAAAABKs/xcnuKfa0YxQ/s1600/Confederaci%C3%B3n+Suiza+2.jpg',
+	},
+	{
+		id: 2,
+		title: 'confederacion suiza imagen institucional',
+		active: null,
+		url: 'https://elegircolegio.com/images/made/images/remote/https_calidad.elegircolegio.com/images/uploads/colegios/F_020086500_370_161_ffffff_bor3_319ad0_tl_27_br_27_s.jpg',
+	},
+];
 export default function Institucional() {
 	return (
 		<div className="specialtyCtn">
@@ -57,7 +76,7 @@ export default function Institucional() {
 					eran graduados universitarios, sino que egresados de escuelas
 					industriales o institutos politécnicos, de sus respectivos países.
 				</p>
-				<ImgGallery />
+				<ImgGallery galleryImages={galleryImages} />
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet in ea,
 					quaerat similique non pariatur laborum molestias optio natus omnis
