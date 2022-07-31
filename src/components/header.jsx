@@ -48,9 +48,9 @@ function Header() {
 					<Link to="/proyectos">
 						<li className="navList-item">Proyectos</li>
 					</Link>
-					<a href="#contacto">
+					<Link to="/contacto">
 						<li className="navList-item">Contacto</li>
-					</a>
+					</Link>
 				</ul>
 			</nav>
 		</div>

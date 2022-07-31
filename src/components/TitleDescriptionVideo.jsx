@@ -16,7 +16,7 @@ const DescripcionCtn = styled.div`
 		background-color: var(--gray-line);
 	}
 `;
-export default function EspecialidadDescripcion({
+export default function TitleDescriptionVideo({
 	especialidad,
 	video,
 	children,

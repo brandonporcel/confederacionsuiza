@@ -1,8 +1,9 @@
 import React from 'react';
-import SpecialtyBanner from './SpecialtyBanner';
+import Banner from '../Banner';
 
-import EspecialidadDescripcion from './EspecialidadDescripcion';
-import EspecialidadProgramas from './EspecialidadProgramas';
+import EspecialidadDescripcion from '../TitleDescriptionVideo';
+import EspecialidadProgramas from '../SubTitleAndDescription';
+import ProgramasTablas from './ProgramasTablas';
 const computacionMaterias = [
 	{
 		ano: '3',
@@ -74,7 +75,7 @@ const computacionMaterias = [
 export default function Computacion() {
 	return (
 		<div className="specialtyCtn">
-			<SpecialtyBanner img="http://www.saladasinforma.com.ar/fotonotas/2011-05-07-23-12-47-758698-380935.jpg" />
+			<Banner img="http://www.saladasinforma.com.ar/fotonotas/2011-05-07-23-12-47-758698-380935.jpg" />
 			<EspecialidadDescripcion
 				especialidad="Computación"
 				video="https://www.youtube.com/embed/aoPRIi7rsjg"
@@ -89,9 +90,15 @@ export default function Computacion() {
 					aplicaciones.
 				</p>
 			</EspecialidadDescripcion>
-			<EspecialidadProgramas
-				materias={computacionMaterias}
-			></EspecialidadProgramas>
+			<EspecialidadProgramas title="Programas Curriculares">
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, atque.
+					Praesentium similique veritatis, repudiandae sint eos corrupti.
+					Consectetur aspernatur tenetur debitis, repellendus necessitatibus in,
+					neque, dolorum exercitationem voluptatem sunt soluta!
+				</p>
+				<ProgramasTablas materias={computacionMaterias}></ProgramasTablas>
+			</EspecialidadProgramas>
 		</div>
 	);
 }

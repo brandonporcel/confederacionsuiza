@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Button from './Button';
+import Button from '../Button';
 const Containter = styled.div`
 	height: 100vh;
 	width: 100vw;

@@ -1,7 +1,8 @@
 import React from 'react';
-import EspecialidadDescripcion from './EspecialidadDescripcion';
-import EspecialidadProgramas from './EspecialidadProgramas';
-import SpecialtyBanner from './SpecialtyBanner';
+import EspecialidadDescripcion from '../TitleDescriptionVideo';
+import EspecialidadProgramas from '../SubTitleAndDescription';
+import ProgramasTablas from './ProgramasTablas';
+import Banner from '../Banner';
 const ciclobasicoMaterias = [
 	{
 		ano: '1',
@@ -46,7 +47,7 @@ const ciclobasicoMaterias = [
 export default function CicloBasico() {
 	return (
 		<div className="specialtyCtn">
-			<SpecialtyBanner img="https://www.buenosaires.gob.ar/sites/gcaba/files/styles/interna_pagina/public/beron_de_astrada_6351_3_0.jpg?itok=mybR1fXT" />
+			<Banner img="https://www.buenosaires.gob.ar/sites/gcaba/files/styles/interna_pagina/public/beron_de_astrada_6351_3_0.jpg?itok=mybR1fXT" />
 			<EspecialidadDescripcion
 				especialidad="ciclo básico"
 				video="https://www.youtube.com/embed/kpArfnc-tTQ"
@@ -61,9 +62,15 @@ export default function CicloBasico() {
 					aplicaciones.
 				</p>
 			</EspecialidadDescripcion>
-			<EspecialidadProgramas
-				materias={ciclobasicoMaterias}
-			></EspecialidadProgramas>
+			<EspecialidadProgramas title="Programas Curriculares">
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, atque.
+					Praesentium similique veritatis, repudiandae sint eos corrupti.
+					Consectetur aspernatur tenetur debitis, repellendus necessitatibus in,
+					neque, dolorum exercitationem voluptatem sunt soluta!
+				</p>
+				<ProgramasTablas materias={ciclobasicoMaterias}></ProgramasTablas>
+			</EspecialidadProgramas>
 		</div>
 	);
 }

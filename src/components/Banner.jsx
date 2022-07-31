@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-const Banner = styled.div`
+const BannerCtn = styled.div`
 	height: 300px;
 	width: 100%;
 	position: relative;
@@ -10,10 +10,10 @@ const Banner = styled.div`
 		object-fit: cover;
 	}
 `;
-export default function SpecialtyBanner({ img }) {
+export default function Banner({ img }) {
 	return (
-		<Banner>
+		<BannerCtn>
 			<img src={img} alt="banner" />
-		</Banner>
+		</BannerCtn>
 	);
 }

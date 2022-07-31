@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { conocelasuizabg } from '../svg/svgAsImage';
-import Button from './Button';
+import { conocelasuizabg } from '../../svg/svgAsImage';
+import Button from '../Button';
 const ConoceLaSuizaCtn = styled.section`
 	background-color: var(--conocelasuiza-color);
 	background-image: url(${conocelasuizabg});

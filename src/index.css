@@ -63,7 +63,7 @@ body {
 }
 .specialtyCtn p {
 	text-align: justify;
-	margin-bottom: 20px;
+	/* margin-bottom: 20px; */
 	color: var(--gray-third);
 }
 /*  */

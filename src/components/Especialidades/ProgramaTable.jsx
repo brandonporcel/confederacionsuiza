@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 const Table = styled.div`
 	text-align: center;
-	margin-bottom: 20px;
+	margin: 20px 0;
 
 	.thead {
 		background: var(--blue);

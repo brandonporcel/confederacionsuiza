@@ -1,7 +1,8 @@
-import SpecialtyBanner from './SpecialtyBanner';
+import Banner from '../Banner';
 
-import EspecialidadDescripcion from './EspecialidadDescripcion';
-import EspecialidadProgramas from './EspecialidadProgramas';
+import EspecialidadDescripcion from '../TitleDescriptionVideo';
+import EspecialidadProgramas from '../SubTitleAndDescription';
+import ProgramasTablas from './ProgramasTablas';
 const automotoresMaterias = [
 	{
 		ano: '3',
@@ -77,7 +78,7 @@ const automotoresMaterias = [
 export default function Automotores() {
 	return (
 		<div className="specialtyCtn">
-			<SpecialtyBanner img="https://www.iam.kit.edu/wk/img/WS_001.jpg" />
+			<Banner img="https://www.iam.kit.edu/wk/img/WS_001.jpg" />
 			<EspecialidadDescripcion
 				especialidad="automotores"
 				video="https://www.youtube.com/embed/wZgSr_S5_nI"
@@ -92,9 +93,15 @@ export default function Automotores() {
 					aplicaciones.
 				</p>
 			</EspecialidadDescripcion>
-			<EspecialidadProgramas
-				materias={automotoresMaterias}
-			></EspecialidadProgramas>
+			<EspecialidadProgramas title="Programas Curriculares">
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, atque.
+					Praesentium similique veritatis, repudiandae sint eos corrupti.
+					Consectetur aspernatur tenetur debitis, repellendus necessitatibus in,
+					neque, dolorum exercitationem voluptatem sunt soluta!
+				</p>
+				<ProgramasTablas materias={automotoresMaterias}></ProgramasTablas>
+			</EspecialidadProgramas>
 		</div>
 	);
 }

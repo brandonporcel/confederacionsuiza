@@ -23,14 +23,24 @@ const ButtonStyle = styled.button`
 			background: #ffffff1f;
 		}
 	}
+	&.noBgBlue {
+		background: none;
+		border: 1px solid var(--blue);
+		color: var(--blue);
+		&:hover {
+			background: #2081e214;
+		}
+	}
 `;
 export default function Button({ children, type }) {
 	return (
 		<>
 			{type === 'bg' ? (
 				<ButtonStyle className="bg">{children}</ButtonStyle>
-			) : (
+			) : type === 'noBg' ? (
 				<ButtonStyle className="noBg">{children}</ButtonStyle>
+			) : (
+				<ButtonStyle className="noBgBlue">{children}</ButtonStyle>
 			)}
 		</>
 	);

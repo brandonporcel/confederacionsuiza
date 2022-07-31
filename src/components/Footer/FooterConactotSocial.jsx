@@ -1,9 +1,9 @@
 import styled from 'styled-components';
-import { telefono, mail } from '../svg/svgAsImage';
-import Facebook from './svg/Facebook';
-import Instagram from './svg/Instagram';
-import Linkedin from './svg/Linkedin';
-import Youtube from './svg/Youtube';
+import { telefono, mail } from '../../svg/svgAsImage';
+import Facebook from '../svg/Facebook';
+import Instagram from '../svg/Instagram';
+import Linkedin from '../svg/Linkedin';
+import Youtube from '../svg/Youtube';
 const ContactSocial = styled.div`
 	.contact {
 		margin-bottom: 20px;
