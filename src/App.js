@@ -11,23 +11,25 @@ import Proyectos from './components/Proyectos';
 import Contacto from './components/Contacto';
 import Proyecto from './components/Proyecto';
 import InformacionUitl from './components/InformacionUitl';
-
+import { ProjectsProvider } from './context/ProjectsContext';
 function App() {
 	return (
 		<>
-			<Header />
-			<Routes>
-				<Route path="/" element={<Home />} />
-				<Route path="/institucional" element={<Institucional />} />
-				<Route path="/ciclobasico" element={<CicloBasico />} />
-				<Route path="/automotores" element={<Automotores />} />
-				<Route path="/computacion" element={<Computacion />} />
-				<Route path="/proyectos" element={<Proyectos />} />
-				<Route path="/proyecto" element={<Proyecto />} />
-				<Route path="/contacto" element={<Contacto />} />
-				<Route path="/informacionutil" element={<InformacionUitl />} />
-			</Routes>
-			<Footer />
+			<ProjectsProvider>
+				<Header />
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="/institucional" element={<Institucional />} />
+					<Route path="/ciclobasico" element={<CicloBasico />} />
+					<Route path="/automotores" element={<Automotores />} />
+					<Route path="/computacion" element={<Computacion />} />
+					<Route path="/proyectos" element={<Proyectos />} />
+					<Route path="/proyecto" element={<Proyecto />} />
+					<Route path="/contacto" element={<Contacto />} />
+					<Route path="/informacionutil" element={<InformacionUitl />} />
+				</Routes>
+				<Footer />
+			</ProjectsProvider>
 		</>
 	);
 }

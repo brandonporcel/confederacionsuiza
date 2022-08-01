@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const ProyectoItemCtn = styled.article`
 	width: 300px;
 	height: fit-content;
-	border: 1px solid #e6e9ec;
+	border: 1px solid var(--gray-line);
 	border-radius: 15px;
 	&:hover {
 		box-shadow: var(--shadow);
@@ -42,9 +42,12 @@ const ProyectoItemCtn = styled.article`
 		padding: 10px 20px;
 		margin-top: 10px;
 		color: var(--gray-secondary);
+		max-height: 115px;
+		overflow: hidden;
 		h5 {
 			font-size: 16px;
 			color: var(--gray);
+			text-transform: capitalize;
 		}
 		small {
 			font-size: 12px;
@@ -53,6 +56,13 @@ const ProyectoItemCtn = styled.article`
 		p {
 			font-size: 14px;
 			font-weight: 500;
+			overflow: hidden;
+			height: 52px;
+			display: -webkit-box;
+			-webkit-line-clamp: 3;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+			text-overflow: ellipsis;
 		}
 	}
 `;

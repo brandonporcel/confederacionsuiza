@@ -51,7 +51,7 @@ const InfUtilCtn = styled.div`
 		.accordionItem {
 			margin-top: 15px;
 			padding-bottom: 10px;
-			border-bottom: 1px solid #e5e8eb;
+			border-bottom: 1px solid var(--gray-line);
 			.question {
 				display: flex;
 				align-items: center;
