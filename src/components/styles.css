@@ -8,12 +8,13 @@
 	width: 100%;
 	background-color: var(--white);
 	height: var(--header-height);
+	height: min-content;
 	color: var(--gray);
 	box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
 }
 
 .navList .navList-ctn {
-	height: 100%;
+	/* height: 100%; */
 	display: flex;
 	justify-content: space-around;
 	align-items: center;

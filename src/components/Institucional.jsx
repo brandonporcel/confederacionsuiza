@@ -31,7 +31,7 @@ export default function Institucional() {
 
 			<TitleDescriptionVideo
 				especialidad="institucional"
-				video="https://www.youtube.com/embed/6lHdXeJgwmo"
+				video="https://www.youtube.com/embed/hPB4I61D6b0"
 			>
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur

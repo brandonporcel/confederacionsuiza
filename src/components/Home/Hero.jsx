@@ -1,10 +1,9 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import Button from '../Button';
 const Containter = styled.div`
-	height: 100vh;
 	width: 100vw;
-	background-image: url('./images/hero.jpg');
+
 	background-repeat: no-repeat;
 	background-position-x: -10px;
 	background-size: cover;
@@ -12,6 +11,7 @@ const Containter = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	transition: background-image 1s;
 	&:after {
 		content: '';
 		position: absolute;
@@ -19,11 +19,13 @@ const Containter = styled.div`
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background-color: rgba(0, 0, 0, 0.4);
+
+		background-color: #000000;
+		opacity: 0.53;
 	}
 	.content {
 		z-index: 10;
-
+		padding: 75px 0;
 		color: var(--white);
 		h1 {
 			max-width: 700px;
@@ -40,9 +42,29 @@ const Containter = styled.div`
 		}
 	}
 `;
+const Imagesss = [
+	'./images/hero/hero.jpg',
+	'./images/hero/hero2.jpg',
+	'./images/hero/hero3.jpg',
+];
 export default function Hero() {
+	const [selectedIndex, setSelectedIndex] = useState(0);
+	const [selectedImage, setSelectedImage] = useState(Imagesss[selectedIndex]);
+
+	useEffect(() => {
+		setInterval(() => {
+			const nextIndex =
+				selectedIndex < Imagesss.length - 1 ? selectedIndex + 1 : 0;
+			setSelectedImage(Imagesss[nextIndex]);
+			setSelectedIndex(nextIndex);
+		}, 5000);
+	});
+
 	return (
-		<Containter className="section">
+		<Containter
+			className="section"
+			style={{ backgroundImage: `url(${selectedImage})` }}
+		>
 			<div className="content">
 				<h1>Escuela Técnica Confederacion Suiza</h1>
 				<div className="content-cta">
@@ -56,7 +78,7 @@ export default function Hero() {
 							<Button type="bg">Especialidades</Button>
 						</a>
 						<a href="#contacto">
-							<Button type="noBg">Contacto</Button>
+							<Button type="noBg">Conocenos</Button>
 						</a>
 					</div>
 				</div>

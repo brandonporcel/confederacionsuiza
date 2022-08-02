@@ -32,6 +32,7 @@ const EspecialidadItemCtn = styled.div`
 
 		h4 {
 			margin-bottom: 20px;
+			font-size: 20px;
 		}
 		p {
 			height: 52px;

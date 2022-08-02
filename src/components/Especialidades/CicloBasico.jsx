@@ -3,6 +3,7 @@ import EspecialidadDescripcion from '../TitleDescriptionVideo';
 import EspecialidadProgramas from '../SubTitleAndDescription';
 import ProgramasTablas from './ProgramasTablas';
 import Banner from '../Banner';
+import SubTitleAndDescription from '../SubTitleAndDescription';
 const ciclobasicoMaterias = [
 	{
 		ano: '1',
@@ -71,6 +72,15 @@ export default function CicloBasico() {
 				</p>
 				<ProgramasTablas materias={ciclobasicoMaterias}></ProgramasTablas>
 			</EspecialidadProgramas>
+			<SubTitleAndDescription title="taller">
+				<p>
+					En el Ciclo Básico y para todos los alumnos hay talleres rotativos: En
+					Primer Año: Talleres de Metales, eléctrica, Temas Generales, Maderas y
+					Metrología. En Segundo Año: Talleres de Mecanlego, Metales, Eléctrica
+					y Temas Generales y en Tercer Año: Talleres de Plásticos, Eléctrica y
+					Orientación Automotor.
+				</p>
+			</SubTitleAndDescription>
 		</div>
 	);
 }
