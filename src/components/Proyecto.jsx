@@ -99,7 +99,7 @@ export default function Proyecto() {
 				<div className="img-project-suiza">
 					<img
 						src="https://scontent.feze10-1.fna.fbcdn.net/v/t1.6435-9/56509914_1513882648754057_1057467346806898688_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=e3f864&_nc_ohc=KHsWKl-1_KIAX_uHF6n&_nc_ht=scontent.feze10-1.fna&oh=00_AT_sSbFz-PPDsJYOkJtRnVJ6wsBV9WGrA9a_GTZqQEI3yg&oe=630BF9CA"
-						alt=""
+						alt="fdsfdsfd"
 					/>
 				</div>
 				<SubTitleAndDescription title="descripcion" w="100">

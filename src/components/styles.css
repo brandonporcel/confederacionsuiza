@@ -3,7 +3,7 @@
 	position: sticky;
 	justify-content: space-between;
 	top: 0;
-	z-index: 20;
+	z-index: 50;
 	padding: 10px 100px;
 	width: 100%;
 	background-color: var(--white);

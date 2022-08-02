@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Instagram() {
+export default function Instagram({ color }) {
 	return (
 		<svg
 			version="1.1"
@@ -14,6 +14,7 @@ export default function Instagram() {
 			// xml:space="preserve"
 		>
 			<path
+				fill={color}
 				d="M25.3,14.3c-6.1,0-10.9,4.9-10.9,10.9s4.9,10.9,10.9,10.9s10.9-4.9,10.9-10.9S31.3,14.3,25.3,14.3z M25.3,32.4
 	c-3.9,0-7.1-3.2-7.1-7.1s3.2-7.1,7.1-7.1s7.1,3.2,7.1,7.1S29.2,32.4,25.3,32.4L25.3,32.4z M39.2,13.9c0,1.4-1.1,2.6-2.6,2.6
 	c-1.4,0-2.6-1.1-2.6-2.6s1.1-2.6,2.6-2.6C38.1,11.3,39.2,12.5,39.2,13.9z M46.4,16.5c-0.1-3.5-0.9-6.5-3.4-9s-5.5-3.3-8.9-3.4

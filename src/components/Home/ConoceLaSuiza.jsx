@@ -38,15 +38,13 @@ export default function ConoceLaSuiza() {
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 				allowFullScreen
 			></iframe>
-			<Button type="bg">
-				<a
-					href="https://goo.gl/maps/8ndhDve72yNUEg9y6"
-					target="_blank"
-					rel="noreferrer"
-				>
-					Mapa Escuela
-				</a>
-			</Button>
+			<a
+				href="https://goo.gl/maps/8ndhDve72yNUEg9y6"
+				target="_blank"
+				rel="noreferrer"
+			>
+				<Button type="bg">Mapa Escuela</Button>
+			</a>
 		</ConoceLaSuizaCtn>
 	);
 }

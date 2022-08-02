@@ -11,7 +11,9 @@ const Containter = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+
 	transition: background-image 1s;
+
 	&:after {
 		content: '';
 		position: absolute;
@@ -25,7 +27,7 @@ const Containter = styled.div`
 	}
 	.content {
 		z-index: 10;
-		padding: 75px 0;
+		padding: 75px 0 100px;
 		color: var(--white);
 		h1 {
 			max-width: 700px;
@@ -50,14 +52,16 @@ const Imagesss = [
 export default function Hero() {
 	const [selectedIndex, setSelectedIndex] = useState(0);
 	const [selectedImage, setSelectedImage] = useState(Imagesss[selectedIndex]);
-
+	const selectNewImage = (images) => {
+		const nextIndex = selectedIndex < images.length - 1 ? selectedIndex + 1 : 0;
+		setSelectedImage(images[nextIndex]);
+		setSelectedIndex(nextIndex);
+	};
 	useEffect(() => {
-		setInterval(() => {
-			const nextIndex =
-				selectedIndex < Imagesss.length - 1 ? selectedIndex + 1 : 0;
-			setSelectedImage(Imagesss[nextIndex]);
-			setSelectedIndex(nextIndex);
-		}, 5000);
+		const interval = setInterval(() => {
+			selectNewImage(Imagesss);
+		}, 4500);
+		return () => clearInterval(interval);
 	});
 
 	return (

@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 const BannerCtn = styled.div`
-	height: 300px;
 	width: 100%;
 	position: relative;
 	img {
@@ -10,9 +9,9 @@ const BannerCtn = styled.div`
 		object-fit: cover;
 	}
 `;
-export default function Banner({ img }) {
+export default function Banner({ img, height }) {
 	return (
-		<BannerCtn>
+		<BannerCtn style={{ height: `${height ? height : '300px'} ` }}>
 			<img src={img} alt="banner" />
 		</BannerCtn>
 	);

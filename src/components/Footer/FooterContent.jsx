@@ -1,6 +1,57 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import FooterConactotSocial from './FooterConactotSocial';
+const institucionalItems = [
+	{
+		key: 2,
+		name: 'Institucional',
+		link: '/institucional',
+	},
+	{
+		key: 3,
+		name: 'proyectos',
+		link: '/proyectos',
+	},
+	{
+		key: 4,
+		name: 'cooperadora',
+		link: 'https://www.instagram.com/lacoopedelasuiza/',
+		targetBlank: true,
+	},
+	{
+		key: 5,
+		name: 'informacion util',
+		link: '/informacionutil',
+	},
+	{
+		key: 6,
+		name: 'contacto',
+		link: '/contacto',
+	},
+];
+
+const masItems = [
+	{
+		key: 9,
+		name: 'github institucional',
+		link: 'https://github.com/21-5to',
+	},
+	{
+		key: 10,
+		name: 'Centro Estudiantes',
+		link: 'https://cecs.amogus.ar',
+	},
+	{
+		key: 11,
+		name: 'Google drive',
+		link: 'https://drive.google.com/drive/folders/1CpcPcihN9uKiCPa5Tz18yOJIIGJY9ThG',
+	},
+	{
+		key: 12,
+		name: 'Biblioteca Virtual',
+		link: 'http://lasuizabiblioteca.herokuapp.com',
+	},
+];
 const FooterContentCtn = styled.div`
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -25,11 +76,9 @@ const FooterContentCtn = styled.div`
 			height: 28px;
 			width: 28px;
 			padding: 5px;
-			path {
-				fill: var(--white);
-			}
 			&:hover {
 				cursor: pointer;
+
 				background: var(--white);
 				path {
 					fill: var(--blue-footer);
@@ -52,6 +101,7 @@ const FooterContentCtn = styled.div`
 				li {
 					display: block;
 					margin-bottom: 10px;
+					text-transform: capitalize;
 					a {
 						&:hover {
 							text-decoration: underline;
@@ -83,33 +133,17 @@ export default function FooterContent() {
 				<div className="footerSection">
 					<h4>Escuela</h4>
 					<ul>
-						<li>
-							<Link to="/institucional">Institucional</Link>
-						</li>
-						<li>
-							<a
-								href="https://sites.google.com/view/aulasvirtualeset26"
-								target="_blank"
-								rel="noreferrer"
-							>
-								Novedades
-							</a>
-						</li>
-						<li>
-							<Link to="/proyectos">Proyectos</Link>
-						</li>
-						<li>
-							<a
-								href="https://www.instagram.com/lacoopedelasuiza/"
-								target="_blank"
-								rel="noreferrer"
-							>
-								Cooperadora
-							</a>
-						</li>
-						<li>
-							<Link to="/informacionutil">Informaction Útil</Link>
-						</li>
+						{institucionalItems.map((el) => (
+							<li key={el.key}>
+								{el.targetBlank ? (
+									<a href={el.link} target="_blank" rel="noreferrer">
+										{el.name}
+									</a>
+								) : (
+									<Link to={el.link}>{el.name}</Link>
+								)}
+							</li>
+						))}
 					</ul>
 				</div>
 				<div className="footerSection">
@@ -126,42 +160,13 @@ export default function FooterContent() {
 				<div className="footerSection">
 					<h4>Más</h4>
 					<ul>
-						<li>
-							<a
-								href="https://github.com/otto-krause"
-								target={'_blank'}
-								rel="noreferrer"
-							>
-								Github Institucional
-							</a>
-						</li>
-						<li>
-							<a
-								href="https://cecs.amogus.ar/"
-								target={'_blank'}
-								rel="noreferrer"
-							>
-								Centro Estudiantes
-							</a>
-						</li>
-						<li>
-							<a
-								href="https://drive.google.com/drive/folders/1CpcPcihN9uKiCPa5Tz18yOJIIGJY9ThG"
-								target={'_blank'}
-								rel="noreferrer"
-							>
-								Google Drive
-							</a>
-						</li>
-						<li>
-							<a
-								href="http://lasuizabiblioteca.herokuapp.com/"
-								target={'_blank'}
-								rel="noreferrer"
-							>
-								Biblioteca Virtual
-							</a>
-						</li>
+						{masItems.map((el) => (
+							<li key={el.key}>
+								<a href={el.link} target="_blank" rel="noreferrer">
+									{el.name}
+								</a>
+							</li>
+						))}
 					</ul>
 				</div>
 			</div>

@@ -43,18 +43,23 @@ const GalleryCtn = styled.div`
 
 export default function ImgGallery({ galleryImages }) {
 	const [galleryImage, setGalleryImage] = useState(1);
+	const [loaded, setLoaded] = useState(false);
+
 	const changeImage = (e) => {
 		setGalleryImage(e.target.getAttribute('data-id'));
 	};
+
 	return (
 		<GalleryCtn>
 			<div className="galleryImgCtn">
 				<img
-					className={'galleryImg active'}
 					src={galleryImages[galleryImage].url}
 					title={galleryImages[galleryImage].title}
 					alt={galleryImages[galleryImage].title}
+					className={'galleryImg active'}
+					onLoad={() => setLoaded(true)}
 				/>
+				{loaded === false && 'Cargaando...'}
 			</div>
 			<div className="dots-slider">
 				<ul className="dots-list">
