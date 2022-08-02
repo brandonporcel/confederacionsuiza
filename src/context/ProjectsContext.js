@@ -49,6 +49,35 @@ let allProjects = [
 		year: '2013',
 		specialty: '🚗💻',
 	},
+	{
+		title: 'Lo que no te dicen del amor ',
+		link: '/loquenotedicendelaamor',
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra eros, odio est arcu ipsum, risus pellentesque et',
+		thumbnail:
+			'https://scontent.feze10-1.fna.fbcdn.net/v/t1.6435-9/67251868_2250149821770164_4120072190437621760_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=a26aad&_nc_ohc=57u-a-JN5NIAX8jUP5K&_nc_ht=scontent.feze10-1.fna&oh=00_AT825WPOJ9_ePrvJsjzPVmOAyn-wJDp_aGTO9oP2wIAgbQ&oe=63109B94',
+		year: '2013',
+		specialty: '🚗💻',
+	},
+	{
+		title: 'FFL 2019 ',
+		link: '/ffl2019',
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra eros, odio est arcu ipsum, risus pellentesque et',
+		thumbnail: 'sadsaa',
+		year: '2019',
+		specialty: '🚗💻',
+	},
+	{
+		title: 'cansat ',
+		link: '/cansat2022',
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra eros, odio est arcu ipsum, risus pellentesque et',
+		thumbnail:
+			'https://scontent.feze10-1.fna.fbcdn.net/v/t39.30808-6/291130508_5138818742903243_8880117496302256973_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=wO0Xl1YqEloAX8qYijT&_nc_ht=scontent.feze10-1.fna&oh=00_AT_-zStaVaDE4Mt6UIBi4lPzJGKSzGbtaXuSXzd6RFGkVQ&oe=62EEFA08',
+		year: '2019',
+		specialty: '💻',
+	},
 ];
 
 const ProjectsContext = createContext();
