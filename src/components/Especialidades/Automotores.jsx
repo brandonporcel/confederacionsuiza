@@ -3,13 +3,15 @@ import Banner from '../Banner';
 import EspecialidadDescripcion from '../TitleDescriptionVideo';
 import EspecialidadProgramas from '../SubTitleAndDescription';
 import ProgramasTablas from './ProgramasTablas';
+import SubTitleAndDescription from '../SubTitleAndDescription';
+import styled from 'styled-components';
 const automotoresMaterias = [
 	{
 		ano: '3',
 		programas:
 			'https://drive.google.com/drive/folders/1eof7ydGeFfb9SY3fGV8TucyZKgBuAcf_?usp=sharing',
 		materias: [
-			'Lyl Automotores',
+			'Automotores',
 			'ed. fisica',
 			'ingles',
 			'física',
@@ -34,7 +36,7 @@ const automotoresMaterias = [
 			'matematica',
 			'mecanica',
 			'mecanismos',
-			'LyL automotores',
+			'Automotores',
 			'ciudadania y trabajo',
 			'taller',
 		],
@@ -50,7 +52,7 @@ const automotoresMaterias = [
 			'Elementos de Maquina',
 			'Motores de Combustion',
 			'Termodinamica',
-			'LyL Automotores',
+			'Automotores',
 			'Ed. Fisica',
 			'Ingles',
 			'matematica',
@@ -75,6 +77,14 @@ const automotoresMaterias = [
 	},
 ];
 
+const Alcance = styled.ul`
+	list-style: initial;
+	margin-left: 20px;
+	margin-top: 10px;
+	li {
+		color: var(--gray-third);
+	}
+`;
 export default function Automotores() {
 	return (
 		<div className="specialtyCtn">
@@ -84,22 +94,56 @@ export default function Automotores() {
 				video="https://www.youtube.com/embed/wZgSr_S5_nI"
 			>
 				<p>
-					La computación es una de las áreas de la ciencia que se encarga de la
-					comunicación entre los diferentes elementos de la vida cómputacional.
-					La computación es una herramienta que permite la realización de tareas
-					como la creación de software, la programación, la construcción de
-					sistemas, la construcción de aplicaciones, la construcción de
-					interfaces, la construcción de aplicaciones, la construcción de
-					aplicaciones.
+					El servicio de mantenimiento y reparación del automóvil se ha visto
+					conmocionado en los últimos años, por un desarrollo tecnológico sin
+					precedentes en los sistemas del automóvil, impulsado principalmente
+					por la difusión de la electrónica. Esto ha traído como consecuencia la
+					necesidad de una actualización y capacitación permanente de la mano de
+					obra ocupada en la actividad, tanto en relación con los conocimientos
+					técnicos, como en el uso de herramientas e instrumental de base
+					informática.
+				</p>
+				<br />
+				<p>
+					En función de esto surge la necesidad de redefinir el perfil
+					profesional del técnico en automotores de acuerdo a la competitividad
+					necesaria para brindar servicio de mantenimiento, reparación del
+					automóvil o insertarse en carreras de grado superior.
 				</p>
 			</EspecialidadDescripcion>
-			<EspecialidadProgramas title="Programas Curriculares">
+			<SubTitleAndDescription title="Alcance de titulo">
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, atque.
-					Praesentium similique veritatis, repudiandae sint eos corrupti.
-					Consectetur aspernatur tenetur debitis, repellendus necessitatibus in,
-					neque, dolorum exercitationem voluptatem sunt soluta!
+					Del análisis de las actividades profesionales que se desprenden del
+					Perfil Profesional, se establecen como habilitaciones para el Técnico
+					en Automotores:
 				</p>
+
+				<Alcance>
+					<li>
+						Efectuar anteproyectos de partes y conjuntos constitutivos del
+						automotor.
+					</li>
+					<li>
+						Proyectar y dirigir las instalaciones mecánicas de los talleres de
+						reparación y/o mantenimiento del automotor.
+					</li>
+					<li>
+						Supervisar y aprobar los ensayos finales de funcionamiento, tanto de
+						partes, instalaciones eléctricas, mecánicas, hidráulicas,
+						neumáticas, transmisión de datos eléctricos y electrónicos,
+						combustibles líquidos, gaseosos y alternativos y/o conjuntos del
+						automotor así como de unidades completas.
+					</li>
+					<li>
+						Planificar los servicios de mantenimiento de flotas de automotores.
+					</li>
+					<li>
+						Realizar peritajes de las condiciones y/o investigaciones de
+						funcionamiento en caso de siniestros de automotores.
+					</li>
+				</Alcance>
+			</SubTitleAndDescription>
+			<EspecialidadProgramas title="Programas Curriculares">
 				<ProgramasTablas materias={automotoresMaterias}></ProgramasTablas>
 			</EspecialidadProgramas>
 		</div>

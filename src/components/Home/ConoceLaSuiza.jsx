@@ -16,7 +16,7 @@ const ConoceLaSuizaCtn = styled.section`
 		font-size: 16px;
 		margin-bottom: 20px;
 	}
-	iframe {
+	.conocelasuiza-iframe {
 		width: 90%;
 		height: 500px;
 		margin-bottom: 20px;
@@ -30,6 +30,7 @@ export default function ConoceLaSuiza() {
 				La escuela esta cituada en el barrio de Balvanera, Avenida Jujuy 255
 			</p>
 			<iframe
+				className="conocelasuiza-iframe"
 				width="560"
 				height="315"
 				src="https://www.youtube.com/embed/hPB4I61D6b0"

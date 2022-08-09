@@ -91,12 +91,6 @@ export default function Computacion() {
 				</p>
 			</EspecialidadDescripcion>
 			<EspecialidadProgramas title="Programas Curriculares">
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, atque.
-					Praesentium similique veritatis, repudiandae sint eos corrupti.
-					Consectetur aspernatur tenetur debitis, repellendus necessitatibus in,
-					neque, dolorum exercitationem voluptatem sunt soluta!
-				</p>
 				<ProgramasTablas materias={computacionMaterias}></ProgramasTablas>
 			</EspecialidadProgramas>
 		</div>

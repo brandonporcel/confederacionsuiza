@@ -13,7 +13,8 @@ const Containter = styled.div`
 	justify-content: flex-start;
 
 	transition: background-image 1s;
-
+	min-height: 100vh;
+	max-height: min-content;
 	&:after {
 		content: '';
 		position: absolute;

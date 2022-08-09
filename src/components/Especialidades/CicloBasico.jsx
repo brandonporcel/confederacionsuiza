@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import EspecialidadDescripcion from '../TitleDescriptionVideo';
 import EspecialidadProgramas from '../SubTitleAndDescription';
 import ProgramasTablas from './ProgramasTablas';
@@ -46,6 +46,10 @@ const ciclobasicoMaterias = [
 	},
 ];
 export default function CicloBasico() {
+	// useEffect(() => {
+	// 	window.scrollTo(0, 0);
+	// }, []);
+
 	return (
 		<div className="specialtyCtn">
 			<Banner img="https://www.buenosaires.gob.ar/sites/gcaba/files/styles/interna_pagina/public/beron_de_astrada_6351_3_0.jpg?itok=mybR1fXT" />
@@ -54,32 +58,32 @@ export default function CicloBasico() {
 				video="https://www.youtube.com/embed/kpArfnc-tTQ"
 			>
 				<p>
-					La computación es una de las áreas de la ciencia que se encarga de la
-					comunicación entre los diferentes elementos de la vida cómputacional.
-					La computación es una herramienta que permite la realización de tareas
-					como la creación de software, la programación, la construcción de
-					sistemas, la construcción de aplicaciones, la construcción de
-					interfaces, la construcción de aplicaciones, la construcción de
-					aplicaciones.
+					El Ciclo Básico Común es una herramienta articuladora para que todos
+					los alumnos lleguen al primer año de la especialidad con el nivel
+					necesario, tanto de su disciplina elegida, como de conocimiento
+					general.
 				</p>
 			</EspecialidadDescripcion>
 			<EspecialidadProgramas title="Programas Curriculares">
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, atque.
-					Praesentium similique veritatis, repudiandae sint eos corrupti.
-					Consectetur aspernatur tenetur debitis, repellendus necessitatibus in,
-					neque, dolorum exercitationem voluptatem sunt soluta!
-				</p>
 				<ProgramasTablas materias={ciclobasicoMaterias}></ProgramasTablas>
 			</EspecialidadProgramas>
 			<SubTitleAndDescription title="taller">
 				<p>
-					En el Ciclo Básico y para todos los alumnos hay talleres rotativos: En
-					Primer Año: Talleres de Metales, eléctrica, Temas Generales, Maderas y
-					Metrología. En Segundo Año: Talleres de Mecanlego, Metales, Eléctrica
-					y Temas Generales y en Tercer Año: Talleres de Plásticos, Eléctrica y
-					Orientación Automotor.
+					En este ciclo se transmiten habilidades, destrezas y conocimientos
+					teóricos-prácticos en la que los chicos puedan trabajar en proyectos
+					basados en problemas reales con el acompañamiento del Maestro de
+					Enseñanza Práctica como guía-facilitador, valorando la creatividad y
+					la autonomía, integrando distintas áreas, para obtener un producto
+					tecnológico realizado por ellos mismos. En el año cursaran en talleres
+					rotativos de 3 meses.
 				</p>
+				<br />
+				<p>
+					Primer año tendran son los de Metales, eléctrica, Temas Generales,
+					Maderas y Metrología.
+				</p>
+				<br />
+				<p>Segundo año: Metales2, electricidad, Computacion</p>
 			</SubTitleAndDescription>
 		</div>
 	);
