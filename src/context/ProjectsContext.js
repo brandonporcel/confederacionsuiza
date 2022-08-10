@@ -4,7 +4,7 @@ let allProjects = [
 		title: 'Flecha Cosmica',
 		link: '/flechacosmica',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra eros, odio est arcu ipsum, risus pellentesque et.',
+			'Los estudiantes de la Escuela Técnica 26 Confederación Suiza de Balvanera fueron seleccionados entre 320 mil participantes de todo el mundo.',
 		thumbnail:
 			'https://scontent.feze17-1.fna.fbcdn.net/v/t1.6435-9/56509914_1513882648754057_1057467346806898688_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=e3f864&_nc_ohc=ahxS_K82gtYAX-9nPcI&_nc_ht=scontent.feze17-1.fna&oh=00_AT9BF2UDXIeKAHhUyacT7iHWdDOJV1FuUvw6f4qlCPALlQ&oe=6308054A',
 		year: '2019',
@@ -41,41 +41,40 @@ let allProjects = [
 	},
 	{
 		title: 'revista suiza',
-		link: '/revistasuiza',
+		link: '/revistasuiza2008',
 		description:
 			'Este blog es producto de un proyecto institucional promovido por el PROMSE. Aquí volcaremos todas aquellas producciones realizadas por los alumnos de la Escuela Técnica nº 26, "Confederación Suiza", que hayan sido apreciadas tanto por los alumnos como por los docentes.PROPS',
 		thumbnail:
 			'https://1.bp.blogspot.com/_yX4lBoSwV0c/STgle7hfH7I/AAAAAAAAAIs/I4wa_FD3eQ8/s320/logo+E26.bmp',
-		year: '2013',
+		year: '2008',
 		specialty: '🚗💻',
 	},
 	{
 		title: 'Lo que no te dicen del amor ',
-		link: '/loquenotedicendelaamor',
+		link: '/loquenotedicendelamor',
 		description:
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra eros, odio est arcu ipsum, risus pellentesque et',
 		thumbnail:
 			'https://scontent.feze10-1.fna.fbcdn.net/v/t1.6435-9/67251868_2250149821770164_4120072190437621760_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=a26aad&_nc_ohc=57u-a-JN5NIAX8jUP5K&_nc_ht=scontent.feze10-1.fna&oh=00_AT825WPOJ9_ePrvJsjzPVmOAyn-wJDp_aGTO9oP2wIAgbQ&oe=63109B94',
-		year: '2013',
+		year: '2018',
 		specialty: '🚗💻',
 	},
 	{
-		title: 'FFL 2019 ',
-		link: '/ffl2019',
+		title: 'FFL 2018 ',
+		link: '/ffl2018',
 		description:
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra eros, odio est arcu ipsum, risus pellentesque et',
-		thumbnail: 'sadsaa',
-		year: '2019',
-		specialty: '🚗💻',
+		thumbnail: './images/proyectos/fll2018.jpg',
+		year: '2018',
+		specialty: '💻',
 	},
 	{
 		title: 'cansat ',
-		link: '/cansat2022',
+		link: '/cansat',
 		description:
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra eros, odio est arcu ipsum, risus pellentesque et',
-		thumbnail:
-			'https://scontent.feze10-1.fna.fbcdn.net/v/t39.30808-6/291130508_5138818742903243_8880117496302256973_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=wO0Xl1YqEloAX8qYijT&_nc_ht=scontent.feze10-1.fna&oh=00_AT_-zStaVaDE4Mt6UIBi4lPzJGKSzGbtaXuSXzd6RFGkVQ&oe=62EEFA08',
-		year: '2019',
+		thumbnail: './images/proyectos/cansat.jpg',
+		year: '2022',
 		specialty: '💻',
 	},
 ];

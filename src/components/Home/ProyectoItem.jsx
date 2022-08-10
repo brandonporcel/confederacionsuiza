@@ -76,8 +76,7 @@ export default function ProyectoItem({
 }) {
 	return (
 		<ProyectoItemCtn>
-			{/* <Link to={link}> */}
-			<Link to="/proyecto">
+			<Link to={`${link}`}>
 				<div className="projectImg">
 					<img src={thumbnail} alt={title} />
 					<div className="projectSpecialty">{specialty}</div>

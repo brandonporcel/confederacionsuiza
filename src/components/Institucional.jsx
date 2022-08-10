@@ -27,31 +27,43 @@ const galleryImages = [
 export default function Institucional() {
 	return (
 		<div className="specialtyCtn">
-			<Banner img="https://lh3.googleusercontent.com/JQrffPqZ_dnUlCoU8SaxB6LWPoZgMPXU3I9_WfoRdKPoo4_cp9vbT7x_8lwEd5iVR9E-1N2Pt_bseZrVgWTZJJbITgm16QmepStE-Lc=w600" />
+			<Banner img="https://www.revistaelabasto.com.ar/wp-content/uploads/2019/03/confederacion.jpg" />
 
 			<TitleDescriptionVideo
 				especialidad="institucional"
 				video="https://www.youtube.com/embed/hPB4I61D6b0"
 			>
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-					quia, ipsam hic non ad tempore molestias facilis sed aliquam. Porro ab
-					repellendus provident odit dolorem vitae quam reiciendis alias nam.
+					La ET N°26 Confederación Suizaes D.E 6 es una escuela secundaria
+					técnica y pública de la ciudad de Buenos Aires ubicada en el barrio de
+					Balvanera, CABA.
 				</p>
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-					quia, ipsam hic non ad tempore molestias facilis sed aliquam. Porro ab
-					repellendus provident odit dolorem vitae quam reiciendis alias
-					nam.Lorem ipsum dolor sit amet consectetur adipisicing elit.
-					Consectetur quia, ipsam hic non ad tempore molestias facilis sed
-					aliquam. Porro ab repellendus provident odit dolorem vitae quam
-					reiciendis alias nam.
+					La Escuela tiene turno mañana, tarde y noche y jornada simple. Forma
+					<b> técnicos/as en Automotores y Computación </b>que puedan enfrentar
+					los desafíos del siglo XXI y es una de las Secundarias del Futuro por
+					lo que cuenta con netbooks, espacio digital, soporte tecnológico y
+					mobiliario del futuro. Participa de la Feria de Ciencias, Arte y
+					Tecnología y de campamentos escolares.
 				</p>
 				<br />
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-					quia, ipsam hic non ad tempore molestias facilis sed aliquam. Porro ab
-					repellendus provident odit dolorem vitae quam reiciendis alias nam.
+					Esta institución ofrece la Modalidad Técnico Profesional de Nivel
+					Secundario en las diversas especialidades, brindando así mejores
+					oportunidades formativas frente a los desafíos que presentan
+					innovaciones en el campo científico tecnológico, posibilitando formar
+					técnicos capaces de dar las respuestas necesarias que el sistema socio
+					productivo requiere, siendo ésta una necesidad insoslayable.
+				</p>
+				<br />
+				<p>
+					La institución cuena con un comedor/buffet en el que los alumnos
+					pueden acercarse en cualquier momento a comer y beber,a estudiar o
+					esperar antes de entrar a taller. A su vez, tambien en el 4to piso,los
+					alumnos pudeen acceder a centernares de libros dondaos por la ong
+					donde labura mi amigo yisys y dondaos por alumnos pedir prestamos de
+					libros ya sea para el aula o para leer en su casa. Tambien cuenta con
+					Laboratorio de Ciencias Y un salon de usos multiples(SUM).
 				</p>
 			</TitleDescriptionVideo>
 			<EspecialidadProgramas title="historia">

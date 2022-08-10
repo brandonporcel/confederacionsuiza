@@ -1,9 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import ImgGallery from './ImgGallery';
-import SubTitleAndDescription from './SubTitleAndDescription';
-
+import ImgGallery from '../ImgGallery';
+import SubTitleAndDescription from '../SubTitleAndDescription';
+import { Link } from 'react-router-dom';
 const ProyectoContainer = styled.div`
 	background: var(--conocelasuiza-color);
 

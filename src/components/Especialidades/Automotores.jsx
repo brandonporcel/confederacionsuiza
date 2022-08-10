@@ -1,9 +1,8 @@
 import Banner from '../Banner';
 
 import EspecialidadDescripcion from '../TitleDescriptionVideo';
-import EspecialidadProgramas from '../SubTitleAndDescription';
-import ProgramasTablas from './ProgramasTablas';
 import SubTitleAndDescription from '../SubTitleAndDescription';
+import ProgramasTablas from './ProgramasTablas';
 import styled from 'styled-components';
 const automotoresMaterias = [
 	{
@@ -76,7 +75,13 @@ const automotoresMaterias = [
 		],
 	},
 ];
-
+const automotoresAlcances = [
+	'Efectuar anteproyectos de partes y conjuntos constitutivos del automotor',
+	'Proyectar y dirigir las instalaciones mecánicas de los talleres de reparación y/o mantenimiento del automotor.',
+	'Supervisar y aprobar los ensayos finales de funcionamiento, tanto de partes, instalaciones eléctricas, mecánicas, hidráulicas, neumáticas, transmisión de datos eléctricos y electrónicos, combustibles líquidos, gaseosos y alternativos y/o conjuntos del automotor así como de unidades completas.',
+	'Planificar los servicios de mantenimiento de flotas de automotores.',
+	'Realizar peritajes de las condiciones y/o investigaciones de funcionamiento en caso de siniestros de automotores.',
+];
 const Alcance = styled.ul`
 	list-style: initial;
 	margin-left: 20px;
@@ -119,33 +124,14 @@ export default function Automotores() {
 				</p>
 
 				<Alcance>
-					<li>
-						Efectuar anteproyectos de partes y conjuntos constitutivos del
-						automotor.
-					</li>
-					<li>
-						Proyectar y dirigir las instalaciones mecánicas de los talleres de
-						reparación y/o mantenimiento del automotor.
-					</li>
-					<li>
-						Supervisar y aprobar los ensayos finales de funcionamiento, tanto de
-						partes, instalaciones eléctricas, mecánicas, hidráulicas,
-						neumáticas, transmisión de datos eléctricos y electrónicos,
-						combustibles líquidos, gaseosos y alternativos y/o conjuntos del
-						automotor así como de unidades completas.
-					</li>
-					<li>
-						Planificar los servicios de mantenimiento de flotas de automotores.
-					</li>
-					<li>
-						Realizar peritajes de las condiciones y/o investigaciones de
-						funcionamiento en caso de siniestros de automotores.
-					</li>
+					{automotoresAlcances.map((el, i) => (
+						<li key={i}>{el}</li>
+					))}
 				</Alcance>
 			</SubTitleAndDescription>
-			<EspecialidadProgramas title="Programas Curriculares">
+			<SubTitleAndDescription title="Programas Curriculares">
 				<ProgramasTablas materias={automotoresMaterias}></ProgramasTablas>
-			</EspecialidadProgramas>
+			</SubTitleAndDescription>
 		</div>
 	);
 }

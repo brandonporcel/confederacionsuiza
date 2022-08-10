@@ -42,6 +42,12 @@ body {
 	overflow-x: hidden;
 }
 /* globals classes */
+.linktoa {
+	color: var(--blue);
+}
+.linktoa:hover {
+	text-decoration: underline;
+}
 .section {
 	padding: 70px 100px 40px;
 }
@@ -71,6 +77,7 @@ body {
 	/* margin-bottom: 20px; */
 	color: var(--gray-third);
 }
+
 /*  */
 @media screen and (max-width: 1300px) {
 	.section.tooLarge {

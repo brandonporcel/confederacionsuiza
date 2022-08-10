@@ -2,8 +2,9 @@ import React from 'react';
 import Banner from '../Banner';
 
 import EspecialidadDescripcion from '../TitleDescriptionVideo';
-import EspecialidadProgramas from '../SubTitleAndDescription';
+import SubTitleAndDescription from '../SubTitleAndDescription';
 import ProgramasTablas from './ProgramasTablas';
+import styled from 'styled-components';
 const computacionMaterias = [
 	{
 		ano: '3',
@@ -71,7 +72,46 @@ const computacionMaterias = [
 		],
 	},
 ];
-
+const computacionAlcances = [
+	{
+		id: 9,
+		alcance:
+			'Proyectar, producir, adaptar, implantar y mantener aplicaciones informáticas.',
+	},
+	{
+		id: 10,
+		alcance:
+			'Proyectar, instalar, configurar y mantener sistemas informáticos.',
+	},
+	{
+		id: 11,
+		alcance:
+			'Realizar la documentación técnica y la de los usuarios de acuerdo con los requerimientos funcionales y técnicos de las aplicaciones y sistemas.',
+	},
+	{
+		id: 12,
+		alcance:
+			'Asistir y asesorar a los usuarios para la elección, adquisición, instalación y personalización de aplicaciones de equipos y sistemas.',
+	},
+	{
+		id: 13,
+		alcance:
+			'Actuar en todos los casos bajo las normativas de seguridad vigentes.',
+	},
+	{
+		id: 14,
+		alcance:
+			'Desempeñarse profesionalmente en relación de dependencia o mediante emprendimientos económicos-productivos en forma individual o asociativa.',
+	},
+];
+const Alcance = styled.ul`
+	list-style: initial;
+	margin-left: 20px;
+	margin-top: 10px;
+	li {
+		color: var(--gray-third);
+	}
+`;
 export default function Computacion() {
 	return (
 		<div className="specialtyCtn">
@@ -89,10 +129,33 @@ export default function Computacion() {
 					interfaces, la construcción de aplicaciones, la construcción de
 					aplicaciones.
 				</p>
+				<br />
+				<p>
+					Los alumnos cursaran talleres y materias como computacion, algoritmos
+					y datos, programacion en los distintos
+					<a
+						className="linktoa"
+						href="https://laboratorios.et26.edu.ar/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						{' '}
+						laboratorios{' '}
+					</a>
+					que se encuentran en la escuela.
+				</p>
 			</EspecialidadDescripcion>
-			<EspecialidadProgramas title="Programas Curriculares">
+			<SubTitleAndDescription title="Alcance de titulo">
+				<p>El Técnico en Computación de Nivel Secundario será capaz de:</p>
+				<Alcance>
+					{computacionAlcances.map(({ alcance, id }) => (
+						<li key={id}>{alcance}</li>
+					))}
+				</Alcance>
+			</SubTitleAndDescription>
+			<SubTitleAndDescription title="Programas Curriculares">
 				<ProgramasTablas materias={computacionMaterias}></ProgramasTablas>
-			</EspecialidadProgramas>
+			</SubTitleAndDescription>
 		</div>
 	);
 }

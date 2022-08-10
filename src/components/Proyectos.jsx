@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 import styled from 'styled-components';
 import ProjectsContext from '../context/ProjectsContext';
 import ProyectoItem from './Home/ProyectoItem';
-
 const ProyectosCtn = styled.div`
 	text-align: center;
 
@@ -35,10 +34,9 @@ export default function Proyectos() {
 			<h2>Proyectos</h2>
 			<div className="description-text">
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugit
-					et odit, maxime rem exercitationem! Aut sequi reiciendis corporis
-					ratione sed eaque, magni aspernatur suscipit doloremque modi maxime?
-					Obcaecati, libero.
+					Proyectos de alumnos coordinados por docentes o de forma
+					independiente. Participaciones en ferias tecnologicas, competiciones,
+					exposiciones y más.
 				</p>
 			</div>
 			<div className="grid-between">
