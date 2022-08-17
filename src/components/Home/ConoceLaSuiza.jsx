@@ -21,6 +21,11 @@ const ConoceLaSuizaCtn = styled.section`
 		height: 500px;
 		margin-bottom: 20px;
 	}
+	@media only screen and (min-width: 769px) and (max-width: 1024px) {
+		.conocelasuiza-iframe {
+			height: 400px;
+		}
+	}
 `;
 export default function ConoceLaSuiza() {
 	return (

@@ -28,7 +28,7 @@ export default function Especialidades() {
 	return (
 		<section id="especialidades" className="section tooLarge">
 			<h2 className="sectionTitle">1er Ciclo y Especialidades</h2>
-			<div className="flexBetween">
+			<div className="flexBetween overflowAuto gap20">
 				{especialidades.map((el, i) => (
 					<EspecialidadItem
 						key={i}

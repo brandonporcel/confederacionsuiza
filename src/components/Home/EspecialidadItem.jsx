@@ -3,9 +3,10 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 const EspecialidadItemCtn = styled.div`
 	height: 575px;
-	width: 325px;
+	min-width: 325px;
 	border-radius: 10px;
 	position: relative;
+	margin-bottom: 10px;
 	&:hover {
 		box-shadow: var(--shadow);
 		transition: box-shadow 0.1s ease 0s;

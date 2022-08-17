@@ -34,9 +34,9 @@ export default function Institucional() {
 				video="https://www.youtube.com/embed/hPB4I61D6b0"
 			>
 				<p>
-					La ET N°26 Confederación Suizaes D.E 6 es una escuela secundaria
-					técnica y pública de la ciudad de Buenos Aires ubicada en el barrio de
-					Balvanera, CABA.
+					La Escuela Técnica N°26 Confederación Suiza D.E 6 es un colegio
+					secundario publico ubicado técnica y pública de la ciudad de Buenos
+					Aires ubicada en el barrio de Balvanera, CABA.
 				</p>
 				<p>
 					La Escuela tiene turno mañana, tarde y noche y jornada simple. Forma
@@ -68,32 +68,29 @@ export default function Institucional() {
 			</TitleDescriptionVideo>
 			<EspecialidadProgramas title="historia">
 				<p>
-					La Escuela Técnica Confederacion Suiza es la institución de educación
-					tecnológica más antigua del país, fundada hacia finales del siglo XIX
-					por el Ingeniero ????????? , como la “Escuela Industrial de la
-					Nación”. Inspirada en los modelos de los institutos politécnicos
-					europeos y norteamericanos, dio lugar al desarrollo de las escuelas
-					técnicas de todo el país y más tarde a la Universidad Tecnológica
-					Nacional.
+					Nuestra Escuela Técnica se fundó el 16 de abril de 1948, nació con el
+					nombre de “Escuela técnica de Oficios de la Capital Federal” y a los
+					pocos meses, el 26 de diciembre, cambió su nombre por el de “Escuela
+					Industrial nº 11”. En 1949 abrió sus puertas al alumnado, siendo el
+					primer Director Emilio Freijedo que estuvo al frente de la Escuela
+					hasta 1963. La primera promoción data del año 1952. Existía una sola
+					especialidad “Automotores”. En ese período solamente tenía Ciclo Medio
+					y posteriormente a partir de 1952 se agregó el Ciclo Superior.
 					<br />
 					<br />
-					El Ingeniero ????????? egresado como Ingeniero Civil del Departamento
-					de Ingeniería de la Facultad de Ciencias Exactas de la Universidad de
-					Buenos Aires había observado que las primeras industrias que se
-					estaban radicando en el país con capitales extranjeros, traían del
-					exterior personal de ingeniería capacitado para proyectar, construir y
-					operar distintas industrias. Este personal tenía conocimientos
-					teóricos algo más rudimentarios que el de los ingenieros argentinos,
-					pero conocimientos íntimos de las tecnologías de esas épocas. Ellos no
-					eran graduados universitarios, sino que egresados de escuelas
-					industriales o institutos politécnicos, de sus respectivos países.
+					Desde los inicios –dice el profesor Héctor Cuñarro- “contó con dos
+					turnos y dos divisiones, una funcionaba a la mañana y otra a la tarde.
+					Era un edificio muy simpático y más que una Escuela era un edificio
+					que albergaba a una familia grande”. Posteriormente se agregó el turno
+					noche y el Ciclo superior. La carrera duraba 8 años: 4 de Ciclo Básico
+					y 4 años de Ciclo superior.
 				</p>
 				<ImgGallery galleryImages={galleryImages} />
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet in ea,
-					quaerat similique non pariatur laborum molestias optio natus omnis
-					totam explicabo dignissimos debitis ratione officia maxime possimus
-					deleniti aliquid.
+					La Escuela comenzó a funcionar en la Avda. Belgrano 2640, y al
+					respecto -dice el Profesor José De Leo, era en una casa antigua de dos
+					plantas. La planta baja tenía entrepisos con un singular formato que
+					mereció el nombre de “el submarino”.
 				</p>
 				<Button type="noBgBlue">
 					<a href="https://www.wikipedia.org/" target="_blank" rel="noreferrer">

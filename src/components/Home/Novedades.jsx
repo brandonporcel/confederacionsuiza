@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 const NovedadesCtn = styled.section`
 	text-align: center;
-	padding-bottom: g0px;
 	.sectionTitle {
 		color: var(--blue);
 	}

@@ -3,10 +3,11 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 const ProyectoItemCtn = styled.article`
-	width: 300px;
+	max-width: 300px;
 	height: fit-content;
 	border: 1px solid var(--gray-line);
 	border-radius: 15px;
+	margin-bottom: 10px;
 	&:hover {
 		box-shadow: var(--shadow);
 		transition: box-shadow 0.1s ease 0s;
@@ -57,13 +58,17 @@ const ProyectoItemCtn = styled.article`
 			font-size: 14px;
 			font-weight: 500;
 			overflow: hidden;
-			height: 52px;
+			height: 50px;
 			display: -webkit-box;
 			-webkit-line-clamp: 3;
 			-webkit-box-orient: vertical;
 			overflow: hidden;
 			text-overflow: ellipsis;
 		}
+	}
+	/* Small screens, laptops */
+	@media only screen and (min-width: 769px) and (max-width: 1024px) {
+		min-width: 230px;
 	}
 `;
 export default function ProyectoItem({

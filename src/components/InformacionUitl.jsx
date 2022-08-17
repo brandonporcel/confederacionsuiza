@@ -4,29 +4,37 @@ const faqData = [
 	{
 		question: '¿Cuándo es la inscripción a 1° año?',
 		answer:
-			'El proyecto es una aplicación web que permite a los usuarios registrados de la Universidad Tecnológica de Panamá, realizar una solicitud de ayuda para una persona en particular, y que sea atendida por una persona de la Universidad Tecnológica de Panamá. El proyecto está desarrollado en ReactJS, con el framework de diseño de Material-UI, y se encuentra en desarrollo.',
+			'La inscripción a 1° año es en febrero. Hay que acercarse a regencia y entregar la documentacion correspondiente. Será avisado en la pagina de facebook del colegio.',
 	},
 	{
-		question: '¿Cuándo se elige la especialidad?',
-		answer: 'El 1er año de inscripciones es el día 1 de marzo de 2020.',
-	},
-	{
-		question: '¿Cuándo es la inscripción?',
-		answer: 'El tiempo para inscribirse es de 1 mes.',
+		question: '¿Cuando es la inscripción?',
+		answer:
+			'Para los años superiores de 2° a 6°, la inscripción se realiza al finalizar el ciclo lectivo, a partir del mes de diciembre. Recordemos que al pasar de año, tenes asegurada la vacante. ',
 	},
 	{
 		question: '¿Se puede elegir turno?',
-		answer: 'El documento que debe presentar es el siguiente:',
+		answer:
+			'El turno de teoría es asignado al ingresar a primer año y se mantiene a lo largo de la trayectoria dependiendo de la especialidad que elijas.',
 	},
 	{
-		question: '¿Cómo se consigue la constancia para boleto estudiantil? ',
+		question: '¿Cuándo empiezan las clases?',
 		answer:
-			'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, fugiat expedita repellat aspernatur velit officiis a iure similique. Quia dolorem quidem minus fuga sunt nemo, exercitationem itaque doloremque eveniet hic.',
+			'Según agenda educativa del ministerio de educación de la Ciudad de Buenos Aires.',
+	},
+	{
+		question: '¿Cómo se tramita el certificado de alumno regular? ',
+		answer:
+			'El alumno simplemente tendrá que pedirsela a su preceptor indicando a quien debe ser extendido.',
 	},
 	{
 		question: '¿Cuando es la mesa de examen de previos y completar estudios?',
 		answer:
-			'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, fugiat expedita repellat aspernatur velit officiis a iure similique. Quia dolorem quidem minus fuga sunt nemo, exercitationem itaque doloremque eveniet hic.',
+			'Según la agenda educativa del Ministerio de la Ciudad de buenos aires, hay 3 instancias para previos, febrero, julio y diciembre. Para completar estudios depende de la cantidad de asignaturas que adeudes.',
+	},
+	{
+		question: '¿Cómo me anoto en Beca Ciudad?',
+		answer:
+			'A traves de la web https://becasciudad.bue.edu.ar/ en las fechas de inscripcion correspondies; se estaran comunicando tal fechas a traves del facebook de la escuela.',
 	},
 ];
 
@@ -77,6 +85,7 @@ const InfUtilCtn = styled.div`
 					margin-top: 10px;
 					font-style: initial;
 					color: var(--gray);
+					font-size: 18px;
 				}
 				&.selected {
 					display: block;
@@ -98,7 +107,8 @@ export default function InformacionUitl() {
 			<h2>Pregunas Frecuentes</h2>
 			<div className="description-text">
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugit
+					Si tenes otra duda podes consultar de forma presencial en regencia o
+					por mail
 				</p>
 			</div>
 			<div className="accordionWrapper">

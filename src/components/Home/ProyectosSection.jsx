@@ -26,7 +26,7 @@ export default function ProyectosSection() {
 			<h2 className="sectionTitle">
 				Proyectos de <span>los/as estudiantes</span>
 			</h2>
-			<div className="flexBetween">
+			<div className="flexBetween overflowAuto gap20">
 				{firstThree.map((el, i) => (
 					<ProyectoItem
 						key={i}
