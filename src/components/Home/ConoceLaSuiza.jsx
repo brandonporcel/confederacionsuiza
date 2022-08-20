@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { conocelasuizabg } from '../../svg/svgAsImage';
 import Button from '../Button';
@@ -44,13 +45,9 @@ export default function ConoceLaSuiza() {
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 				allowFullScreen
 			></iframe>
-			<a
-				href="https://goo.gl/maps/8ndhDve72yNUEg9y6"
-				target="_blank"
-				rel="noreferrer"
-			>
-				<Button type="bg">Mapa Escuela</Button>
-			</a>
+			<Link to="/contacto">
+				<Button type="bg">Contacto</Button>
+			</Link>
 		</ConoceLaSuizaCtn>
 	);
 }

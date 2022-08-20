@@ -26,7 +26,7 @@ a {
 	--white: #fff;
 	--gray: #333333;
 	--gray-secondary: #595b61;
-	--gray-third: #707a83;
+	--gray-third: #5d666e;
 	/* hr */
 	--gray-line: #e5e8eb;
 	--blue: #2081e2;
@@ -91,7 +91,7 @@ body {
 /* computadoras pantralla grande, tv */
 @media screen and (min-width: 1201px) {
 	.section.tooLarge {
-		max-width: 90%;
+		max-width: 92%;
 	}
 }
 

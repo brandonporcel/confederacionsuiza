@@ -35,35 +35,33 @@ export default function Institucional() {
 			>
 				<p>
 					La Escuela Técnica N°26 Confederación Suiza D.E 6 es un colegio
-					secundario publico ubicado técnica y pública de la ciudad de Buenos
-					Aires ubicada en el barrio de Balvanera, CABA.
+					secundario publico ubicado en el barrio de Balvanera, CABA.
 				</p>
 				<p>
-					La Escuela tiene turno mañana, tarde y noche y jornada simple. Forma
-					<b> técnicos/as en Automotores y Computación </b>que puedan enfrentar
-					los desafíos del siglo XXI y es una de las Secundarias del Futuro por
-					lo que cuenta con netbooks, espacio digital, soporte tecnológico y
-					mobiliario del futuro. Participa de la Feria de Ciencias, Arte y
-					Tecnología y de campamentos escolares.
-				</p>
-				<br />
-				<p>
-					Esta institución ofrece la Modalidad Técnico Profesional de Nivel
-					Secundario en las diversas especialidades, brindando así mejores
-					oportunidades formativas frente a los desafíos que presentan
-					innovaciones en el campo científico tecnológico, posibilitando formar
-					técnicos capaces de dar las respuestas necesarias que el sistema socio
-					productivo requiere, siendo ésta una necesidad insoslayable.
+					Esta secundaria ofrece las especialidades de{' '}
+					<b> Automotores y Computación</b> y se pueden cursan en el turno
+					mañana, tarde o noche. La institución pertenece a las Secundarias del
+					Futuro por lo que cuenta con netbooks, un espacio digital, proyectores
+					y pizarras interactivas digitales en cada aula . Participa de la Feria
+					de Ciencias, Arte y Tecnología y del programa de campamentos
+					escolares.
 				</p>
 				<br />
 				<p>
-					La institución cuena con un comedor/buffet en el que los alumnos
-					pueden acercarse en cualquier momento a comer y beber,a estudiar o
-					esperar antes de entrar a taller. A su vez, tambien en el 4to piso,los
-					alumnos pudeen acceder a centernares de libros dondaos por la ong
-					donde labura mi amigo yisys y dondaos por alumnos pedir prestamos de
-					libros ya sea para el aula o para leer en su casa. Tambien cuenta con
-					Laboratorio de Ciencias Y un salon de usos multiples(SUM).
+					El edifico cuena con un buffet en el que los alumnos pueden acercarse
+					a comprar comidas o bebidas, a estudiar o a pasar el tiempo con sus
+					compañeros. En el 4to piso, los alumnos pueden acceder a la biblioteca
+					donde pueden encontrar centenares de libros que son provistos por el
+					Ministerio de Educación y por donaciones de organizaciones o ex
+					alumnos. Tambien cuenta con Laboratorio de Ciencias, un salon de usos
+					multiples (SUM) y un polideportivo exclusivo del colegio.
+				</p>
+
+				<br />
+				<p>
+					El proposito de la escuela es brindar futuros técnicos capaces de
+					enfrentar los desafios que presenten las industrias y que sean capaces
+					de resolver problematicas a traves de herramientas aprendidas.
 				</p>
 			</TitleDescriptionVideo>
 			<EspecialidadProgramas title="historia">

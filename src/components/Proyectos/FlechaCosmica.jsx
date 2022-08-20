@@ -86,12 +86,15 @@ export default function Proyecto() {
 	return (
 		<ProyectoContainer>
 			<div className="projectCtnBackground">
-				<h2>First Lego First: El proyecto Nombre Equipo llego a la final!</h2>
+				<h2>
+					Flecha Cosmica: Los chicos viajaron a Houston por la First Lego
+					League!
+				</h2>
 				<div className="tags">
-					<span>Marzo 19,2022</span>
+					<span>Marzo, 2022</span>
 					<div className="dot-spacing">•</div>
 					<p>
-						Por <Link to="/computacion">Computación</Link>
+						<Link to="/computacion">Computación</Link>
 					</p>
 				</div>
 				<div className="img-project-suiza">

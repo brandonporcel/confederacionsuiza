@@ -4,12 +4,12 @@ const faqData = [
 	{
 		question: '¿Cuándo es la inscripción a 1° año?',
 		answer:
-			'La inscripción a 1° año es en febrero. Hay que acercarse a regencia y entregar la documentacion correspondiente. Será avisado en la pagina de facebook del colegio.',
+			'La inscripción a 1° año es en febrero. Hay que acercarse a regencia y entregar la documentacion correspondiente. Será avisado en la pagina de facebook del colegio cualquier incoveniente que pudiese ocurrir.',
 	},
 	{
-		question: '¿Cuando es la inscripción?',
+		question: '¿Cuando es la inscripción de 2to a 6to año?',
 		answer:
-			'Para los años superiores de 2° a 6°, la inscripción se realiza al finalizar el ciclo lectivo, a partir del mes de diciembre. Recordemos que al pasar de año, tenes asegurada la vacante. ',
+			'Para los años de 2° a 6°, la inscripción se realiza al finalizar el ciclo lectivo, a partir del mes de diciembre. Recordemos que al pasar de año, se tiene asegurada la vacante. ',
 	},
 	{
 		question: '¿Se puede elegir turno?',
@@ -19,7 +19,7 @@ const faqData = [
 	{
 		question: '¿Cuándo empiezan las clases?',
 		answer:
-			'Según agenda educativa del ministerio de educación de la Ciudad de Buenos Aires.',
+			'Según la agenda educativa del Ministerio de Educación de la Ciudad de Buenos Aires.',
 	},
 	{
 		question: '¿Cómo se tramita el certificado de alumno regular? ',
@@ -65,6 +65,13 @@ const InfUtilCtn = styled.div`
 				align-items: center;
 				justify-content: space-between;
 				cursor: pointer;
+				button {
+					background: none;
+					border: none;
+					span {
+						padding: 10px 5px;
+					}
+				}
 				h4 {
 					font-weight: 400;
 					font-size: 20px;
@@ -118,7 +125,9 @@ export default function InformacionUitl() {
 							<h4 className={`${selected === i ? 'selected' : ''}`}>
 								{question}
 							</h4>
-							<span> {selected === i ? '-' : '+'} </span>
+							<button>
+								<span> {selected === i ? '-' : '+'} </span>
+							</button>
 						</div>
 						<div className={selected === i ? 'answer selected' : 'answer'}>
 							<p>{answer}</p>

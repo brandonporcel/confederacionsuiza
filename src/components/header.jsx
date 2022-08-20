@@ -48,7 +48,7 @@ function Header() {
 					<Link to="/proyectos">
 						<li className="navList-item">Proyectos</li>
 					</Link>
-					<Link to="/contacto">
+					<Link to="/contacto" onClick={toTop}>
 						<li className="navList-item">Contacto</li>
 					</Link>
 				</ul>
