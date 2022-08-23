@@ -113,8 +113,8 @@ export default function Proyecto() {
 				</div>
 				<SubTitleAndDescription
 					title="descripción"
-					w="100"
 					specialClass="subtitleClassProject"
+					w="100"
 				>
 					<p>
 						Alumnos de 13 a 15 años de la escuela se quedaron con el primer
