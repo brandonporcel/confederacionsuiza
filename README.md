@@ -10,8 +10,12 @@
 * [Aportes](#aportes)
 
 ## Descripcion
-This project is simple Lorem ipsum dolor generator. info general del proyecto.
-que problema resuelve/con q proposito se hizo?. Some of the challenges you faced and features you hope to implement in the future(entrevistas,etc).
+  El proyecto consta de realizar el sitio web institucional de la escuela Confederación Suiza.
+La página tendrá apartados donde se muestra información sobre las especialidades que ofrece el colegio, un apartado donde se expongan los proyectos realizados por alumnos y más. <br>
+El proposito del proyecto es acercar la información de una manera clara y fácil acceso a padres y estudiantes.
+
+Para el desarollo de la página tuvimos que realizar investigaciones sobre distintos temas como la historia del colegio, la cronologia de los distintos logos, etc. 
+Llegamos a hacer una entrevista con el rector Pablo Conrado para profundizar en diferentes cuestiones.
 
 ![image](https://user-images.githubusercontent.com/66080281/181661202-220c4cc0-b8d9-4ed2-bed9-b285af5d708c.png)
 
@@ -22,22 +26,23 @@ que problema resuelve/con q proposito se hizo?. Some of the challenges you faced
 - Marcelo Buergo
 
 ## Aportes
-Si sos del colegio, podes consultar en el centro de estudiantes,etc...
+El repositorio está abierto a contribuciones. <br>
+Si sos del colegio y queres aportar, consultá en el centro de estudiantes sobre la pagina del colegio y explicales como queres ayudar!
 
 <hr/> 
 
 ### Tecnologias
-Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+La página fue hecha con:
+* React
+* Styled Components
+* React Router
 	
 ### Instalacion
 Para correr el proyecto localmente:
 
 ```
-$ git clone link
-$ cd ../lorem
+$ git clone https://github.com/brandonporcel/confederacionsuiza.git
+$ cd confederacionsuiza
 $ npm install
 $ npm start
 ```
