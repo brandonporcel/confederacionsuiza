@@ -200,7 +200,7 @@ export default function Proyecto() {
 							>
 								entrevista
 							</a>{' '}
-							al equipo
+							al equipo.
 						</li>
 						<li>
 							Mirá el{' '}
