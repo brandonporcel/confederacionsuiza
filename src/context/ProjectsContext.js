@@ -4,10 +4,10 @@ let allProjects = [
 		title: 'Flecha Cosmica',
 		link: '/flechacosmica',
 		description:
-			'Los estudiantes de la Escuela Técnica 26 Confederación Suiza de Balvanera fueron seleccionados entre 320 mil participantes de todo el mundo.',
+			'Alumnos de 13 a 15 años de la escuela se quedaron con el primer puesto del torneo Nacional First Lego League (FLL) 2018 y lograron la clasificacion al torneo mundial de Robotica que se llevo a cabo en Houston, Estados Unidos del 17 al 20 de abril de 2019.',
 		thumbnail:
 			'https://scontent.feze17-1.fna.fbcdn.net/v/t1.6435-9/56509914_1513882648754057_1057467346806898688_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=e3f864&_nc_ohc=ahxS_K82gtYAX-9nPcI&_nc_ht=scontent.feze17-1.fna&oh=00_AT9BF2UDXIeKAHhUyacT7iHWdDOJV1FuUvw6f4qlCPALlQ&oe=6308054A',
-		year: '2019',
+		year: '2018',
 		specialty: '💻',
 	},
 	{
@@ -24,8 +24,7 @@ let allProjects = [
 		title: 'Huerta',
 		link: '/huerta',
 		description: 'los chicos hicieron una huerta en el 2do piso!',
-		thumbnail:
-			'https://imgserver1.fierro.com.ar/get/thumb/360/513/XCI-10578=9789875384057.jpg',
+		thumbnail: './images/proyectos/huerta.jpg',
 		year: '2021 - ',
 		specialty: '📚',
 	},

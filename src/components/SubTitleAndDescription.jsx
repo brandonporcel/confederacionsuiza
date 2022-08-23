@@ -10,12 +10,18 @@ const ProgramasCtn = styled.div`
 		text-transform: capitalize;
 	}
 `;
-export default function SubTitleAndDescription({ title, w, children }) {
+export default function SubTitleAndDescription({
+	title,
+	w,
+	children,
+	specialClass,
+}) {
 	return (
 		<ProgramasCtn
 			style={{
 				width: `${w ? '100%' : '60%'}`,
 			}}
+			className={`${specialClass ? specialClass : ''}`}
 		>
 			<h3>{title}</h3>
 			{children}

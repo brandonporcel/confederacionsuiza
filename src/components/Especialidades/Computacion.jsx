@@ -95,13 +95,7 @@ const computacionAlcances = [
 	},
 	{
 		id: 13,
-		alcance:
-			'Actuar en todos los casos bajo las normativas de seguridad vigentes.',
-	},
-	{
-		id: 14,
-		alcance:
-			'Desempeñarse profesionalmente en relación de dependencia o mediante emprendimientos económicos-productivos en forma individual o asociativa.',
+		alcance: 'El mantenimiento de sistemas informaticos.',
 	},
 ];
 const Alcance = styled.ul`

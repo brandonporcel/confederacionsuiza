@@ -38,11 +38,17 @@ const GalleryCtn = styled.div`
 				}
 			}
 		}
+		/* button {
+			background: none;
+			border: none;
+			color: inherit;
+			padding: 10px;
+		} */
 	}
 `;
 
-export default function ImgGallery({ galleryImages }) {
-	const [galleryImage, setGalleryImage] = useState(1);
+export default function ImgGallery({ galleryImages, firstImg = 1 }) {
+	const [galleryImage, setGalleryImage] = useState(firstImg);
 	const [loaded, setLoaded] = useState(false);
 
 	const changeImage = (e) => {
@@ -72,7 +78,7 @@ export default function ImgGallery({ galleryImages }) {
 							}`}
 							onClick={changeImage}
 						>
-							•
+							{/* <button>•</button> */}•
 						</li>
 					))}
 				</ul>

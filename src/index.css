@@ -85,7 +85,9 @@ body {
 	/* margin-bottom: 20px; */
 	color: var(--gray-third);
 }
-
+br {
+	user-select: none;
+}
 /*  */
 
 /* computadoras pantralla grande, tv */
