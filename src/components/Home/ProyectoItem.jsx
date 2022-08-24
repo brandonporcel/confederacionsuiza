@@ -19,7 +19,7 @@ const ProyectoItemCtn = styled.article`
 		position: relative;
 		z-index: -1;
 		.projectSpecialty {
-			position: absolute;
+			/* position: absolute;
 			border-radius: 50%;
 			background: var(--white);
 			z-index: 30;
@@ -28,7 +28,8 @@ const ProyectoItemCtn = styled.article`
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			padding: 10px 10px 10px;
+			padding: 10px 10px 10px; */
+			display: none;
 		}
 		img {
 			height: 100%;
@@ -41,7 +42,7 @@ const ProyectoItemCtn = styled.article`
 	.projectBody {
 		text-align: center;
 		padding: 10px 20px;
-		margin-top: 10px;
+		/* margin-top: 10px; */
 		color: var(--gray-secondary);
 		max-height: 115px;
 		overflow: hidden;
