@@ -10,6 +10,9 @@ const Table = styled.div`
 		width: 300px;
 		color: var(--white);
 		font-weight: 500;
+		&:hover {
+			background: var(--blue-hover);
+		}
 	}
 	ul {
 		li {

@@ -4,6 +4,7 @@ import EspecialidadDescripcion from '../TitleDescriptionVideo';
 import SubTitleAndDescription from '../SubTitleAndDescription';
 import ProgramasTablas from './ProgramasTablas';
 import styled from 'styled-components';
+import ImgGallery from '../ImgGallery';
 const automotoresMaterias = [
 	{
 		ano: '3',
@@ -76,7 +77,7 @@ const automotoresMaterias = [
 	},
 ];
 const automotoresAlcances = [
-	'Efectuar anteproyectos de partes y conjuntos constitutivos del automotor',
+	'Efectuar anteproyectos de partes y conjuntos constitutivos del automotor.',
 	'Proyectar y dirigir las instalaciones mecánicas de los talleres de reparación y/o mantenimiento del automotor.',
 	'Supervisar y aprobar los ensayos finales de funcionamiento, tanto de partes, instalaciones eléctricas, mecánicas, hidráulicas, neumáticas, transmisión de datos eléctricos y electrónicos, combustibles líquidos, gaseosos y alternativos y/o conjuntos del automotor así como de unidades completas.',
 	'Planificar los servicios de mantenimiento de flotas de automotores.',
@@ -90,6 +91,26 @@ const Alcance = styled.ul`
 		color: var(--gray-third);
 	}
 `;
+const automotoresGalleryImg = [
+	{
+		id: 0,
+		title: 'automotores',
+		active: null,
+		url: 'https://i.ytimg.com/vi/9JYdBklhINE/maxresdefault.jpg',
+	},
+	{
+		id: 1,
+		title: 'automotores',
+		active: null,
+		url: 'https://1.bp.blogspot.com/-dIWLFeqy5u0/XWEupaExweI/AAAAAAAAFJg/hGdYCAUNY-cL6J5f6sdt-auTIbHf6vvfgCLcBGAs/s1600/esc26_aut.jpg',
+	},
+	{
+		id: 2,
+		title: 'automotores',
+		active: null,
+		url: './images/automotores1.jpg',
+	},
+];
 export default function Automotores() {
 	return (
 		<div className="specialtyCtn">
@@ -115,6 +136,18 @@ export default function Automotores() {
 					necesaria para brindar servicio de mantenimiento, reparación del
 					automóvil o insertarse en carreras de grado superior.
 				</p>
+				<br />
+				<p>
+					En la especialidad los alumnos van a adquirir una formacion amplia en
+					lo que difieren a los autos. Aprenderan sobre electronica,
+					automatizacion,mecanica, termodinamica y más profundazando cada vez
+					mas en cada año.
+				</p>
+				<br />
+				<p>
+					En 6to año se abre la posibilidad de que empresas a traves de
+					pasantias preparen a los alumnos para el mundo real del trabajo.
+				</p>
 			</EspecialidadDescripcion>
 			<SubTitleAndDescription title="Alcance de titulo">
 				<p>
@@ -132,6 +165,7 @@ export default function Automotores() {
 			<SubTitleAndDescription title="Programas Curriculares">
 				<ProgramasTablas materias={automotoresMaterias}></ProgramasTablas>
 			</SubTitleAndDescription>
+			<ImgGallery galleryImages={automotoresGalleryImg}></ImgGallery>
 		</div>
 	);
 }

@@ -13,8 +13,8 @@ export default function ProgramasTablas({ materias }) {
 		<ProgramasTablasCtn>
 			<p>
 				Las materias que tendran que cursar los alumnos son las siguientes.
-				Clickeando en el año podran ver el programa curricular de cada año y
-				cada materia.
+				Haciendo click en el año podrán ver el programa curricular de cada
+				materia.
 			</p>
 			{materias.map(({ ano, materias, programas }, i) => (
 				<ProgramaTable
