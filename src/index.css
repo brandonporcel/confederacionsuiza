@@ -88,6 +88,10 @@ body {
 br {
 	user-select: none;
 }
+.centerEmbedCode {
+	margin: 20px auto 0;
+	width: max-content;
+}
 /*  */
 
 /* computadoras pantralla grande, tv */

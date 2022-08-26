@@ -21,6 +21,7 @@ import RevistaSuiza2008 from './components/Proyectos/RevistaSuiza2008';
 import LoQueNoTeDicenDelAmor from './components/Proyectos/LoQueNoTeDicenDelAmor';
 import Fll2018 from './components/Proyectos/Fll2018';
 import Cansat from './components/Proyectos/Cansat';
+import CopaRobotica from './components/Proyectos/CopaRobotica';
 
 function App() {
 	return (
@@ -40,6 +41,7 @@ function App() {
 					{/* ----*+-*_+_*-++-+-+-+ */}
 					{/* PROYECTOS */}
 					<Route path="/flechacosmica" element={<FlechaCosmica />} />
+					<Route path="/coparobotica" element={<CopaRobotica />} />
 					<Route path="/ecoauto2019" element={<EcoAuto2019 />} />
 					<Route path="/huerta" element={<Huerta />} />
 					<Route path="/minecraftmicro" element={<MicroMinecraft />} />

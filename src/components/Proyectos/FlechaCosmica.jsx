@@ -158,7 +158,7 @@ export default function Proyecto() {
 					Rodriguez, Mariano Santamarina y Pablo Fiscella.
 				</p>
 			</SubTitleAndDescription>
-			<ImgGallery galleryImages={galleryImages} firstImg={0} />
+			<ImgGallery galleryImages={galleryImages} />
 		</ProjectContainer>
 	);
 }

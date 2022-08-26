@@ -11,6 +11,16 @@ let allProjects = [
 		specialty: '💻',
 	},
 	{
+		title: 'Copa Robotica 2019',
+		link: '/coparobotica',
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra eros, odio est arcu ipsum, risus pellentesque et',
+		thumbnail:
+			'https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/07/22152958/Edited-La-Escuela-T%C3%A9cnica-N.%C2%B026-%E2%80%9CConfederaci%C3%B3n-Suiza%E2%80%9D-ganadores-copa-rob%C3%B3tica-8.jpg',
+		year: '2022',
+		specialty: '💻',
+	},
+	{
 		title: 'Desafio Eco',
 		link: '/desafioeco',
 		description: 'Autos electricos god.',
@@ -31,7 +41,7 @@ let allProjects = [
 		title: 'micro en Minecraft',
 		link: '/minecraftmicro',
 		description:
-			'Creó un micro en Minecraft. Por cada par de bits, se utiliza un "full adder", el cual suma ambos bits y si es necesario agrega un +1 al siguiente full adder. Esto representa lo que hacemos nosotros con la suma vertical al "llevarnos una".',
+			'El estudiante Gaspar Chu luego de las clases de taller de computación creó un microprocesador en Minecraft',
 		thumbnail:
 			'https://img3.schoolandcollegelistings.com/013/713/3933146630137133.jpg',
 		year: '2021',
@@ -66,21 +76,11 @@ let allProjects = [
 		specialty: '💻',
 	},
 	{
-		title: 'cansat ',
+		title: 'cansat argentina',
 		link: '/cansat',
 		description:
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra eros, odio est arcu ipsum, risus pellentesque et',
 		thumbnail: './images/proyectos/cansat.jpg',
-		year: '2022',
-		specialty: '💻',
-	},
-	{
-		title: 'Copa Robotica 2019',
-		link: '/coparobotica2019',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra eros, odio est arcu ipsum, risus pellentesque et',
-		thumbnail:
-			'https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/07/22152958/Edited-La-Escuela-T%C3%A9cnica-N.%C2%B026-%E2%80%9CConfederaci%C3%B3n-Suiza%E2%80%9D-ganadores-copa-rob%C3%B3tica-8.jpg',
 		year: '2022',
 		specialty: '💻',
 	},

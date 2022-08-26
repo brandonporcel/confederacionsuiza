@@ -6,7 +6,8 @@ const GalleryCtn = styled.div`
 	align-items: center;
 	margin: 20px 0 10px;
 	.galleryImgCtn {
-		height: 400px;
+		min-height: 400px;
+		max-height: min-content;
 		width: 500px;
 
 		position: relative;
@@ -47,8 +48,8 @@ const GalleryCtn = styled.div`
 	}
 `;
 
-export default function ImgGallery({ galleryImages, firstImg = 1 }) {
-	const [galleryImage, setGalleryImage] = useState(firstImg);
+export default function ImgGallery({ galleryImages }) {
+	const [galleryImage, setGalleryImage] = useState(1);
 	const [loaded, setLoaded] = useState(false);
 
 	const changeImage = (e) => {
@@ -57,14 +58,29 @@ export default function ImgGallery({ galleryImages, firstImg = 1 }) {
 
 	return (
 		<GalleryCtn>
-			<div className="galleryImgCtn">
-				<img
-					src={galleryImages[galleryImage].url}
-					title={galleryImages[galleryImage].title}
-					alt={galleryImages[galleryImage].title}
-					className={'galleryImg active'}
-					onLoad={() => setLoaded(true)}
-				/>
+			<div
+				className="galleryImgCtn"
+				style={{
+					display: 'flex',
+					alignItems: 'center',
+					justifyContent: 'center',
+				}}
+			>
+				{galleryImages[galleryImage].type ? (
+					<video width="400" controls muted>
+						<source src={galleryImages[galleryImage].url} type="video/mp4" />
+						Your browser does not support HTML video.
+					</video>
+				) : (
+					<img
+						src={galleryImages[galleryImage].url}
+						title={galleryImages[galleryImage].title}
+						alt={galleryImages[galleryImage].title}
+						className={'galleryImg active'}
+						onLoad={() => setLoaded(true)}
+					/>
+				)}
+
 				{loaded === false && 'Cargaando...'}
 			</div>
 			<div className="dots-slider">
