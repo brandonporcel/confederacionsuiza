@@ -88,7 +88,7 @@ export default function CicloBasico() {
 					Informatica.
 				</p>
 				<br />
-				<p>Segundo año: Metales2, electricidad, Computacion</p>
+				<p>Segundo año: Metales II, electricidad, Informatica II </p>
 			</SubTitleAndDescription>
 		</div>
 	);

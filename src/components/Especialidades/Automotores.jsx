@@ -72,7 +72,7 @@ const automotoresMaterias = [
 			'Vehiculos Especiales',
 			'Ed. Fisica',
 			'Ciencia y Tecnologia',
-			'Practicas Profesionalizantes',
+			'Practicas profesionalizantes',
 		],
 	},
 ];

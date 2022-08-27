@@ -11,16 +11,16 @@ const computacionMaterias = [
 		programas:
 			'https://drive.google.com/drive/folders/1eof7ydGeFfb9SY3fGV8TucyZKgBuAcf_?usp=sharing',
 		materias: [
-			'Lyl Computación',
-			'ed. fisica',
-			'ingles',
+			'Computación',
+			'ed. física',
+			'inglés',
 			'física',
-			'matematica',
-			'quimica',
-			'ed. civica',
+			'matemática',
+			'química',
+			'ed. cívica',
 			'geografia',
 			'historia',
-			'tecnologia de la representacion',
+			'tecnología de la representación',
 			'taller',
 		],
 	},
@@ -29,14 +29,14 @@ const computacionMaterias = [
 		programas:
 			'https://drive.google.com/drive/folders/1KZHLS9IV1tMO7z41CUJG13QDYL1ThCNd?usp=sharing',
 		materias: [
-			'Lyl Computación',
-			'ed. fisica',
-			'ingles',
-			'base de datos',
-			'matematica',
+			'Computación',
+			'ed. física',
+			'inglés',
+			'física',
+			'matemática',
 			'laboratorio y algoritmos',
-			'logica computacional',
-			'organizacion de las computadoras',
+			'lógica computacional',
+			'organización de las computadoras',
 			'lab. algoritmos y estruct. de datos',
 			'taller',
 		],
@@ -47,12 +47,12 @@ const computacionMaterias = [
 			'https://drive.google.com/drive/folders/1lqBdIrBKpm61d6urCZtkWyyjK3DeCPDS?usp=sharing',
 		materias: [
 			'Adm. Y gestion de base de datos',
-			'ed. fisica',
-			'ingles',
-			'analisis de sistemas',
-			'economia y gestion de org.',
-			'programacion de redes',
-			'LyL computacion',
+			'ed. física',
+			'inglés',
+			'Análisis de sistemas',
+			'economía y gestion de org.',
+			'programación de redes',
+			'computación',
 			'taller',
 		],
 	},
@@ -62,13 +62,13 @@ const computacionMaterias = [
 			'https://drive.google.com/drive/folders/1e1SiPkaoAuJve9Y6nKKY68D3tXL6OkzE?usp=sharing',
 		materias: [
 			'prog. de redes',
-			'ed. fisica',
-			'ingles',
-			'ciencia y tecnologia',
+			'ed. física',
+			'inglés',
+			'ciencia y tecnología',
 			'admin. sistemas de redes',
-			'gestion proc. productivos',
+			'gestión proc. productivos',
 			'desarollo de sistemas',
-			'practicas profesionalziantes',
+			'prácticas profesionalizantes',
 		],
 	},
 ];
@@ -93,10 +93,6 @@ const computacionAlcances = [
 		alcance:
 			'Asistir y asesorar a los usuarios para la elección, adquisición, instalación y personalización de aplicaciones de equipos y sistemas.',
 	},
-	{
-		id: 13,
-		alcance: 'El mantenimiento de sistemas informaticos.',
-	},
 ];
 const Alcance = styled.ul`
 	list-style: initial;
@@ -115,18 +111,19 @@ export default function Computacion() {
 				video="https://www.youtube.com/embed/aoPRIi7rsjg"
 			>
 				<p>
-					La computación es una de las áreas de la ciencia que se encarga de la
-					comunicación entre los diferentes elementos de la vida cómputacional.
-					La computación es una herramienta que permite la realización de tareas
-					como la creación de software, la programación, la construcción de
-					sistemas, la construcción de aplicaciones, la construcción de
-					interfaces, la construcción de aplicaciones, la construcción de
-					aplicaciones.
+					Durante los últimos años, el nivel de empleo de la industria de
+					Tecnología de la Información creció a un ritmo vertiginoso superando a
+					muchos otros sectores.El sector de Desarrollo de Software en Argentina
+					ha triplicado su empleo en los últimos años y ha sido definido, entre
+					todas las áreas de la economía, como el que mayor número de nuevas
+					empresas crea, el que genera la mayor cantidad de trabajo de calidad y
+					uno de los más dinámicos de nuestro país.
 				</p>
 				<br />
 				<p>
-					Los alumnos cursaran talleres y materias como computacion, algoritmos
-					y datos, programacion en los distintos
+					Los alumnos estudiaran los principios fundamentales de las redes,
+					computadoras, algoritmos, robotica y la programacion en las materias
+					teoricas y en los distintos talleres y{' '}
 					<a
 						className="linktoa"
 						href="https://laboratorios.et26.edu.ar/"
@@ -135,8 +132,11 @@ export default function Computacion() {
 					>
 						{' '}
 						laboratorios{' '}
-					</a>
-					que se encuentran en la escuela.
+					</a>{' '}
+					profundizando más cada año. Los estudiantes serán puestos a prueba en
+					todos los años con la propuesta de realizar proyectos individuales y
+					grupales con el fin de poner en practicas todos los conocimientos
+					adquiridos.
 				</p>
 			</EspecialidadDescripcion>
 			<SubTitleAndDescription title="Alcance de titulo">

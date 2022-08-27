@@ -3,7 +3,7 @@ import SubTitleAndDescription from '../SubTitleAndDescription';
 export default function MicroMinecraft() {
 	return (
 		<ProjectContainer
-			title="Micro en Minecraft: microprocesadores"
+			title="MicroProcesador en Minecraft"
 			when="2021"
 			mainImg="https://img3.schoolandcollegelistings.com/013/713/3933146630137133.jpg"
 		>

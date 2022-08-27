@@ -79,6 +79,7 @@ body {
 .specialtyCtn {
 	font-size: 17px;
 	color: var(--gray-secondary);
+	padding-bottom: 20px;
 }
 .specialtyCtn p {
 	text-align: justify;

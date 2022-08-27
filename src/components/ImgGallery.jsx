@@ -4,7 +4,7 @@ const GalleryCtn = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 20px 0 10px;
+	margin: 0 0 10px;
 	.galleryImgCtn {
 		min-height: 400px;
 		max-height: min-content;
