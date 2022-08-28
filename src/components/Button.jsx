@@ -9,7 +9,7 @@ const ButtonStyle = styled.button`
 	text-decoration: none;
 	font-size: 18px;
 	border-radius: 5px;
-	margin-right: 20px;
+
 	&.bg {
 		background: var(--blue);
 		&:hover {

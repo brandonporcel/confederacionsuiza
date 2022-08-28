@@ -31,7 +31,7 @@ const error404GalleryImg = [
 		title: 'error 404',
 		active: null,
 		type: 'video',
-		url: 'https://video.xx.fbcdn.net/v/t42.9040-2/68541401_2608805672484604_4745230750821908480_n.mp4?_nc_cat=101&ccb=1-7&_nc_sid=985c63&efg=eyJybHIiOjM5OSwicmxhIjo1MTIsInZlbmNvZGVfdGFnIjoic3ZlX3NkIn0%3D&_nc_ohc=4gPN1ao0CPwAX9d5xA4&rl=399&vabr=222&_nc_ht=video.feze10-1.fna&oh=00_AT_b-H_WG6mAxuRhhJh0QF-YYAo-IHurAyZQ_Z_b17LICw&oe=63093C3E',
+		url: './videos/coparobotica2.mp4',
 	},
 ];
 

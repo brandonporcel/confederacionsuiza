@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './styles.css';
-
+import { logo } from '../svg/svgAsImage';
 function Header() {
 	const toTop = () => {
 		window.scrollTo(0, 0);
@@ -13,7 +13,7 @@ function Header() {
 				<Link onClick={toTop} to="/" className="navLogo-ctn">
 					<div className="navLogo-img-ctn">
 						<img
-							src="./images/logo.jpg"
+							src={logo}
 							alt="Logo de la Institución"
 							width="100px"
 							height="100px"

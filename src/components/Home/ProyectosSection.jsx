@@ -11,6 +11,9 @@ const ProyectosCtn = styled.section`
 			color: var(--blue);
 		}
 	}
+	.proyectos-ctn {
+		padding: 0 5px;
+	}
 	.seeMore {
 		margin-top: 40px;
 		display: inline-block;
@@ -26,7 +29,7 @@ export default function ProyectosSection() {
 			<h2 className="sectionTitle">
 				Proyectos de <span>los/as estudiantes</span>
 			</h2>
-			<div className="flexBetween overflowAuto gap20">
+			<div className="flexBetween overflowAuto gap20 proyectos-ctn">
 				{firstThree.map((el, i) => (
 					<ProyectoItem
 						key={i}
@@ -39,6 +42,7 @@ export default function ProyectosSection() {
 					/>
 				))}
 			</div>
+
 			<Link to="proyectos" className="seeMore">
 				Ver más
 			</Link>

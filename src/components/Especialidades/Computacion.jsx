@@ -138,6 +138,11 @@ export default function Computacion() {
 					grupales con el fin de poner en practicas todos los conocimientos
 					adquiridos.
 				</p>
+				<br />
+				<p>
+					En 6to año se abre la posibilidad de que empresas a traves de
+					pasantias preparen a los alumnos para el mundo real del trabajo.
+				</p>
 			</EspecialidadDescripcion>
 			<SubTitleAndDescription title="Alcance de titulo">
 				<p>El Técnico en Computación de Nivel Secundario será capaz de:</p>

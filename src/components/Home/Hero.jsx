@@ -79,10 +79,10 @@ export default function Hero() {
 					</p>
 
 					<div className="content-buttons">
-						<a href="#especialidades">
+						<a href="#especialidades" className="mr20">
 							<Button type="bg">Especialidades</Button>
 						</a>
-						<a href="#contacto">
+						<a href="#contacto" className="mr20">
 							<Button type="noBg">Conocenos</Button>
 						</a>
 					</div>

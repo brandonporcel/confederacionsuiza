@@ -13,7 +13,7 @@ const especialidades = [
 		title: 'Automotores',
 		specialty: 'automotores',
 		description:
-			'El técnico en automotores se desempeña en los procesos de compra y/o venta de productos del área automotriz, establece las características técnicas de la compra, interpretando los objetivos y funciones de las distintas partes, componentes y sistemas del automotor',
+			'El servicio de mantenimiento y reparación del automóvil se ha visto conmocionado en los últimos años, por un desarrollo tecnológico sin precedentes en los sistemas del automóvil, impulsado principalmente por la difusión de la electrónica',
 	},
 	{
 		thumbnail: 'https://econojournal.com.ar/cntnt/uploads/2019/01/3.jpg',

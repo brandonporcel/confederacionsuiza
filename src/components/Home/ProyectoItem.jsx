@@ -3,36 +3,34 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 const ProyectoItemCtn = styled.article`
-	max-width: 300px;
+	min-width: 300px;
+	max-width: min-content;
+	/* max-width: 300px; */
+
 	height: fit-content;
 	border: 1px solid var(--gray-line);
 	border-radius: 15px;
 	margin-bottom: 10px;
+	overflow: hidden;
 	&:hover {
 		box-shadow: var(--shadow);
 		transition: box-shadow 0.1s ease 0s;
 	}
+
+	&:hover .projectImg img {
+		transform: scale(1.1);
+	}
 	.projectImg {
-		border-radius: 15px;
+		border-radius: 15px 15px 0 0;
 		height: 180px;
 		width: 100%;
 		position: relative;
 		z-index: -1;
-		.projectSpecialty {
-			/* position: absolute;
-			border-radius: 50%;
-			background: var(--white);
-			z-index: 30;
-			left: 130px;
-			bottom: -20px;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			padding: 10px 10px 10px; */
-			display: none;
-		}
+		overflow: hidden;
+
 		img {
 			height: 100%;
+			transition: transform 400ms ease-out;
 			object-position: center;
 			object-fit: cover;
 			width: 100%;
@@ -85,7 +83,6 @@ export default function ProyectoItem({
 			<Link to={`${link}`}>
 				<div className="projectImg">
 					<img src={thumbnail} alt={title} />
-					<div className="projectSpecialty">{specialty}</div>
 				</div>
 				<div className="projectBody">
 					<h5>{title}</h5>

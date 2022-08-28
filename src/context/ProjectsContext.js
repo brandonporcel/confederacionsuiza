@@ -1,33 +1,28 @@
 const { createContext } = require('react');
 let allProjects = [
 	{
-		title: 'Flecha Cosmica',
+		title: 'Flecha Cósmica',
 		link: '/flechacosmica',
 		description:
 			'Alumnos de 13 a 15 años de la escuela se quedaron con el primer puesto del torneo Nacional First Lego League (FLL) 2018 y lograron la clasificacion al torneo mundial de Robotica que se llevo a cabo en Houston, Estados Unidos del 17 al 20 de abril de 2019.',
-		thumbnail:
-			'https://scontent.feze17-1.fna.fbcdn.net/v/t1.6435-9/56509914_1513882648754057_1057467346806898688_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=e3f864&_nc_ohc=ahxS_K82gtYAX-9nPcI&_nc_ht=scontent.feze17-1.fna&oh=00_AT9BF2UDXIeKAHhUyacT7iHWdDOJV1FuUvw6f4qlCPALlQ&oe=6308054A',
+		thumbnail: './images/proyectos/flechacampeon.jpg',
 		year: '2018',
-		specialty: '💻',
 	},
 	{
-		title: 'Copa Robotica 2019',
+		title: 'Copa Robótica',
 		link: '/coparobotica',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra eros, odio est arcu ipsum, risus pellentesque et',
+			'La Copa Robótica 2019 fue la etapa de clasificación local organizada por el Ministerio de Educación e Innovación y Educabot para elegir al equipo que participe en el mundial de First Global Challenge.',
 		thumbnail:
 			'https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/07/22152958/Edited-La-Escuela-T%C3%A9cnica-N.%C2%B026-%E2%80%9CConfederaci%C3%B3n-Suiza%E2%80%9D-ganadores-copa-rob%C3%B3tica-8.jpg',
-		year: '2022',
-		specialty: '💻',
+		year: '2019',
 	},
 	{
 		title: 'Desafio Eco',
 		link: '/desafioeco',
 		description: 'Autos electricos god.',
-		thumbnail:
-			'https://scontent.feze17-1.fna.fbcdn.net/v/t1.6435-9/41653800_1793791497406001_4809665611133091840_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=9267fe&_nc_ohc=jhD1qmiU1UgAX-5ZZIy&_nc_ht=scontent.feze17-1.fna&oh=00_AT-6kYbyKAGXLj65ahDDbxsZs7RP1jHxjulFmq3lpnZQew&oe=6306D02B',
+		thumbnail: './images/proyectos/desafioeco.jpg',
 		year: '2019',
-		specialty: '🚗',
 	},
 	{
 		title: 'Huerta',
@@ -35,7 +30,6 @@ let allProjects = [
 		description: 'los chicos hicieron una huerta en el 2do piso!',
 		thumbnail: './images/proyectos/huerta.jpg',
 		year: '2021 - ',
-		specialty: '📚',
 	},
 	{
 		title: 'micro en Minecraft',
@@ -45,7 +39,6 @@ let allProjects = [
 		thumbnail:
 			'https://img3.schoolandcollegelistings.com/013/713/3933146630137133.jpg',
 		year: '2021',
-		specialty: '📚',
 	},
 	{
 		title: 'revista suiza',
@@ -55,7 +48,6 @@ let allProjects = [
 		thumbnail:
 			'https://1.bp.blogspot.com/_yX4lBoSwV0c/STgle7hfH7I/AAAAAAAAAIs/I4wa_FD3eQ8/s320/logo+E26.bmp',
 		year: '2008',
-		specialty: '🚗💻',
 	},
 	{
 		title: 'Lo que no te dicen del amor ',
@@ -64,7 +56,6 @@ let allProjects = [
 		thumbnail:
 			'https://scontent.feze10-1.fna.fbcdn.net/v/t1.6435-9/67251868_2250149821770164_4120072190437621760_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=a26aad&_nc_ohc=57u-a-JN5NIAX8jUP5K&_nc_ht=scontent.feze10-1.fna&oh=00_AT825WPOJ9_ePrvJsjzPVmOAyn-wJDp_aGTO9oP2wIAgbQ&oe=63109B94',
 		year: '2018',
-		specialty: '🚗💻',
 	},
 	{
 		title: 'FFL 2019 - Convergencia 26',
@@ -73,16 +64,14 @@ let allProjects = [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra eros, odio est arcu ipsum, risus pellentesque et',
 		thumbnail: './images/proyectos/fll2018.jpg',
 		year: '2018',
-		specialty: '💻',
 	},
 	{
 		title: 'cansat argentina',
 		link: '/cansat',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra eros, odio est arcu ipsum, risus pellentesque et',
+			'CANSAT propone a estudiantes construir una carga útil, cuyo tamaño no supere al de una lata de gaseosa, (can = lata en inglés) y lanzarla en un cohete hasta una altitud aproximada de un kilómetro.',
 		thumbnail: './images/proyectos/cansat.jpg',
 		year: '2022',
-		specialty: '💻',
 	},
 ];
 
