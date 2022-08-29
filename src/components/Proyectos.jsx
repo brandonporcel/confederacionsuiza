@@ -34,11 +34,12 @@ export default function Proyectos() {
 			<h2>Proyectos</h2>
 			<div className="description-text">
 				<p>
-					Proyectos de alumnos coordinados por docentes o de forma
+					Proyectos de alumnos coordinados por docentes o creados de forma
 					independiente. Participaciones en ferias tecnologicas, competiciones,
 					exposiciones y más.
 				</p>
 			</div>
+
 			<div className="grid-between">
 				{allProjects.map((el, i) => (
 					<ProyectoItem

@@ -12,6 +12,33 @@ const FooterCtn = styled.footer`
 			color: #c5d9ed;
 		}
 	}
+	/* celulares */
+	@media only screen and (min-width: 320px) and (max-width: 480px) {
+		grid-template-columns: 1fr;
+		justify-content: center;
+		.left {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.contact {
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.right {
+			grid-template-columns: repeat(auto-fill, 150px);
+			justify-content: center;
+		}
+		.footer-bottom {
+			display: flex;
+			justify-content: space-between;
+			flex-direction: column;
+			align-items: center;
+			gap: 10px;
+		}
+	}
 `;
 export default function Footer() {
 	return (

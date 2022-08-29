@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import styled from 'styled-components';
+
 const GalleryCtn = styled.div`
 	display: flex;
 	flex-direction: column;
@@ -54,12 +55,12 @@ const GalleryCtn = styled.div`
 				cursor: pointer;
 				font-size: 20px;
 				color: var(--blue);
-				opacity: 0.25;
+				opacity: 0.5;
 				width: 30px;
 				text-align: center;
 
 				&:hover {
-					opacity: 0.7;
+					opacity: 1;
 				}
 				&.active {
 					opacity: 1;
@@ -113,8 +114,47 @@ export default function ImgGallery({ galleryImages }) {
 						onLoad={() => setLoaded(true)}
 					/>
 				)}
-				<button onClick={prevImg}>{'<'}</button>
-				<button onClick={nextImg}>{'>'}</button>
+				<button onClick={prevImg}>
+					<svg
+						style={{ transform: 'rotate(180deg)' }}
+						xmlns="http://www.w3.org/2000/svg"
+						width="16"
+						height="15"
+						viewBox="0 0 16 15"
+						fill="none"
+					>
+						<path
+							d="M8.21545 1L14.1209 7.30189L8.21545 13.6038"
+							stroke="var(--white)"
+							stroke-width="1.8"
+						/>
+						<path
+							d="M0 7.30183H14.1209"
+							stroke="var(--white)"
+							stroke-width="1.8"
+						/>
+					</svg>
+				</button>
+				<button onClick={nextImg}>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						width="16"
+						height="15"
+						viewBox="0 0 16 15"
+						fill="none"
+					>
+						<path
+							d="M8.21545 1L14.1209 7.30189L8.21545 13.6038"
+							stroke="var(--white)"
+							stroke-width="1.8"
+						/>
+						<path
+							d="M0 7.30183H14.1209"
+							stroke="var(--white)"
+							stroke-width="1.8"
+						/>
+					</svg>
+				</button>
 				{loaded === false && 'Cargaando...'}
 			</div>
 

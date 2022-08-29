@@ -31,6 +31,11 @@ const ButtonStyle = styled.button`
 			background: #2081e214;
 		}
 	}
+	@media only screen and (min-width: 320px) and (max-width: 480px) {
+		padding: 12px 1em;
+		font-size: 17px;
+		/* font-weight: 500; */
+	}
 `;
 export default function Button({ children, type }) {
 	return (

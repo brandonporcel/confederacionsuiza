@@ -21,7 +21,7 @@ a {
 /* variables */
 :root {
 	scroll-behavior: smooth;
-	--header-height: 50%;
+
 	--main-font: 'Encode Sans', sans-serif;
 	--white: #fff;
 	--gray: #333333;
@@ -39,7 +39,7 @@ a {
 }
 body {
 	font-family: var(--main-font);
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
 	width: 100%;
 }
 /* globals classes */
@@ -96,6 +96,15 @@ br {
 .mr20 {
 	margin-right: 20px;
 }
+.noBtnStyles {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
 /*  */
 
 /* computadoras pantralla grande, tv */
@@ -139,8 +148,14 @@ br {
 }
 /* celulares */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-	.specialtyCtn,
-	body {
-		background-color: blue;
+	/* .specialtyCtn, */
+	/* body { */
+	/* background-color: blue; */
+	/* } */
+	.section {
+		padding: 25px 10px;
+	}
+	.sectionTitle {
+		font-size: 22px;
 	}
 }

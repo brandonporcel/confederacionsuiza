@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import Button from '../Button';
 const Containter = styled.div`
-	width: 100vw;
+	width: 100%;
 
 	background-repeat: no-repeat;
-	background-position-x: -10px;
+
 	background-size: cover;
 	position: relative;
 	display: flex;
@@ -41,6 +41,22 @@ const Containter = styled.div`
 			p {
 				font-weight: 400;
 				font-size: 20px;
+			}
+		}
+	}
+	/* celu */
+	@media only screen and (min-width: 320px) and (max-width: 480px) {
+		& {
+			.content {
+				padding: 0;
+				h1 {
+					font-size: 32px;
+				}
+				.content-cta {
+					p {
+						font-size: 16px;
+					}
+				}
 			}
 		}
 	}

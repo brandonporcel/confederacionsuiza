@@ -10,8 +10,11 @@ const ProyectoItemCtn = styled.article`
 	height: fit-content;
 	border: 1px solid var(--gray-line);
 	border-radius: 15px;
-	margin-bottom: 10px;
-	overflow: hidden;
+	/* &:focus { */
+	/* outline: var(--blue) solid 1px; */
+	/* padding: 5px; */
+	/* } */
+	margin: 5px 0;
 	&:hover {
 		box-shadow: var(--shadow);
 		transition: box-shadow 0.1s ease 0s;

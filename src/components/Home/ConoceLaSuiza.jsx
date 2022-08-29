@@ -8,7 +8,7 @@ const ConoceLaSuizaCtn = styled.section`
 	background-image: url(${conocelasuizabg});
 	background-size: contain;
 	text-align: center;
-	.sectionTitle {
+	.sectionTitleSuiza {
 		margin-bottom: 10px;
 		font-size: 30px;
 	}
@@ -27,11 +27,24 @@ const ConoceLaSuizaCtn = styled.section`
 			height: 400px;
 		}
 	}
+	/* celulares */
+	@media only screen and (min-width: 320px) and (max-width: 480px) {
+		.sectionTitleSuiza {
+			font-size: 26px;
+		}
+		p {
+			font-size: 14px;
+		}
+		.conocelasuiza-iframe {
+			width: 100%;
+			height: 300px;
+		}
+	}
 `;
 export default function ConoceLaSuiza() {
 	return (
 		<ConoceLaSuizaCtn id="contacto" className="section">
-			<h2 className="sectionTitle">Conocé La Suiza</h2>
+			<h2 className="sectionTitleSuiza">Conocé La Suiza</h2>
 			<p>
 				La escuela esta cituada en el barrio de Balvanera, Avenida Jujuy 255
 			</p>
