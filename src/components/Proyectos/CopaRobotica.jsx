@@ -131,7 +131,7 @@ export default function CopaRobotica() {
 			<SubTitleAndDescription
 				specialClass="subtitleClassProject"
 				w="100"
-				title="Queres saber más?"
+				title="¿Querés saber más?"
 			>
 				<ul className="ulLsit">
 					<li>

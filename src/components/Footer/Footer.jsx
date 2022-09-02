@@ -7,7 +7,7 @@ const FooterCtn = styled.footer`
 	.footer-bottom {
 		border-top: 0.5px solid #387bbf;
 		margin-top: 40px;
-		padding-top: 10px;
+		padding-top: 5px;
 		small {
 			color: #c5d9ed;
 		}
@@ -37,6 +37,7 @@ const FooterCtn = styled.footer`
 			flex-direction: column;
 			align-items: center;
 			gap: 10px;
+			padding-top: 10px;
 		}
 	}
 `;

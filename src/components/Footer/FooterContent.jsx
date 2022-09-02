@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import FooterConactotSocial from './FooterConactotSocial';
+import { whitelogo } from '../../svg/svgAsImage';
 const institucionalItems = [
 	{
 		key: 2,
@@ -20,7 +21,7 @@ const institucionalItems = [
 	},
 	{
 		key: 5,
-		name: 'informacion util',
+		name: 'información útil',
 		link: '/informacionutil',
 	},
 	{
@@ -63,6 +64,10 @@ const FooterContentCtn = styled.div`
 			.logo-footer-ctn {
 				width: 100px;
 				height: 100px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				margin-right: 5px;
 			}
 			.title-footer {
 				font-weight: 600;
@@ -120,14 +125,16 @@ const FooterContentCtn = styled.div`
 	}
 `;
 export default function FooterContent() {
+	const toTop = () => window.scrollTo(0, 0);
+
 	return (
 		<FooterContentCtn>
 			<div className="left">
 				<div className="logo-text">
 					<div className="logo-footer-ctn">
 						<img
-							src="./images/logoblanco.webp"
-							// src="../../../public/images/logoblanco.webp"
+							// src="./images/logoblanco.webp"
+							src={whitelogo}
 							alt="Logo ET26 Confederacion Suiza Blanco"
 						/>
 					</div>
@@ -148,7 +155,9 @@ export default function FooterContent() {
 										{el.name}
 									</a>
 								) : (
-									<Link to={el.link}>{el.name}</Link>
+									<Link to={el.link} onClick={toTop}>
+										{el.name}
+									</Link>
 								)}
 							</li>
 						))}
@@ -158,10 +167,14 @@ export default function FooterContent() {
 					<h4>Especialidades</h4>
 					<ul>
 						<li>
-							<Link to="/automotores">Automotores</Link>
+							<Link to="/automotores" onClick={toTop}>
+								Automotores
+							</Link>
 						</li>
 						<li>
-							<Link to="/computacion">Computación</Link>
+							<Link to="/computacion" onClick={toTop}>
+								Computación
+							</Link>
 						</li>
 					</ul>
 				</div>

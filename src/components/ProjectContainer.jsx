@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-const ProyectoContainer = styled.div`
+const ProyectoContainer = styled.main`
 	background: var(--conocelasuiza-color);
 
 	padding: 40px 0;
@@ -67,7 +67,7 @@ const ProyectoContainer = styled.div`
 	}
 	/* celulares */
 	@media only screen and (min-width: 320px) and (max-width: 480px) {
-		padding: 20px 15px;
+		padding: 25px 15px;
 		.projectCtnBackground {
 			width: 100%;
 			padding: 20px 0px;
@@ -100,6 +100,7 @@ const ProyectoContainer = styled.div`
 			p,
 			ul li {
 				font-size: 16px;
+				font-weight: 400;
 			}
 		}
 		.videoContainer {

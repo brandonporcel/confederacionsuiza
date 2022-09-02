@@ -89,7 +89,6 @@ const GalleryCtn = styled.div`
 
 export default function ImgGallery({ galleryImages }) {
 	const [galleryImage, setGalleryImage] = useState(1);
-	const [loaded, setLoaded] = useState(false);
 
 	const changeImage = (e) => {
 		setGalleryImage(parseInt(e.target.getAttribute('data-id')));
@@ -119,7 +118,6 @@ export default function ImgGallery({ galleryImages }) {
 						title={galleryImages[galleryImage].title}
 						alt={galleryImages[galleryImage].title}
 						className={'galleryImg active'}
-						onLoad={() => setLoaded(true)}
 					/>
 				)}
 				<button onClick={prevImg}>
@@ -163,7 +161,6 @@ export default function ImgGallery({ galleryImages }) {
 						/>
 					</svg>
 				</button>
-				{loaded === false && 'Cargaando...'}
 			</div>
 
 			<div className="dots-slider">

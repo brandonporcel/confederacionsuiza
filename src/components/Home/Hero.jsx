@@ -47,10 +47,13 @@ const Containter = styled.div`
 	/* celu */
 	@media only screen and (min-width: 320px) and (max-width: 480px) {
 		background-position: center;
+		/* urld de prueba para celular(no me toma las img una vez deployada la app) */
+		background: url('https://www.revistaelabasto.com.ar/wp-content/uploads/2019/03/confederacion.jpg');
+		background-size: cover;
 		& {
 			.content {
 				padding: 0;
-				padding-bottom: 60px;
+				padding-bottom: 70px;
 				h1 {
 					font-size: 36px;
 				}

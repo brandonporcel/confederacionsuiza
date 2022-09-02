@@ -9,13 +9,13 @@ const ConoceLaSuizaCtn = styled.section`
 	background-size: contain;
 	text-align: center;
 	.sectionTitleSuiza {
-		margin-bottom: 10px;
-		font-size: 30px;
+		margin-bottom: 15px;
+		font-size: 34px;
 	}
 	p {
 		color: var(--gray-third);
-		font-size: 16px;
-		margin-bottom: 20px;
+		font-size: 17px;
+		margin-bottom: 25px;
 	}
 	.conocelasuiza-iframe {
 		width: 90%;
@@ -29,19 +29,22 @@ const ConoceLaSuizaCtn = styled.section`
 	}
 	/* celulares */
 	@media only screen and (min-width: 320px) and (max-width: 480px) {
+		padding-top: 50px;
+		padding-bottom: 30px;
 		.sectionTitleSuiza {
-			font-size: 28px;
+			font-size: 34px;
 			margin-bottom: 20px;
 		}
 		p {
 			font-size: 16px;
-			width: 80%;
+			width: 90%;
+			margin-bottom: 30px;
 		}
 
 		.conocelasuiza-iframe {
-			width: 80%;
+			width: 90%;
 			height: 210px;
-			margin-bottom: 0;
+			margin-bottom: 10px;
 		}
 		/* height: 700px; */
 		display: flex;
@@ -55,7 +58,7 @@ const ConoceLaSuizaCtn = styled.section`
 export default function ConoceLaSuiza() {
 	return (
 		<ConoceLaSuizaCtn id="contacto" className="section">
-			<h2 className="sectionTitleSuiza">Conocé La Suiza</h2>
+			<h4 className="sectionTitleSuiza">Conocé La Suiza</h4>
 			<p>
 				La escuela esta cituada en el barrio de Balvanera, Avenida Jujuy 255
 			</p>
@@ -69,9 +72,11 @@ export default function ConoceLaSuiza() {
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 				allowFullScreen
 			></iframe>
-			<Link to="/contacto">
-				<Button type="bg">Contacto</Button>
-			</Link>
+			<div>
+				<Link to="/contacto">
+					<Button type="bg">Contacto</Button>
+				</Link>
+			</div>
 		</ConoceLaSuizaCtn>
 	);
 }

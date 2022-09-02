@@ -100,6 +100,19 @@ const InfUtilCtn = styled.div`
 			}
 		}
 	}
+	@media only screen and (min-width: 320px) and (max-width: 480px) {
+		width: 100%;
+		.accordionWrapper {
+			.accordionItem {
+				.question h4 {
+					font-size: 18px;
+				}
+				.answer p {
+					font-size: 16px;
+				}
+			}
+		}
+	}
 `;
 export default function InformacionUitl() {
 	const [selected, setSelected] = useState(null);
@@ -115,7 +128,7 @@ export default function InformacionUitl() {
 			<div className="description-text">
 				<p>
 					Si tenes otra duda podes consultar de forma presencial en regencia o
-					por mail
+					por mail.
 				</p>
 			</div>
 			<div className="accordionWrapper">
