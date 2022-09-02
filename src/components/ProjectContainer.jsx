@@ -11,7 +11,8 @@ const ProyectoContainer = styled.div`
 		width: 70%;
 		margin: 0 auto;
 		padding: 50px 100px;
-		box-shadow: var(--shadow);
+		box-shadow: var(--shadow-low);
+		border: 1px solid var(--gray-line);
 		h2 {
 			font-size: 32px;
 			color: var(--titles-color);
@@ -56,6 +57,55 @@ const ProyectoContainer = styled.div`
 			font-size: 17px;
 		}
 	}
+
+	.videoContainer {
+		min-width: 400px;
+		max-width: 100%;
+		video {
+			width: 100%;
+		}
+	}
+	/* celulares */
+	@media only screen and (min-width: 320px) and (max-width: 480px) {
+		padding: 20px 15px;
+		.projectCtnBackground {
+			width: 100%;
+			padding: 20px 0px;
+			.titleAndImg {
+				padding: 0 15px;
+				h2 {
+					font-size: 26px;
+				}
+			}
+		}
+		.projectCtnBackground {
+			.img-project-suiza {
+				max-width: 100%;
+				max-height: 300px;
+				min-height: min-content;
+				display: flex;
+				align-items: center;
+
+				border-radius: 10px;
+				height: 245px;
+				margin: 25px 0;
+				/* border: 1px solid var(--gray-line); */
+				img {
+					width: 100%;
+					border-radius: 10px;
+				}
+			}
+		}
+		.subtitleClassProject {
+			p,
+			ul li {
+				font-size: 16px;
+			}
+		}
+		.videoContainer {
+			min-width: 100%;
+		}
+	}
 `;
 export default function ProjectContainer({
 	title,
@@ -68,30 +118,32 @@ export default function ProjectContainer({
 		// proptypes
 		<ProyectoContainer>
 			<div className="projectCtnBackground">
-				<h2>{title}</h2>
-				<div className="tags">
-					<span>{when}</span>
-					<div className="dot-spacing">•</div>
+				<div className="titleAndImg">
+					<h2>{title}</h2>
+					<div className="tags">
+						<span>{when}</span>
+						<div className="dot-spacing">•</div>
 
-					<Link
-						className="specialty"
-						to={`/${
-							specialty === 'c'
-								? 'computacion'
+						<Link
+							className="specialty"
+							to={`/${
+								specialty === 'c'
+									? 'computacion'
+									: specialty === 'a'
+									? 'automotores'
+									: 'ciclobasico'
+							}`}
+						>
+							{specialty === 'c'
+								? 'computación'
 								: specialty === 'a'
 								? 'automotores'
-								: 'ciclobasico'
-						}`}
-					>
-						{specialty === 'c'
-							? 'computación'
-							: specialty === 'a'
-							? 'automotores'
-							: 'Ciclo Básico'}
-					</Link>
-				</div>
-				<div className="img-project-suiza">
-					<img src={`${mainImg}`} alt={`${title}`} />
+								: 'Ciclo Básico'}
+						</Link>
+					</div>
+					<div className="img-project-suiza">
+						<img src={`${mainImg}`} alt={`${title}`} />
+					</div>
 				</div>
 				{children}
 			</div>

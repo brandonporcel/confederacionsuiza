@@ -46,11 +46,13 @@ const Containter = styled.div`
 	}
 	/* celu */
 	@media only screen and (min-width: 320px) and (max-width: 480px) {
+		background-position: center;
 		& {
 			.content {
 				padding: 0;
+				padding-bottom: 60px;
 				h1 {
-					font-size: 32px;
+					font-size: 36px;
 				}
 				.content-cta {
 					p {
@@ -87,7 +89,7 @@ export default function Hero() {
 			style={{ backgroundImage: `url(${selectedImage})` }}
 		>
 			<div className="content">
-				<h1>Escuela Técnica Confederacion Suiza</h1>
+				<h1>Escuela Técnica Confederación Suiza</h1>
 				<div className="content-cta">
 					<p>
 						Bienvenido al sitio oficial de nuestra escuela. Acá encontraras toda

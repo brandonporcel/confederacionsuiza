@@ -6,10 +6,12 @@ const GalleryCtn = styled.div`
 	flex-direction: column;
 	align-items: center;
 	margin: 0 0 10px;
+	padding: 0 20px;
 	.galleryImgCtn {
 		min-height: 400px;
 		max-height: min-content;
-		width: 500px;
+		max-width: 500px;
+		min-width: 100%;
 
 		position: relative;
 
@@ -75,6 +77,12 @@ const GalleryCtn = styled.div`
 			font: inherit;
 			cursor: pointer;
 			width: 100%;
+		}
+	}
+	@media only screen and (min-width: 320px) and (max-width: 480px) {
+		margin-top: 10px;
+		.galleryImgCtn {
+			min-height: 300px;
 		}
 	}
 `;

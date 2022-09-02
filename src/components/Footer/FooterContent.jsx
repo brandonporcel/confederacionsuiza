@@ -114,6 +114,9 @@ const FooterContentCtn = styled.div`
 	/* celulares */
 	@media only screen and (min-width: 320px) and (max-width: 480px) {
 		grid-template-columns: 1fr;
+		.right {
+			text-align: center;
+		}
 	}
 `;
 export default function FooterContent() {
@@ -124,6 +127,7 @@ export default function FooterContent() {
 					<div className="logo-footer-ctn">
 						<img
 							src="./images/logoblanco.webp"
+							// src="../../../public/images/logoblanco.webp"
 							alt="Logo ET26 Confederacion Suiza Blanco"
 						/>
 					</div>

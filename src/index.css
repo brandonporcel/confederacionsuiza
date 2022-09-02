@@ -7,7 +7,8 @@
 	margin: 0;
 	box-sizing: border-box;
 }
-img {
+img,
+video {
 	max-width: 100%;
 	height: auto;
 }
@@ -36,6 +37,7 @@ a {
 	--grey-bg-contact: #f5f5f5;
 	--conocelasuiza-color: #f3fbfe;
 	--shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
+	--shadow-low: 0 3px 4px 0px #eee;
 }
 body {
 	font-family: var(--main-font);
@@ -152,6 +154,7 @@ br {
 	/* body { */
 	/* background-color: blue; */
 	/* } */
+	/* s */
 	.section {
 		padding: 25px 10px;
 	}

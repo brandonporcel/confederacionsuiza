@@ -1,7 +1,7 @@
 import Autoridades from './Autoridades';
 import Button from './Button';
 import TitleDescriptionVideo from './TitleDescriptionVideo';
-import EspecialidadProgramas from './SubTitleAndDescription';
+import SubTitleAndDescription from './SubTitleAndDescription';
 import ImgGallery from './ImgGallery';
 import Banner from './Banner';
 const galleryImages = [
@@ -64,7 +64,7 @@ export default function Institucional() {
 					de resolver problematicas a traves de herramientas aprendidas.
 				</p>
 			</TitleDescriptionVideo>
-			<EspecialidadProgramas title="historia">
+			<SubTitleAndDescription title="historia">
 				<p>
 					Nuestra Escuela Técnica se fundó el 16 de abril de 1948, nació con el
 					nombre de “Escuela técnica de Oficios de la Capital Federal” y a los
@@ -95,10 +95,10 @@ export default function Institucional() {
 						Ver Más
 					</a>
 				</Button>
-			</EspecialidadProgramas>
-			<EspecialidadProgramas title="autoridades">
+			</SubTitleAndDescription>
+			<SubTitleAndDescription title="autoridades">
 				<Autoridades />
-			</EspecialidadProgramas>
+			</SubTitleAndDescription>
 		</div>
 	);
 }

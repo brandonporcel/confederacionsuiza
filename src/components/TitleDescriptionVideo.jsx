@@ -15,6 +15,21 @@ const DescripcionCtn = styled.div`
 		margin: 20px 0;
 		background-color: var(--gray-line);
 	}
+
+	/* celulares */
+	@media only screen and (min-width: 320px) and (max-width: 480px) {
+		width: 100%;
+		iframe {
+			width: 100%;
+			height: 250px;
+		}
+		h2 {
+			font-size: 28px;
+		}
+		p {
+			font-size: 16px;
+		}
+	}
 `;
 export default function TitleDescriptionVideo({
 	especialidad,

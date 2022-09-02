@@ -30,15 +30,26 @@ const ConoceLaSuizaCtn = styled.section`
 	/* celulares */
 	@media only screen and (min-width: 320px) and (max-width: 480px) {
 		.sectionTitleSuiza {
-			font-size: 26px;
+			font-size: 28px;
+			margin-bottom: 20px;
 		}
 		p {
-			font-size: 14px;
+			font-size: 16px;
+			width: 80%;
 		}
+
 		.conocelasuiza-iframe {
-			width: 100%;
-			height: 300px;
+			width: 80%;
+			height: 210px;
+			margin-bottom: 0;
 		}
+		/* height: 700px; */
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		/* .conocelasuizasection {
+		} */
 	}
 `;
 export default function ConoceLaSuiza() {

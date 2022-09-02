@@ -25,6 +25,15 @@ const ProyectosCtn = styled.div`
 		grid-row-gap: 40px;
 		width: 90%;
 	}
+	/* celulares */
+	@media only screen and (min-width: 320px) and (max-width: 480px) {
+		h2 {
+			margin-top: 10px;
+		}
+		.description-text p {
+			width: 100%;
+		}
+	}
 `;
 
 export default function Proyectos() {

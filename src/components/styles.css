@@ -4,10 +4,10 @@
 	justify-content: space-between;
 	top: 0;
 	z-index: 50;
-	padding: 10px 100px;
+	padding: 15px 100px;
 	width: 100%;
 	background-color: var(--white);
-	min-height: 50px;
+	min-height: 60px;
 	max-height: min-content;
 	color: var(--gray);
 	box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
@@ -77,53 +77,35 @@
 }
 
 .navLogo .navLogo-img-ctn {
-	width: 50px;
-	height: 50px;
+	width: 62px;
+	height: auto;
 	display: flex;
 }
 .navLogo-img-ctn img {
 	width: 100%;
 	height: auto;
 }
-.navLogo .navLogo-h2-ctn {
+.navLogo .navLogo-h3-ctn {
 	width: 60%;
-	font-size: 11px;
+	font-size: 14px;
 	padding: 0px 10px 0px 10px;
 }
 .none {
 	display: none;
 }
+.headerMenu {
+	display: none;
+}
 /* celulares */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 	.header {
-		padding: 10px;
+		padding: 15px;
 	}
+
 	.navList {
-		position: absolute;
-		top: 70px;
-		background: white;
-		left: 0;
-		width: 100%;
-		opacity: 0;
-		visibility: hidden;
-		transition: opacity 0.5s ease-out, visibility 0.5s ease-out;
-	}
-	.navList ul {
-		flex-direction: column;
-		border-bottom-right-radius: 5px;
-		border-bottom-left-radius: 5px;
-	}
-	.navList.active {
-		opacity: 1;
-		visibility: visible;
-		transition: opacity 0.5s ease-out, visibility 0.5s ease-out;
-	}
-	.navList.active .navList-ctn .navLinks {
-		width: 100%;
-		text-align: center;
-		border-top: var(--gray-line) 0.5px solid;
-	}
-	.navList.active .navList-ctn .navList-item .navList-submenu {
 		display: none;
+	}
+	.headerMenu {
+		display: block;
 	}
 }

@@ -9,6 +9,16 @@ const ProgramasCtn = styled.div`
 		color: var(--titles-color);
 		text-transform: capitalize;
 	}
+	@media only screen and (min-width: 320px) and (max-width: 480px) {
+		width: 100%;
+		/* iframe {
+			width: 100%;
+			height:250px ;
+		} */
+		p {
+			font-size: 16px;
+		}
+	}
 `;
 export default function SubTitleAndDescription({
 	title,
@@ -18,8 +28,11 @@ export default function SubTitleAndDescription({
 }) {
 	return (
 		<ProgramasCtn
+			// style={{
+			// 	width: `${w ? '100%' : '60%'}`,
+			// }}
 			style={{
-				width: `${w ? '100%' : '60%'}`,
+				width: `${w && '100%'}`,
 			}}
 			className={`${specialClass ? specialClass : ''}`}
 		>

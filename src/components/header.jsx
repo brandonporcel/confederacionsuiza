@@ -1,15 +1,24 @@
 import { Link } from 'react-router-dom';
 import './styles.css';
 import { logo } from '../svg/svgAsImage';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
+import MobileHeaderr from './MobileHeader';
 function Header() {
 	const toTop = () => {
 		window.scrollTo(0, 0);
 	};
+	const listMobile = useRef();
 	const [openMenu, setOpenMenu] = useState(false);
+
 	const MobileHeader = () => setOpenMenu((openMenu) => !openMenu);
+
 	return (
 		<header className="header">
+			<MobileHeaderr
+				openMenu={openMenu}
+				setOpenMenu={setOpenMenu}
+				toTop={toTop}
+			></MobileHeaderr>
 			<div className="navLogo">
 				<Link onClick={toTop} to="/" className="navLogo-ctn">
 					<div className="navLogo-img-ctn">
@@ -20,30 +29,41 @@ function Header() {
 							height="100px"
 						/>
 					</div>
-					<div className="navLogo-h2-ctn">
-						<h2>Confederación Suiza</h2>
+					<div className="navLogo-h3-ctn">
+						<h3>Confederación Suiza</h3>
 					</div>
 				</Link>
 			</div>
-			<button className="noBtnStyles" onClick={MobileHeader}>
+
+			<button className="headerMenu noBtnStyles" onClick={MobileHeader}>
 				<svg
+					width="24px"
+					height="24px"
+					stroke-width="1.5"
+					viewBox="0 0 24 24"
+					fill="none"
 					xmlns="http://www.w3.org/2000/svg"
-					width="24"
-					height="24"
-					style={{ fill: ' rgba(0, 0, 0, 1)' }}
+					color="#000000"
 				>
-					<path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+					<path
+						d="M3 5h18M3 12h18M3 19h18"
+						stroke="#000000"
+						stroke-width="1.5"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					></path>
 				</svg>
 			</button>
 
 			<nav className={` ${openMenu === true ? 'navList active' : 'navList'}`}>
 				<ul className="navList-ctn">
-					<Link className="navLinks" to="/institucional" onClick={MobileHeader}>
+					<Link className="navLinks" to="/institucional">
 						<li className="navList-item">Institucional</li>
 					</Link>
-					<li className="navList-item navLinks" onClick={MobileHeader}>
+					<li className="navList-item navLinks">
 						<a href="#especialidades">Especialidades</a>
-						<ul className="navList-submenu">
+
+						<ul className="navList-submenu" ref={listMobile}>
 							<Link to="ciclobasico">
 								<li className="navList-subItem">Ciclo Básico</li>
 							</Link>

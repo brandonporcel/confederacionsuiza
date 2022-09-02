@@ -72,6 +72,12 @@ const ProyectoItemCtn = styled.article`
 	@media only screen and (min-width: 769px) and (max-width: 1024px) {
 		min-width: 230px;
 	}
+	/* celulares */
+	@media only screen and (min-width: 320px) and (max-width: 480px) {
+		&:hover .projectImg img {
+			transform: initial;
+		}
+	}
 `;
 export default function ProyectoItem({
 	title,

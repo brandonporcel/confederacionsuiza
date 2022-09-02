@@ -7,7 +7,7 @@ const FooterCtn = styled.footer`
 	.footer-bottom {
 		border-top: 0.5px solid #387bbf;
 		margin-top: 40px;
-		padding-top: 5px;
+		padding-top: 10px;
 		small {
 			color: #c5d9ed;
 		}

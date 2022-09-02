@@ -68,13 +68,12 @@ export default function CopaRobotica() {
 					a la temática de la sustentabilidad de los océanos y lo resolvieron
 					utilizando un kit de robótica y aplicando habilidades de programación.
 				</p>
-				<div className="centerEmbedCode">
-					<video width="400" controls muted>
+				<div className="centerEmbedCode videoContainer">
+					<video controls muted>
 						<source src="./videos/error404.mp4" type="video/mp4" />
 						Your browser does not support HTML video.
 					</video>
 				</div>
-				<br />
 				<br />
 				<p>
 					El equipo se llamó Error 404 y el 10 de junio ganó el primer lugar en
@@ -83,11 +82,15 @@ export default function CopaRobotica() {
 					impuso ante otras nueve escuelas secundarias porteñas en el Centro
 					Metropolitano de Diseño (CMD) de Barracas.
 				</p>
+
 				<img
 					src="https://www.revistaelabasto.com.ar/wp-content/uploads/2019/06/cr3.jpg"
 					alt=""
 					className="centerEmbedCode"
 				/>
+
+				<br />
+				<br />
 				<p>
 					Tras esta victoria, el equipo representó a la Ciudad de Buenos Aires
 					en la instancia nacional de la Copa Robótica 2019, que se disputó en
@@ -96,7 +99,6 @@ export default function CopaRobotica() {
 					Global en Dubai.
 				</p>
 				<br />
-
 				<p>
 					Sobre una maqueta estaban distribuidas pelotas de distintos colores:
 					las pelotas naranjas representaban basura; las verdes, residuos
