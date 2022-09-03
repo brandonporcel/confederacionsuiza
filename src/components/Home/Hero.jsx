@@ -45,11 +45,7 @@ const Containter = styled.div`
 		}
 	}
 	/* celu */
-	@media only screen and (min-width: 320px) and (max-width: 480px) {
-		background-position: center;
-		/* urld de prueba para celular(no me toma las img una vez deployada la app) */
-		background: url('https://www.revistaelabasto.com.ar/wp-content/uploads/2019/03/confederacion.jpg');
-		background-size: cover;
+	@media only screen and (min-width: 320px) and (max-width: 675px) {
 		& {
 			.content {
 				padding: 0;
@@ -61,6 +57,46 @@ const Containter = styled.div`
 					p {
 						font-size: 16px;
 					}
+				}
+			}
+		}
+	}
+	@media only screen and (min-width: 480px) and (max-width: 675px) {
+		& {
+			.content {
+				h1 {
+					font-size: 44px;
+				}
+			}
+		}
+	}
+	@media only screen and (min-width: 676px) and (max-width: 768px) {
+		& {
+			.content {
+				h1 {
+					font-size: 48px;
+					width: 85%;
+				}
+			}
+			.content-cta {
+				p {
+					font-size: 18px;
+				}
+			}
+		}
+	}
+	/* Small screens, laptops */
+	@media only screen and (min-width: 769px) and (max-width: 1024px) {
+		& {
+			.content {
+				h1 {
+					font-size: 56px;
+					width: 85%;
+				}
+			}
+			.content-cta {
+				p {
+					font-size: 19px;
 				}
 			}
 		}

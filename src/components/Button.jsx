@@ -31,10 +31,20 @@ const ButtonStyle = styled.button`
 			background: #2081e214;
 		}
 	}
-	@media only screen and (min-width: 320px) and (max-width: 480px) {
+	@media only screen and (min-width: 320px) and (max-width: 675px) {
 		padding: 12px 1em;
 		font-size: 17px;
 		/* font-weight: 500; */
+	}
+
+	@media only screen and (min-width: 676px) and (max-width: 768px) {
+		padding: 12px 1em;
+		font-size: 18px;
+	}
+	/* Small screens, laptops */
+	@media only screen and (min-width: 769px) and (max-width: 1024px) {
+		padding: 12px 1em;
+		font-size: 18px;
 	}
 `;
 export default function Button({ children, type }) {

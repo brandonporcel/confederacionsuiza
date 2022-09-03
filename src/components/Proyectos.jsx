@@ -15,6 +15,7 @@ const ProyectosCtn = styled.div`
 		p {
 			width: 60%;
 			margin: 0 auto;
+			font-size: 17px;
 		}
 	}
 	.grid-between {
@@ -26,12 +27,28 @@ const ProyectosCtn = styled.div`
 		width: 90%;
 	}
 	/* celulares */
-	@media only screen and (min-width: 320px) and (max-width: 480px) {
+	@media only screen and (min-width: 320px) and (max-width: 675px) {
 		h2 {
 			margin-top: 10px;
 		}
 		.description-text p {
 			width: 100%;
+			font-size: 16px;
+		}
+	}
+	@media only screen and (min-width: 676px) and (max-width: 768px) {
+		.description-text p {
+			width: 80%;
+			font-size: 16px;
+		}
+		.grid-between {
+			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		}
+	}
+	@media only screen and (min-width: 769px) and (max-width: 1024px) {
+		.description-text p {
+			width: 70%;
+			font-size: 17px;
 		}
 	}
 `;

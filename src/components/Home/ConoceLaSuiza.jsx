@@ -28,7 +28,7 @@ const ConoceLaSuizaCtn = styled.section`
 		}
 	}
 	/* celulares */
-	@media only screen and (min-width: 320px) and (max-width: 480px) {
+	@media only screen and (min-width: 320px) and (max-width: 675px) {
 		padding-top: 50px;
 		padding-bottom: 30px;
 		.sectionTitleSuiza {
@@ -53,6 +53,16 @@ const ConoceLaSuizaCtn = styled.section`
 		flex-direction: column;
 		/* .conocelasuizasection {
 		} */
+	}
+	@media only screen and (min-width: 480px) and (max-width: 675px) {
+		.conocelasuiza-iframe {
+			height: 270px;
+		}
+	}
+	@media only screen and (min-width: 676px) and (max-width: 768px) {
+		.conocelasuiza-iframe {
+			height: 360px;
+		}
 	}
 `;
 export default function ConoceLaSuiza() {

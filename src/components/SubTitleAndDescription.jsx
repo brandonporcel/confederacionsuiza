@@ -9,7 +9,7 @@ const ProgramasCtn = styled.div`
 		color: var(--titles-color);
 		text-transform: capitalize;
 	}
-	@media only screen and (min-width: 320px) and (max-width: 480px) {
+	@media only screen and (min-width: 320px) and (max-width: 675px) {
 		width: 100%;
 		/* iframe {
 			width: 100%;
@@ -18,6 +18,18 @@ const ProgramasCtn = styled.div`
 		p {
 			font-size: 16px;
 		}
+	}
+	@media only screen and (min-width: 676px) and (max-width: 768px) {
+		width: 80%;
+		/* p {
+			font-size: 18px;
+		} */
+	}
+	/* Small screens, laptops */
+	@media only screen and (min-width: 769px) and (max-width: 1024px) {
+		width: 70%;
+	}
+	@media only screen and (min-width: 1025px) and (max-width: 1200px) {
 	}
 `;
 export default function SubTitleAndDescription({

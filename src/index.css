@@ -85,7 +85,6 @@ body {
 }
 .specialtyCtn p {
 	text-align: justify;
-	/* margin-bottom: 20px; */
 	color: var(--gray-third);
 }
 br {
@@ -139,17 +138,21 @@ br {
 	body {
 		background-color: purple;
 	}
+	.section {
+		padding: 35px 20px;
+	}
 }
 
 /* celulares */
-@media only screen and (min-width: 481px) and (max-width: 675px) {
+/* @media only screen and (min-width: 481px) and (max-width: 675px) {
 	.specialtyCtn,
 	body {
 		background-color: green;
 	}
-}
+} */
 /* celulares */
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+/* @media only screen and (min-width: 320px) and (max-width: 480px) { */
+@media only screen and (min-width: 320px) and (max-width: 675px) {
 	/* .specialtyCtn, */
 	/* body { */
 	/* background-color: blue; */

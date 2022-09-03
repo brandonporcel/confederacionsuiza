@@ -17,7 +17,7 @@ const DescripcionCtn = styled.div`
 	}
 
 	/* celulares */
-	@media only screen and (min-width: 320px) and (max-width: 480px) {
+	@media only screen and (min-width: 320px) and (max-width: 675px) {
 		width: 100%;
 		iframe {
 			width: 100%;
@@ -29,6 +29,17 @@ const DescripcionCtn = styled.div`
 		p {
 			font-size: 16px;
 		}
+	}
+	@media only screen and (min-width: 676px) and (max-width: 768px) {
+		width: 80%;
+		iframe {
+			width: 100%;
+			height: 300px;
+		}
+	}
+	/* Small screens, laptops */
+	@media only screen and (min-width: 769px) and (max-width: 1024px) {
+		width: 70%;
 	}
 `;
 export default function TitleDescriptionVideo({

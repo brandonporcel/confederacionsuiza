@@ -100,7 +100,7 @@ const InfUtilCtn = styled.div`
 			}
 		}
 	}
-	@media only screen and (min-width: 320px) and (max-width: 480px) {
+	@media only screen and (min-width: 320px) and (max-width: 675px) {
 		width: 100%;
 		.accordionWrapper {
 			.accordionItem {

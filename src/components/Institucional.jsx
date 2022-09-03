@@ -83,6 +83,7 @@ export default function Institucional() {
 					noche y el Ciclo superior. La carrera duraba 8 años: 4 de Ciclo Básico
 					y 4 años de Ciclo superior.
 				</p>
+				<br />
 				<ImgGallery galleryImages={galleryImages} />
 				<p>
 					La Escuela comenzó a funcionar en la Avda. Belgrano 2640, y al

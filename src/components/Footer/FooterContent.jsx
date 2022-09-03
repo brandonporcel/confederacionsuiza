@@ -117,7 +117,13 @@ const FooterContentCtn = styled.div`
 		}
 	}
 	/* celulares */
-	@media only screen and (min-width: 320px) and (max-width: 480px) {
+	@media only screen and (min-width: 320px) and (max-width: 675px) {
+		grid-template-columns: 1fr;
+		.right {
+			text-align: center;
+		}
+	}
+	@media only screen and (min-width: 676px) and (max-width: 768px) {
 		grid-template-columns: 1fr;
 		.right {
 			text-align: center;

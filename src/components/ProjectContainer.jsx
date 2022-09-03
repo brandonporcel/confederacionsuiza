@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 const ProyectoContainer = styled.main`
 	background: var(--conocelasuiza-color);
-
 	padding: 40px 0;
 	.projectCtnBackground {
 		background: var(--white);
@@ -66,7 +65,7 @@ const ProyectoContainer = styled.main`
 		}
 	}
 	/* celulares */
-	@media only screen and (min-width: 320px) and (max-width: 480px) {
+	@media only screen and (min-width: 320px) and (max-width: 675px) {
 		padding: 25px 15px;
 		.projectCtnBackground {
 			width: 100%;
@@ -105,6 +104,43 @@ const ProyectoContainer = styled.main`
 		}
 		.videoContainer {
 			min-width: 100%;
+		}
+	}
+	@media only screen and (min-width: 676px) and (max-width: 768px) {
+		/* padding: 25px 15px; */
+		.projectCtnBackground {
+			width: 80%;
+			padding: 20px 0;
+			.titleAndImg {
+				padding: 0 15px;
+				h2 {
+					font-size: 28px;
+				}
+			}
+		}
+		.projectCtnBackground {
+			.img-project-suiza {
+				width: 450px;
+				height: 320px;
+			}
+		}
+	}
+	@media only screen and (min-width: 769px) and (max-width: 1024px) {
+		.projectCtnBackground {
+			width: 75%;
+			padding: 20px;
+		}
+		.titleAndImg {
+			padding: 0 20px;
+			h2 {
+				font-size: 30px;
+			}
+		}
+		.projectCtnBackground {
+			.img-project-suiza {
+				width: 475px;
+				height: 340px;
+			}
 		}
 	}
 `;

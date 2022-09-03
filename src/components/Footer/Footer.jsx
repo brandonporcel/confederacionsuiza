@@ -13,7 +13,7 @@ const FooterCtn = styled.footer`
 		}
 	}
 	/* celulares */
-	@media only screen and (min-width: 320px) and (max-width: 480px) {
+	@media only screen and (min-width: 320px) and (max-width: 675px) {
 		grid-template-columns: 1fr;
 		justify-content: center;
 		.left {
@@ -38,6 +38,25 @@ const FooterCtn = styled.footer`
 			align-items: center;
 			gap: 10px;
 			padding-top: 10px;
+		}
+	}
+	@media only screen and (min-width: 676px) and (max-width: 768px) {
+		grid-template-columns: 1fr;
+		justify-content: center;
+		.left {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.contact {
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.right {
+			grid-template-columns: repeat(3, 150px);
+			justify-content: center;
 		}
 	}
 `;

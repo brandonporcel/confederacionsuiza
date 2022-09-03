@@ -79,7 +79,7 @@ const GalleryCtn = styled.div`
 			width: 100%;
 		}
 	}
-	@media only screen and (min-width: 320px) and (max-width: 480px) {
+	@media only screen and (min-width: 320px) and (max-width: 675px) {
 		margin-top: 10px;
 		.galleryImgCtn {
 			min-height: 300px;
@@ -132,12 +132,12 @@ export default function ImgGallery({ galleryImages }) {
 						<path
 							d="M8.21545 1L14.1209 7.30189L8.21545 13.6038"
 							stroke="var(--white)"
-							stroke-width="1.8"
+							strokeWidth="1.8"
 						/>
 						<path
 							d="M0 7.30183H14.1209"
 							stroke="var(--white)"
-							stroke-width="1.8"
+							strokeWidth="1.8"
 						/>
 					</svg>
 				</button>
@@ -152,12 +152,12 @@ export default function ImgGallery({ galleryImages }) {
 						<path
 							d="M8.21545 1L14.1209 7.30189L8.21545 13.6038"
 							stroke="var(--white)"
-							stroke-width="1.8"
+							strokeWidth="1.8"
 						/>
 						<path
 							d="M0 7.30183H14.1209"
 							stroke="var(--white)"
-							stroke-width="1.8"
+							strokeWidth="1.8"
 						/>
 					</svg>
 				</button>

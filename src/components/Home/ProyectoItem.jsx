@@ -68,15 +68,15 @@ const ProyectoItemCtn = styled.article`
 			text-overflow: ellipsis;
 		}
 	}
-	/* Small screens, laptops */
-	@media only screen and (min-width: 769px) and (max-width: 1024px) {
-		min-width: 230px;
-	}
+
 	/* celulares */
-	@media only screen and (min-width: 320px) and (max-width: 480px) {
+	@media only screen and (min-width: 320px) and (max-width: 675px) {
 		&:hover .projectImg img {
 			transform: initial;
 		}
+	}
+	@media only screen and (min-width: 676px) and (max-width: 768px) {
+		min-width: 250px;
 	}
 `;
 export default function ProyectoItem({

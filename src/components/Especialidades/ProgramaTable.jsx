@@ -28,6 +28,24 @@ const Table = styled.div`
 			overflow: hidden;
 		}
 	}
+	@media only screen and (min-width: 320px) and (max-width: 675px) {
+		.thead,
+		ul li {
+			width: 250px;
+		}
+	}
+	@media only screen and (min-width: 676px) and (max-width: 768px) {
+		.thead,
+		ul li {
+			width: 250px;
+		}
+	}
+	@media only screen and (min-width: 769px) and (max-width: 1024px) {
+		.thead,
+		ul li {
+			width: 275px;
+		}
+	}
 `;
 export default function ProgramaTable({ ano, materias, programas }) {
 	return (

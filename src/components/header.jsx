@@ -39,7 +39,7 @@ function Header() {
 				<svg
 					width="24px"
 					height="24px"
-					stroke-width="1.5"
+					strokeWidth="1.5"
 					viewBox="0 0 24 24"
 					fill="none"
 					xmlns="http://www.w3.org/2000/svg"
@@ -48,9 +48,9 @@ function Header() {
 					<path
 						d="M3 5h18M3 12h18M3 19h18"
 						stroke="#000000"
-						stroke-width="1.5"
-						stroke-linecap="round"
-						stroke-linejoin="round"
+						strokeWidth="1.5"
+						strokeLinecap="round"
+						strokeLinejoin="round"
 					></path>
 				</svg>
 			</button>
@@ -77,10 +77,10 @@ function Header() {
 							</Link>
 						</ul>
 					</li>
-					<Link to="/proyectos" className="navLinks" onClick={MobileHeader}>
+					<Link to="/proyectos" className="navLinks" onClick={toTop}>
 						<li className="navList-item">Proyectos</li>
 					</Link>
-					<Link to="/contacto" className="navLinks" onClick={MobileHeader}>
+					<Link to="/contacto" className="navLinks" onClick={toTop}>
 						<li className="navList-item">Contacto</li>
 					</Link>
 				</ul>

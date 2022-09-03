@@ -4,7 +4,7 @@ import Banner from './Banner';
 
 import SocialLogos from './Footer/SocialLogos';
 
-const ContactoInfoCtn = styled.div`
+const ContactoInfoCtn = styled.main`
 	position: relative;
 	background: var(--grey-bg-contact);
 	display: flex;
@@ -13,7 +13,7 @@ const ContactoInfoCtn = styled.div`
 	height: 800px;
 	z-index: 20;
 	.nuestraEscuelaaa {
-		/* box-shadow: var(--shadow); */
+		box-shadow: var(--shadow);
 		border: 1px solid var(--gray-line);
 		background: var(--white);
 		padding: 40px 20px;
@@ -64,25 +64,41 @@ const ContactoInfoCtn = styled.div`
 		}
 	}
 	/* celulares */
-	@media only screen and (min-width: 320px) and (max-width: 480px) {
+	@media only screen and (min-width: 320px) and (max-width: 675px) {
 		height: 750px;
 		.nuestraEscuelaaa {
-			border: 1px solid var(--gray-line);
-			background: var(--white);
-			padding: 40px 20px;
-			position: absolute;
-			top: -75px;
 			width: 100%;
 			border-radius: 15px;
-			height: min-content;
-			text-align: center;
-			box-shadow: var(--shadow);
+
 			iframe {
 				width: 100%;
 			}
 			.contact {
 				.followUsCtn {
 					width: 85%;
+				}
+			}
+		}
+	}
+	@media only screen and (min-width: 676px) and (max-width: 768px) {
+		height: 750px;
+		.nuestraEscuelaaa {
+			width: 600px;
+			border-radius: 15px;
+			.contact {
+				.followUsCtn {
+					width: 70%;
+				}
+			}
+		}
+	}
+	@media only screen and (min-width: 769px) and (max-width: 1024px) {
+		height: 750px;
+		.nuestraEscuelaaa {
+			width: 700px;
+			.contact {
+				.followUsCtn {
+					width: 60%;
 				}
 			}
 		}
