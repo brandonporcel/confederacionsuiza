@@ -18,6 +18,7 @@ export default function Novedades() {
 				height="480"
 				allow="autoplay"
 				title="FORMULARIO DE BECA ALIMENTARIA 2022"
+				loading="lazy"
 			></iframe>
 		</NovedadesCtn>
 	);

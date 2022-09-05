@@ -4,31 +4,31 @@ import SubTitleAndDescription from '../SubTitleAndDescription';
 const error404GalleryImg = [
 	{
 		id: 0,
-		title: 'error 404',
+		title: 'El robot del proyecto!',
 		active: null,
 		url: './images/proyectos/error1.jpg',
 	},
 	{
 		id: 1,
-		title: 'error 404',
+		title: 'Foto de los chicos en el cole!',
 		active: null,
 		url: './images/proyectos/error2.jpg',
 	},
 	{
 		id: 2,
-		title: 'error 404',
+		title: 'Madera Publicitaria',
 		active: null,
 		url: './images/proyectos/error3.jpg',
 	},
 	{
 		id: 3,
-		title: 'error 404',
+		title: 'Error 404 en un programa de tv',
 		active: null,
 		url: './images/proyectos/error4.jpg',
 	},
 	{
 		id: 4,
-		title: 'error 404',
+		title: 'Video Presentacion Equipo',
 		active: null,
 		type: 'video',
 		url: './videos/coparobotica2.mp4',
@@ -39,7 +39,7 @@ export default function CopaRobotica() {
 	return (
 		<ProjectContainer
 			title="La escuela represento a CABA en la copa robotica nacional"
-			mainImg="https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/07/22152958/Edited-La-Escuela-T%C3%A9cnica-N.%C2%B026-%E2%80%9CConfederaci%C3%B3n-Suiza%E2%80%9D-ganadores-copa-rob%C3%B3tica-8.jpg"
+			mainImg="./images/proyectos/coparobotica2019.jpg"
 			when="2019"
 			specialty="c"
 		>
@@ -84,9 +84,11 @@ export default function CopaRobotica() {
 				</p>
 
 				<img
-					src="https://www.revistaelabasto.com.ar/wp-content/uploads/2019/06/cr3.jpg"
-					alt=""
+					src="./images/proyectos/flechacampeoncaba.jpg"
+					alt="Error 404 Confederacion Suiza campeón"
 					className="centerEmbedCode"
+					width="100%"
+					height="auto"
 				/>
 
 				<br />
@@ -111,8 +113,10 @@ export default function CopaRobotica() {
 				</p>
 				<br />
 				<img
-					src="https://www.telam.com.ar/thumbs/bluesteel/advf/imagenes/2019/06/5d0509c473d45_900.jpg"
-					alt=""
+					src="./images/proyectos/coparoboticacancha.jpg"
+					alt="Copa robotica 2019 cancha"
+					width="100%"
+					height="auto"
 				/>
 			</SubTitleAndDescription>
 

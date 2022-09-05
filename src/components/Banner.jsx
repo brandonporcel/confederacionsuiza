@@ -12,7 +12,7 @@ const BannerCtn = styled.div`
 export default function Banner({ img, height }) {
 	return (
 		<BannerCtn style={{ height: `${height ? height : '300px'} ` }}>
-			<img src={img} alt="banner" />
+			<img src={img} alt="banner escuela tecnica confederacion suiza" />
 		</BannerCtn>
 	);
 }

@@ -20,7 +20,7 @@ const galleryImages = [
 		id: 2,
 		title: 'logo del proyecto',
 		active: null,
-		url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw18oSQGMaearEoWRZnzjxGnaSr-IFs06vbWE3T3LxFjXFy9zOCjeY9q_uTHGv_PTz50I&usqp=CAU',
+		url: './images/proyectos/flechalogo.jpg',
 	},
 	{
 		id: 3,

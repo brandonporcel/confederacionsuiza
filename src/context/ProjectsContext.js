@@ -13,8 +13,7 @@ let allProjects = [
 		link: '/coparobotica',
 		description:
 			'La Copa Robótica 2019 fue la etapa de clasificación local organizada por el Ministerio de Educación e Innovación y Educabot para elegir al equipo que participe en el mundial de First Global Challenge.',
-		thumbnail:
-			'https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/07/22152958/Edited-La-Escuela-T%C3%A9cnica-N.%C2%B026-%E2%80%9CConfederaci%C3%B3n-Suiza%E2%80%9D-ganadores-copa-rob%C3%B3tica-8.jpg',
+		thumbnail: './images/proyectos/coparobotica2019.jpg',
 		year: '2019',
 	},
 	{

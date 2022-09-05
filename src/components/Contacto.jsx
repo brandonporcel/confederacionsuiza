@@ -152,7 +152,8 @@ export default function Contacto() {
 						scrolling="no"
 						marginHeight="0"
 						marginWidth="0"
-						title="asd"
+						title="mapa Escuela Tecnica confederacion suiza"
+						loading="lazy"
 					/>
 					<div className="infoLink">
 						<span>Consultas generales:</span>

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 const EspecialidadItemCtn = styled.div`
@@ -19,6 +18,9 @@ const EspecialidadItemCtn = styled.div`
 		background-position: center;
 		background-size: cover;
 		border-radius: 10px;
+	}
+	a.visible {
+		background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Lionel_Messi_20180626.jpg/245px-Lionel_Messi_20180626.jpg');
 	}
 	.content {
 		color: var(--white);
@@ -56,6 +58,7 @@ export default function EspecialidadItem({
 		<EspecialidadItemCtn>
 			<Link
 				to={`/${specialty}`}
+				className={'lazy-background'}
 				style={{ backgroundImage: `url(${thumbnail}) ` }}
 			>
 				<div className="content">

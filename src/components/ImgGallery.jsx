@@ -26,6 +26,12 @@ const GalleryCtn = styled.div`
 			object-fit: contain;
 			display: none;
 		}
+		video {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			object-fit: contain;
+		}
 		img.active {
 			display: initial;
 		}

@@ -14,7 +14,7 @@ import { ProjectsProvider } from './context/ProjectsContext';
 // -----_____***}}´{{{{{{{{}}}}}}}}
 // ´PROYECTOSSSS
 import FlechaCosmica from './components/Proyectos/FlechaCosmica';
-import EcoAuto2019 from './components/Proyectos/EcoAuto2019';
+import DesafioEco from './components/Proyectos/DesafioEco';
 import Huerta from './components/Proyectos/Huerta';
 import MicroMinecraft from './components/Proyectos/MicroMinecraft';
 import RevistaSuiza2008 from './components/Proyectos/RevistaSuiza2008';
@@ -42,7 +42,7 @@ function App() {
 					{/* PROYECTOS */}
 					<Route path="/flechacosmica" element={<FlechaCosmica />} />
 					<Route path="/coparobotica" element={<CopaRobotica />} />
-					<Route path="/ecoauto2019" element={<EcoAuto2019 />} />
+					<Route path="/desafioeco" element={<DesafioEco />} />
 					<Route path="/huerta" element={<Huerta />} />
 					<Route path="/minecraftmicro" element={<MicroMinecraft />} />
 					<Route path="/revistasuiza2008" element={<RevistaSuiza2008 />} />

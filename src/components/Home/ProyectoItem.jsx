@@ -91,7 +91,7 @@ export default function ProyectoItem({
 		<ProyectoItemCtn>
 			<Link to={`${link}`}>
 				<div className="projectImg">
-					<img src={thumbnail} alt={title} />
+					<img src={thumbnail} alt={title} loading="lazy"/>
 				</div>
 				<div className="projectBody">
 					<h5>{title}</h5>

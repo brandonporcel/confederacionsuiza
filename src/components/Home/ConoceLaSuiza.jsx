@@ -77,10 +77,11 @@ export default function ConoceLaSuiza() {
 				width="560"
 				height="315"
 				src="https://www.youtube.com/embed/hPB4I61D6b0"
-				title="YouTube video player"
+				title="Escuela Técnica Confederación Suiza Video Presentacion"
 				frameBorder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 				allowFullScreen
+				loading="lazy"
 			></iframe>
 			<div>
 				<Link to="/contacto">

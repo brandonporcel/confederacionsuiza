@@ -60,6 +60,7 @@ export default function TitleDescriptionVideo({
 				frameBorder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 				allowFullScreen
+				loading="lazy"
 			></iframe>
 		</DescripcionCtn>
 	);

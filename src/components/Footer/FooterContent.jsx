@@ -68,6 +68,10 @@ const FooterContentCtn = styled.div`
 				align-items: center;
 				justify-content: center;
 				margin-right: 5px;
+				img {
+					width: 100%;
+					height: auto;
+				}
 			}
 			.title-footer {
 				font-weight: 600;
