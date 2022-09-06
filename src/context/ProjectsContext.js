@@ -17,11 +17,11 @@ let allProjects = [
 		year: '2019',
 	},
 	{
-		title: 'Desafio Eco',
+		title: 'Desafio Eco Edición 2013',
 		link: '/desafioeco',
-		description: 'Autos electricos god.',
-		thumbnail: './images/proyectos/desafioeco.jpg',
-		year: '2019',
+		description: 'El desafío ECO es una competencia en el que los alumnos de escuelas técnicas de todo el país.',
+		thumbnail: './images/proyectos/eco_auto.jpg',
+		year: '2013',
 	},
 	{
 		title: 'Huerta',

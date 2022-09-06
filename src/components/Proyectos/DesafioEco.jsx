@@ -6,9 +6,9 @@ import SubTitleAndDescription from '../SubTitleAndDescription';
 export default function DesafioEco() {
 	return (
 		<ProjectContainer
-			title="Desafio Eco"
+			title="Desafio Eco Edición 2013"
 			mainImg="./images/proyectos/eco_auto.jpg"
-			when="2022"
+			when="2013"
 			specialty="a"
 		>
 		<SubTitleAndDescription
