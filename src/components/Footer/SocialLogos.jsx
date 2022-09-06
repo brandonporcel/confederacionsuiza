@@ -25,6 +25,7 @@ export default function SocialLogos({ color, specialClass }) {
 				href="https://www.facebook.com/tecnica26/"
 				target={'_blank'}
 				rel="noreferrer"
+				aria-label="Facebook Escuela Tecnica confederacion suiza"
 			>
 				<Facebook color={color} />
 			</a>
@@ -32,6 +33,7 @@ export default function SocialLogos({ color, specialClass }) {
 				href="https://instagram.com/lasuizacompu"
 				target={'_blank'}
 				rel="noreferrer"
+				aria-label="Instagram Escuela Tecnica confederacion suiza"
 			>
 				<Instagram color={color} />
 			</a>
@@ -39,6 +41,7 @@ export default function SocialLogos({ color, specialClass }) {
 				href="https://www.youtube.com/channel/UCTKTGa96qO3ESC1t2JqzfzQ"
 				target={'_blank'}
 				rel="noreferrer"
+				aria-label="Youtube Escuela Tecnica confederacion suiza"
 			>
 				<Youtube color={color} />
 			</a>
@@ -46,6 +49,7 @@ export default function SocialLogos({ color, specialClass }) {
 				href="https://www.linkedin.com/school/et26suiza/"
 				target={'_blank'}
 				rel="noreferrer"
+				aria-label="Linkedin Escuela Tecnica confederacion suiza"
 			>
 				<Linkedin color={color} />
 			</a>

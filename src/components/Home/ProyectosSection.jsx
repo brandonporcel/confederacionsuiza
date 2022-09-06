@@ -19,6 +19,7 @@ const ProyectosCtn = styled.section`
 		display: inline-block;
 		color: var(--blue);
 		text-decoration: underline;
+		font-size: 17px;
 	}
 `;
 export default function ProyectosSection() {
@@ -26,9 +27,9 @@ export default function ProyectosSection() {
 
 	return (
 		<ProyectosCtn id="proyectos" className="section tooLarge">
-			<h2 className="sectionTitle">
+			<h3 className="sectionTitle">
 				Proyectos de <span>los/as estudiantes</span>
-			</h2>
+			</h3>
 			<div className="flexBetween overflowAuto gap20 proyectos-ctn">
 				{firstThree.map((el, i) => (
 					<ProyectoItem

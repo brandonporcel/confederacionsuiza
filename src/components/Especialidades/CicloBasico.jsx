@@ -52,7 +52,7 @@ export default function CicloBasico() {
 	return (
 		<div className="specialtyCtn">
 			{/* <Banner img="https://www.buenosaires.gob.ar/sites/gcaba/files/styles/interna_pagina/public/beron_de_astrada_6351_3_0.jpg?itok=mybR1fXT" /> */}
-			<Banner img="./images/cbasico.jpg" />
+			<Banner img="./images/cbasico.webp" />
 			<EspecialidadDescripcion
 				especialidad="ciclo básico"
 				video="https://www.youtube.com/embed/kpArfnc-tTQ"

@@ -98,7 +98,7 @@ const ProyectoContainer = styled.main`
 		.subtitleClassProject {
 			p,
 			ul li {
-				font-size: 16px;
+				font-size: var(--mobile-font-size);
 				font-weight: 400;
 			}
 		}

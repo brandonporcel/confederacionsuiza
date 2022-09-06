@@ -9,7 +9,7 @@ const FooterCtn = styled.footer`
 		margin-top: 40px;
 		padding-top: 5px;
 		small {
-			color: #c5d9ed;
+			color: #dde8ff;
 		}
 	}
 	/* celulares */

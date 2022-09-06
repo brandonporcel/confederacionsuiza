@@ -34,7 +34,6 @@ const ButtonStyle = styled.button`
 	@media only screen and (min-width: 320px) and (max-width: 675px) {
 		padding: 12px 1em;
 		font-size: 17px;
-		/* font-weight: 500; */
 	}
 
 	@media only screen and (min-width: 676px) and (max-width: 768px) {

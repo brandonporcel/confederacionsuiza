@@ -11,7 +11,7 @@ const NovedadesCtn = styled.section`
 export default function Novedades() {
 	return (
 		<NovedadesCtn className="section">
-			<h2 className="sectionTitle">FORMULARIO DE BECA ALIMENTARIA 2022</h2>
+			<h3 className="sectionTitle">FORMULARIO DE BECA ALIMENTARIA 2022</h3>
 			<iframe
 				src="https://drive.google.com/file/d/1yQm1j_j0H0hCrUmjbsuFqWMvMIQWxYZd/preview"
 				width="640"

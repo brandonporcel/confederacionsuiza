@@ -30,7 +30,7 @@ const Containter = styled.div`
 		z-index: 10;
 		padding: 75px 0 100px;
 		color: var(--white);
-		h1 {
+		h2 {
 			max-width: 700px;
 			font-size: 62px;
 			margin-bottom: 20px;
@@ -50,12 +50,12 @@ const Containter = styled.div`
 			.content {
 				padding: 0;
 				padding-bottom: 70px;
-				h1 {
+				h2 {
 					font-size: 36px;
 				}
 				.content-cta {
 					p {
-						font-size: 16px;
+						font-size: var(--mobile-font-size);
 					}
 				}
 			}
@@ -103,8 +103,8 @@ const Containter = styled.div`
 	}
 `;
 const Imagesss = [
-	'./images/hero/hero.jpg',
-	'./images/hero/hero2.jpg',
+	'./images/hero/hero.webp',
+	'./images/hero/hero2.webp',
 	'./images/hero/hero3.jpg',
 ];
 export default function Hero() {
@@ -128,7 +128,7 @@ export default function Hero() {
 			style={{ backgroundImage: `url(${selectedImage})` }}
 		>
 			<div className="content">
-				<h1>Escuela Técnica Confederación Suiza</h1>
+				<h2>Escuela Técnica Confederación Suiza</h2>
 				<div className="content-cta">
 					<p>
 						Bienvenido al sitio oficial de nuestra escuela. Acá encontraras toda

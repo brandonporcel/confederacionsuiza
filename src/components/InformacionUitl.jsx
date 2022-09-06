@@ -108,7 +108,7 @@ const InfUtilCtn = styled.div`
 					font-size: 18px;
 				}
 				.answer p {
-					font-size: 16px;
+					font-size: var(--mobile-font-size);
 				}
 			}
 		}

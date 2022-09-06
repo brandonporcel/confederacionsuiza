@@ -75,6 +75,7 @@ const FooterContentCtn = styled.div`
 			}
 			.title-footer {
 				font-weight: 600;
+				font-size: 19px;
 				span {
 					display: block;
 					font-weight: 500;
@@ -143,14 +144,15 @@ export default function FooterContent() {
 				<div className="logo-text">
 					<div className="logo-footer-ctn">
 						<img
-							// src="./images/logoblanco.webp"
 							src={whitelogo}
 							alt="Logo ET26 Confederacion Suiza Blanco"
+							width="100px"
+							height="100px"
 						/>
 					</div>
-					<h3 className="title-footer">
+					<h5 className="title-footer">
 						<span>Escuela Técnica</span> Confederacion Suiza
-					</h3>
+					</h5>
 				</div>
 				<FooterConactotSocial />
 			</div>

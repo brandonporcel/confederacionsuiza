@@ -83,6 +83,26 @@ const automotoresAlcances = [
 	'Planificar los servicios de mantenimiento de flotas de automotores.',
 	'Realizar peritajes de las condiciones y/o investigaciones de funcionamiento en caso de siniestros de automotores.',
 ];
+const automotoresGalleryImg = [
+	{
+		id: 0,
+		title: 'los chicos trabajando!',
+
+		url: 'https://i.ytimg.com/vi/9JYdBklhINE/maxresdefault.jpg',
+	},
+	{
+		id: 1,
+		title: 'desafio eco automotores',
+
+		url: 'https://1.bp.blogspot.com/-dIWLFeqy5u0/XWEupaExweI/AAAAAAAAFJg/hGdYCAUNY-cL6J5f6sdt-auTIbHf6vvfgCLcBGAs/s1600/esc26_aut.jpg',
+	},
+	{
+		id: 2,
+		title: 'auto fabricado en el colegio',
+
+		url: './images/automotores1.webp',
+	},
+];
 const Alcance = styled.ul`
 	list-style: initial;
 	margin-left: 20px;
@@ -91,26 +111,22 @@ const Alcance = styled.ul`
 		color: var(--gray-third);
 	}
 `;
-const automotoresGalleryImg = [
-	{
-		id: 0,
-		title: 'automotores',
-		active: null,
-		url: 'https://i.ytimg.com/vi/9JYdBklhINE/maxresdefault.jpg',
-	},
-	{
-		id: 1,
-		title: 'automotores',
-		active: null,
-		url: 'https://1.bp.blogspot.com/-dIWLFeqy5u0/XWEupaExweI/AAAAAAAAFJg/hGdYCAUNY-cL6J5f6sdt-auTIbHf6vvfgCLcBGAs/s1600/esc26_aut.jpg',
-	},
-	{
-		id: 2,
-		title: 'automotores',
-		active: null,
-		url: './images/automotores1.jpg',
-	},
-];
+const GalleryAutomotoresContainer = styled.div`
+	width: 60%;
+	margin: 0 auto;
+	padding: 20px;
+	@media only screen and (min-width: 320px) and (max-width: 675px) {
+		width: 100%;
+	}
+	@media only screen and (min-width: 676px) and (max-width: 768px) {
+		width: 80%;
+	}
+
+	@media only screen and (min-width: 769px) and (max-width: 1024px) {
+		width: 70%;
+	}
+`;
+
 export default function Automotores() {
 	return (
 		<div className="specialtyCtn">
@@ -165,7 +181,9 @@ export default function Automotores() {
 			<SubTitleAndDescription title="Programas Curriculares">
 				<ProgramasTablas materias={automotoresMaterias}></ProgramasTablas>
 			</SubTitleAndDescription>
-			<ImgGallery galleryImages={automotoresGalleryImg}></ImgGallery>
+			<GalleryAutomotoresContainer>
+				<ImgGallery galleryImages={automotoresGalleryImg}></ImgGallery>
+			</GalleryAutomotoresContainer>
 		</div>
 	);
 }

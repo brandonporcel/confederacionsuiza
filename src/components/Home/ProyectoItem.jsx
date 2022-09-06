@@ -47,7 +47,7 @@ const ProyectoItemCtn = styled.article`
 		color: var(--gray-secondary);
 		max-height: 115px;
 		overflow: hidden;
-		h5 {
+		h4 {
 			font-size: 16px;
 			color: var(--gray);
 			text-transform: capitalize;
@@ -91,10 +91,10 @@ export default function ProyectoItem({
 		<ProyectoItemCtn>
 			<Link to={`${link}`}>
 				<div className="projectImg">
-					<img src={thumbnail} alt={title} loading="lazy"/>
+					<img src={thumbnail} alt={title} loading="lazy" />
 				</div>
 				<div className="projectBody">
-					<h5>{title}</h5>
+					<h4>{title}</h4>
 					<small>{year}</small>
 					<p>{description}</p>
 				</div>

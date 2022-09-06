@@ -33,7 +33,7 @@ const ProyectosCtn = styled.div`
 		}
 		.description-text p {
 			width: 100%;
-			font-size: 16px;
+			font-size: var(--mobile-font-size);
 		}
 	}
 	@media only screen and (min-width: 676px) and (max-width: 768px) {

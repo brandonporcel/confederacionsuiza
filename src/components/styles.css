@@ -24,11 +24,12 @@
 .navList .navList-ctn .navList-item {
 	position: relative;
 	cursor: pointer;
-	padding: 15px 15px;
 	color: var(--gray);
 	font-weight: 500;
 }
-
+.navList .navList-ctn .navList-item a {
+	padding: 15px 15px;
+}
 .navList .navList-ctn .navList-item:hover {
 	color: var(--gray-third);
 }
@@ -40,7 +41,7 @@
 .navList .navList-ctn .navList-item .navList-submenu {
 	position: absolute;
 	width: 175px;
-	top: 50px;
+	top: 30px;
 	left: -1px;
 	padding: 4px 10px;
 	display: flex;
@@ -53,11 +54,13 @@
 .navList .navList-ctn .navList-item .navList-submenu .navList-subItem {
 	color: var(--gray);
 	width: 100%;
-	padding: 10px 10px;
 	text-align: left;
 	font-weight: 500;
 }
-
+.navList .navList-ctn .navList-item .navList-submenu .navList-subItem a {
+	padding: 10px 10px;
+	display: block;
+}
 .navList .navList-ctn .navList-item .navList-submenu .navList-subItem:hover {
 	color: var(--gray-third);
 }
@@ -85,10 +88,12 @@
 	width: 100%;
 	height: auto;
 }
-.navLogo .navLogo-h3-ctn {
+.navLogo .navLogo-h1-ctn {
 	width: 60%;
-	font-size: 14px;
 	padding: 0px 10px 0px 10px;
+}
+.navLogo .navLogo-h1-ctn h1 {
+	font-size: 17px;
 }
 .none {
 	display: none;

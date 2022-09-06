@@ -121,7 +121,6 @@ export default function ImgGallery({ galleryImages }) {
 				) : (
 					<img
 						src={galleryImages[galleryImage].url}
-						title={galleryImages[galleryImage].title}
 						alt={galleryImages[galleryImage].title}
 						className={'galleryImg active'}
 					/>

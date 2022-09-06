@@ -24,6 +24,7 @@ export default function MicroMinecraft() {
 				</p>
 
 				<blockquote
+					loading="lazy"
 					className="instagram-media centerEmbedCode"
 					data-instgrm-permalink="https://www.instagram.com/p/CPb0HQRBn-U/?utm_source=ig_embed&amp;utm_campaign=loading"
 					data-instgrm-version="14"

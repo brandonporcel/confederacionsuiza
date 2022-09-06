@@ -36,7 +36,7 @@ const ConoceLaSuizaCtn = styled.section`
 			margin-bottom: 20px;
 		}
 		p {
-			font-size: 16px;
+			font-size: var(--mobile-font-size);
 			width: 90%;
 			margin-bottom: 30px;
 		}

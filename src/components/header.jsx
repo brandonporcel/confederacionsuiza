@@ -29,8 +29,8 @@ function Header() {
 							height="100px"
 						/>
 					</div>
-					<div className="navLogo-h3-ctn">
-						<h3>Confederación Suiza</h3>
+					<div className="navLogo-h1-ctn">
+						<h1>Confederación Suiza</h1>
 					</div>
 				</Link>
 			</div>
@@ -57,32 +57,38 @@ function Header() {
 
 			<nav className={` ${openMenu === true ? 'navList active' : 'navList'}`}>
 				<ul className="navList-ctn">
-					<Link className="navLinks" to="/institucional">
-						<li className="navList-item">Institucional</li>
-					</Link>
+					<li className="navList-item" onClick={toTop}>
+						<Link className="navLinks" to="/institucional">
+							Institucional
+						</Link>
+					</li>
 					<li className="navList-item navLinks">
 						<a href="#especialidades">Especialidades</a>
 
 						<ul className="navList-submenu" ref={listMobile}>
-							<Link to="ciclobasico">
-								<li className="navList-subItem">Ciclo Básico</li>
-							</Link>
+							<li className="navList-subItem">
+								<Link to="ciclobasico">Ciclo Básico</Link>
+							</li>
 							<hr />
-							<Link to="automotores">
-								<li className="navList-subItem">Automotores</li>
-							</Link>
+							<li className="navList-subItem">
+								<Link to="automotores">Automotores</Link>
+							</li>
 							<hr />
-							<Link to="computacion">
-								<li className="navList-subItem">Computación</li>
-							</Link>
+							<li className="navList-subItem">
+								<Link to="computacion">Computación</Link>
+							</li>
 						</ul>
 					</li>
-					<Link to="/proyectos" className="navLinks" onClick={toTop}>
-						<li className="navList-item">Proyectos</li>
-					</Link>
-					<Link to="/contacto" className="navLinks" onClick={toTop}>
-						<li className="navList-item">Contacto</li>
-					</Link>
+					<li className="navList-item" onClick={toTop}>
+						<Link to="/proyectos" className="navLinks">
+							Proyectos
+						</Link>
+					</li>
+					<li className="navList-item" onClick={toTop}>
+						<Link to="/contacto" className="navLinks">
+							Contacto
+						</Link>
+					</li>
 				</ul>
 			</nav>
 		</header>

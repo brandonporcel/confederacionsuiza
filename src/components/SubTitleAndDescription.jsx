@@ -9,6 +9,7 @@ const ProgramasCtn = styled.div`
 		color: var(--titles-color);
 		text-transform: capitalize;
 	}
+
 	@media only screen and (min-width: 320px) and (max-width: 675px) {
 		width: 100%;
 		/* iframe {

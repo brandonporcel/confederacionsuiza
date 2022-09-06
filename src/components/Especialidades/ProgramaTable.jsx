@@ -31,7 +31,7 @@ const Table = styled.div`
 	@media only screen and (min-width: 320px) and (max-width: 675px) {
 		.thead,
 		ul li {
-			width: 250px;
+			width: 275px;
 		}
 	}
 	@media only screen and (min-width: 676px) and (max-width: 768px) {

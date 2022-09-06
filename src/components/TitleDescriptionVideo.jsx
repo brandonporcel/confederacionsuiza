@@ -27,7 +27,7 @@ const DescripcionCtn = styled.div`
 			font-size: 28px;
 		}
 		p {
-			font-size: 16px;
+			font-size: var(--mobile-font-size);
 		}
 	}
 	@media only screen and (min-width: 676px) and (max-width: 768px) {
