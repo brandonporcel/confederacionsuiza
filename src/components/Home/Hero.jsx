@@ -103,9 +103,9 @@ const Containter = styled.div`
 	}
 `;
 const Imagesss = [
-	'./images/hero/hero.webp',
-	'./images/hero/hero2.webp',
-	'./images/hero/hero3.webp',
+	'./images/hero/foto-frontal-escuela.jpg',
+	'./images/hero/foto-diagonal-escuela.jpg',
+
 ];
 export default function Hero() {
 	const [selectedIndex, setSelectedIndex] = useState(0);
