@@ -39,7 +39,7 @@ export default function CopaRobotica() {
 	return (
 		<ProjectContainer
 			title="La escuela represento a CABA en la copa robotica nacional"
-			mainImg="./images/proyectos/coparobotica2019.jpg"
+			mainImg="./images/proyectos/coparobotica2019.webp"
 			when="2019"
 			specialty="c"
 		>

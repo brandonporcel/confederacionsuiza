@@ -3,6 +3,118 @@ import './styles.css';
 import { logo } from '../svg/svgAsImage';
 import { useRef, useState } from 'react';
 import MobileHeaderr from './MobileHeader';
+// import styled from 'styled-components';
+// const HeaderWrapper = styled.header`
+// 	display: flex;
+// 	position: sticky;
+// 	justify-content: space-between;
+// 	top: 0;
+// 	z-index: 50;
+// 	padding: 15px 100px;
+// 	width: 100%;
+// 	background-color: var(--white);
+// 	min-height: 60px;
+// 	max-height: min-content;
+// 	color: var(--gray);
+// 	box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
+// 	align-items: center;
+// 	.navList-ctn {
+// 		display: flex;
+// 		justify-content: space-around;
+// 		align-items: center;
+// 		.navList-item {
+// 			position: relative;
+// 			cursor: pointer;
+// 			color: var(--gray);
+// 			font-weight: 500;
+
+// 			a {
+// 				padding: 15px 15px;
+// 			}
+// 			&:hover {
+// 				color: var(--gray-third);
+// 			}
+// 			&:hover ul {
+// 				visibility: visible;
+// 			}
+// 			.navList-submenu {
+// 				position: absolute;
+// 				width: 175px;
+// 				top: 30px;
+// 				left: -1px;
+// 				padding: 4px 10px;
+// 				display: flex;
+// 				flex-direction: column;
+// 				visibility: hidden;
+// 				background-color: var(--white);
+// 				border-radius: 10px;
+// 				.navList-subItem {
+// 					color: var(--gray);
+// 					width: 100%;
+// 					text-align: left;
+// 					font-weight: 500;
+// 					a {
+// 						padding: 10px 10px;
+// 						display: block;
+// 					}
+// 					&:hover {
+// 						color: var(--gray-third);
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+// 	.navLogo {
+// 		display: flex;
+// 		.navLogo-ctn {
+// 			display: flex;
+// 			align-items: center;
+// 		}
+// 		.navLogo-img-ctn {
+// 			width: 62px;
+// 			height: auto;
+// 			display: flex;
+// 			img {
+// 				width: 100%;
+// 				height: auto;
+// 			}
+// 		}
+// 		.navLogo-h1-ctn {
+// 			width: 60%;
+// 			padding: 0px 10px 0px 10px;
+// 			h1 {
+// 				font-size: 17px;
+// 			}
+// 		}
+// 	}
+// 	.headerMenu {
+// 		display: none;
+// 	}
+// 	@media only screen and (min-width: 320px) and (max-width: 675px) {
+// 		padding: 15px;
+
+// 		.navList {
+// 			display: none;
+// 		}
+// 		.headerMenu {
+// 			display: block;
+// 		}
+// 	}
+// 	@media only screen and (min-width: 676px) and (max-width: 768px) {
+// 		padding: 15px;
+
+// 		.navList {
+// 			display: none;
+// 		}
+// 		.headerMenu {
+// 			display: block;
+// 		}
+// 	}
+// 	/* Small screens, laptops */
+// 	@media only screen and (min-width: 769px) and (max-width: 1024px) {
+// 		padding: 15px 50px;
+// 	}
+// `;
 function Header() {
 	const toTop = () => {
 		window.scrollTo(0, 0);

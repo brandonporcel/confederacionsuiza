@@ -5,7 +5,7 @@ let allProjects = [
 		link: '/flechacosmica',
 		description:
 			'Alumnos de 13 a 15 años de la escuela se quedaron con el primer puesto del torneo Nacional First Lego League (FLL) 2018 y lograron la clasificacion al torneo mundial de Robotica que se llevo a cabo en Houston, Estados Unidos del 17 al 20 de abril de 2019.',
-		thumbnail: './images/proyectos/flechacampeon.jpg',
+		thumbnail: './images/proyectos/flechacampeon.webp',
 		year: '2018',
 	},
 	{
@@ -13,14 +13,15 @@ let allProjects = [
 		link: '/coparobotica',
 		description:
 			'La Copa Robótica 2019 fue la etapa de clasificación local organizada por el Ministerio de Educación e Innovación y Educabot para elegir al equipo que participe en el mundial de First Global Challenge.',
-		thumbnail: './images/proyectos/coparobotica2019.jpg',
+		thumbnail: './images/proyectos/coparobotica2019.webp',
 		year: '2019',
 	},
 	{
 		title: 'Desafio Eco Edición 2013',
 		link: '/desafioeco',
-		description: 'El desafío ECO es una competencia en el que los alumnos de escuelas técnicas de todo el país.',
-		thumbnail: './images/proyectos/eco_auto.jpg',
+		description:
+			'El desafío ECO es una competencia en el que los alumnos de escuelas técnicas de todo el país.',
+		thumbnail: './images/proyectos/eco_auto.webp',
 		year: '2013',
 	},
 	{

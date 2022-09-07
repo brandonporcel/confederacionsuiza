@@ -112,7 +112,9 @@ br {
 	outline: inherit;
 }
 /*  */
-
+.none {
+	display: none;
+}
 /* computadoras pantralla grande, tv */
 @media screen and (min-width: 1201px) {
 	.section.tooLarge {

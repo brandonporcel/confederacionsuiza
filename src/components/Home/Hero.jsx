@@ -105,7 +105,7 @@ const Containter = styled.div`
 const Imagesss = [
 	'./images/hero/hero.webp',
 	'./images/hero/hero2.webp',
-	'./images/hero/hero3.jpg',
+	'./images/hero/hero3.webp',
 ];
 export default function Hero() {
 	const [selectedIndex, setSelectedIndex] = useState(0);

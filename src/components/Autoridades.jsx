@@ -6,32 +6,24 @@ const autoridades = [
 		cargo: 'rector',
 	},
 	{
-		nombre: 'alicia sanchez',
+		nombre: 'maria de los angeles galeazzi',
 		cargo: 'vice-rectora',
 	},
 	{
-		nombre: 'maria galeazzi',
-		cargo: 'regente tm',
+		nombre: 'sandro armesto',
+		cargo: 'regente TM',
 	},
 	{
 		nombre: 'pablo los arcos',
-		cargo: 'regente tt',
+		cargo: 'regente TT',
 	},
 	{
-		nombre: 'maria cassinelli',
-		cargo: 'regente tn',
+		nombre: 'liliana arena nuñez',
+		cargo: 'regente TN',
 	},
 	{
 		nombre: 'enrique leiva',
-		cargo: 'subgerente',
-	},
-	{
-		nombre: 'pablo fiscella',
-		cargo: 'Jefe Gral. Practicas',
-	},
-	{
-		nombre: 'Javier Rodriguez',
-		cargo: 'secretaria',
+		cargo: 'Jefe gral. de Enseñanza Práctica',
 	},
 ];
 const AutoridadesCtn = styled.div`

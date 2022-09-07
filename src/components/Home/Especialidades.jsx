@@ -15,7 +15,7 @@ const especialidades = [
 			'El servicio de mantenimiento y reparación del automóvil se ha visto conmocionado en los últimos años, por un desarrollo tecnológico sin precedentes en los sistemas del automóvil, impulsado principalmente por la difusión de la electrónica',
 	},
 	{
-		thumbnail: './images/computacionthumbnail.jpg',
+		thumbnail: './images/computacionthumbnail.webp',
 		title: 'Computación',
 		specialty: 'computacion',
 		description:

@@ -1,5 +1,7 @@
 import React from 'react';
+import { useContext } from 'react';
 import styled from 'styled-components';
+import ContactContext from '../context/ContactContext';
 import Banner from './Banner';
 
 import SocialLogos from './Footer/SocialLogos';
@@ -130,6 +132,8 @@ const TitleAndBanner = styled.div`
 	}
 `;
 export default function Contacto() {
+	const { contactData } = useContext(ContactContext);
+	const { number, mainMail, regencia } = contactData;
 	return (
 		<>
 			<TitleAndBanner>
@@ -156,15 +160,17 @@ export default function Contacto() {
 						loading="lazy"
 					/>
 					<div className="infoLink">
-						<span>Consultas generales:</span>
-						<a href="sdasd.com"> et26@gmail.com</a>
+						<span>Telefono:</span>
+						<p>{number}</p>
+					</div>
+
+					<div className="infoLink">
+						<span>Mail de la escuela:</span>
+						<a href={`mailto:${mainMail}`}>{mainMail}</a>
 					</div>
 					<div className="infoLink">
-						<span>Consultas Administrativas:</span>
-						<a href="sdasd.com"> regencia@et26.edu.ar</a>
-					</div>
-					<div className="infoLink">
-						<span>Telefono: 11 4931-1947</span>
+						<span>Regencia:</span>
+						<a href={`mailto:${regencia}`}>{regencia}</a>
 					</div>
 					<div className="contact">
 						<h4>Seguinos en las redes</h4>

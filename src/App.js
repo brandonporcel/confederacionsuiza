@@ -11,6 +11,7 @@ import Proyectos from './components/Proyectos';
 import Contacto from './components/Contacto';
 import InformacionUitl from './components/InformacionUitl';
 import { ProjectsProvider } from './context/ProjectsContext';
+import { ContactProvider } from './context/ContactContext';
 // -----_____***}}´{{{{{{{{}}}}}}}}
 // ´PROYECTOSSSS
 import FlechaCosmica from './components/Proyectos/FlechaCosmica';
@@ -26,35 +27,37 @@ import CopaRobotica from './components/Proyectos/CopaRobotica';
 function App() {
 	return (
 		<>
-			<ProjectsProvider>
-				<Header />
-				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route path="/institucional" element={<Institucional />} />
-					<Route path="/ciclobasico" element={<CicloBasico />} />
-					<Route path="/automotores" element={<Automotores />} />
-					<Route path="/computacion" element={<Computacion />} />
-					<Route path="/proyectos" element={<Proyectos />} />
+			<ContactProvider>
+				<ProjectsProvider>
+					<Header />
+					<Routes>
+						<Route path="/" element={<Home />} />
+						<Route path="/institucional" element={<Institucional />} />
+						<Route path="/ciclobasico" element={<CicloBasico />} />
+						<Route path="/automotores" element={<Automotores />} />
+						<Route path="/computacion" element={<Computacion />} />
+						<Route path="/proyectos" element={<Proyectos />} />
 
-					<Route path="/contacto" element={<Contacto />} />
-					<Route path="/informacionutil" element={<InformacionUitl />} />
-					{/* ----*+-*_+_*-++-+-+-+ */}
-					{/* PROYECTOS */}
-					<Route path="/flechacosmica" element={<FlechaCosmica />} />
-					<Route path="/coparobotica" element={<CopaRobotica />} />
-					<Route path="/desafioeco" element={<DesafioEco />} />
-					<Route path="/huerta" element={<Huerta />} />
-					<Route path="/minecraftmicro" element={<MicroMinecraft />} />
-					<Route path="/revistasuiza2008" element={<RevistaSuiza2008 />} />
-					<Route
-						path="/loquenotedicendelamor"
-						element={<LoQueNoTeDicenDelAmor />}
-					/>
-					<Route path="/ffl2018" element={<Fll2018 />} />
-					<Route path="/cansat" element={<Cansat />} />
-				</Routes>
-				<Footer />
-			</ProjectsProvider>
+						<Route path="/contacto" element={<Contacto />} />
+						<Route path="/informacionutil" element={<InformacionUitl />} />
+						{/* ----*+-*_+_*-++-+-+-+ */}
+						{/* PROYECTOS */}
+						<Route path="/flechacosmica" element={<FlechaCosmica />} />
+						<Route path="/coparobotica" element={<CopaRobotica />} />
+						<Route path="/desafioeco" element={<DesafioEco />} />
+						<Route path="/huerta" element={<Huerta />} />
+						<Route path="/minecraftmicro" element={<MicroMinecraft />} />
+						<Route path="/revistasuiza2008" element={<RevistaSuiza2008 />} />
+						<Route
+							path="/loquenotedicendelamor"
+							element={<LoQueNoTeDicenDelAmor />}
+						/>
+						<Route path="/ffl2018" element={<Fll2018 />} />
+						<Route path="/cansat" element={<Cansat />} />
+					</Routes>
+					<Footer />
+				</ProjectsProvider>
+			</ContactProvider>
 		</>
 	);
 }

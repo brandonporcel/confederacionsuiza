@@ -37,6 +37,8 @@ const ProyectoContainer = styled.main`
 			height: 400px;
 			width: 500px;
 			margin: 20px auto 0;
+			display: flex;
+			justify-content: center;
 			img {
 				position: absolute;
 				height: 100%;
