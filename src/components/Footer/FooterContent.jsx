@@ -40,7 +40,7 @@ const masItems = [
 	{
 		key: 10,
 		name: 'Centro Estudiantes',
-		link: 'https://cecs.amogus.ar',
+		link: 'http://cecs.ar',
 	},
 	{
 		key: 11,

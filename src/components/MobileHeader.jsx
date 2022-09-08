@@ -7,10 +7,11 @@ const MobileHeaderCtn = styled.nav`
 	background: white;
 	left: 0;
 	width: 100%;
-	.navList-ctn {
-		/* height: 100%; */
+
+	.navList-ctn-mobile {
 		display: flex;
 		flex-direction: column;
+
 		.navLinks {
 			border-top: 1px solid var(--gray-line);
 		}
@@ -84,6 +85,16 @@ const MobileHeaderCtn = styled.nav`
 			}
 		}
 	}
+	@media only screen and (min-width: 769px) {
+		display: none;
+	}
+	@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+		display: none;
+	}
+
+	@media screen and (min-width: 1201px) {
+		display: none;
+	}
 `;
 export default function MobileHeaderr({ openMenu, setOpenMenu, toTop }) {
 	const [selected, setSelected] = useState(false);
@@ -93,7 +104,7 @@ export default function MobileHeaderr({ openMenu, setOpenMenu, toTop }) {
 		<MobileHeaderCtn
 			className={`${openMenu === true ? 'navListMobile open' : 'none'}`}
 		>
-			<ul className="navList-ctn">
+			<ul className="navList-ctn-mobile">
 				<Link
 					className="navLinks"
 					to="/institucional"

@@ -138,6 +138,7 @@ export default function Contacto() {
 		<>
 			<TitleAndBanner>
 				<Banner img="./images/escuela.webp" height={'375px'} />
+
 				<h2>Contacto</h2>
 			</TitleAndBanner>
 			<ContactoInfoCtn className="section">

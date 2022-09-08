@@ -49,14 +49,7 @@ let allProjects = [
 			'https://1.bp.blogspot.com/_yX4lBoSwV0c/STgle7hfH7I/AAAAAAAAAIs/I4wa_FD3eQ8/s320/logo+E26.bmp',
 		year: '2008',
 	},
-	{
-		title: 'Lo que no te dicen del amor ',
-		link: '/loquenotedicendelamor',
-		description: 'Para la feria de ciencias...',
-		thumbnail:
-			'https://scontent.feze10-1.fna.fbcdn.net/v/t1.6435-9/67251868_2250149821770164_4120072190437621760_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=a26aad&_nc_ohc=57u-a-JN5NIAX8jUP5K&_nc_ht=scontent.feze10-1.fna&oh=00_AT825WPOJ9_ePrvJsjzPVmOAyn-wJDp_aGTO9oP2wIAgbQ&oe=63109B94',
-		year: '2018',
-	},
+
 	{
 		title: 'FFL 2019 - Convergencia 26',
 		link: '/ffl2019',

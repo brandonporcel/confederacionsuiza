@@ -21,13 +21,13 @@ const galleryImages = [
 		id: 2,
 		title: 'confederacion suiza imagen institucional',
 		active: null,
-		url: 'https://elegircolegio.com/images/made/images/remote/https_calidad.elegircolegio.com/images/uploads/colegios/F_020086500_370_161_ffffff_bor3_319ad0_tl_27_br_27_s.jpg',
+		url: './images/escudos.jpg',
 	},
 ];
 export default function Institucional() {
 	return (
 		<div className="specialtyCtn">
-			<Banner img="https://www.revistaelabasto.com.ar/wp-content/uploads/2019/03/confederacion.jpg" />
+			<Banner img="./images/prueba.jpg" />
 
 			<TitleDescriptionVideo
 				especialidad="institucional"
