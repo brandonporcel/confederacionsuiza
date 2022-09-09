@@ -9,7 +9,7 @@ const galleryImages = [
 		id: 0,
 		title: 'confederacion suiza imagen institucional',
 		active: null,
-		url: 'http://4.bp.blogspot.com/_yX4lBoSwV0c/STgc03_q9oI/AAAAAAAAAHU/lnsPTnSL3HY/s320/EDIFICIO_2.JPG',
+		url: './images/pruebaaa.jpg',
 	},
 	{
 		id: 1,
@@ -22,6 +22,12 @@ const galleryImages = [
 		title: 'confederacion suiza imagen institucional',
 		active: null,
 		url: './images/escudos.jpg',
+	},
+	{
+		id: 3,
+		title: 'confederacion suiza logos linetime',
+		active: null,
+		url: './images/linetime.jpg',
 	},
 ];
 export default function Institucional() {
@@ -86,10 +92,12 @@ export default function Institucional() {
 				<br />
 				<ImgGallery galleryImages={galleryImages} />
 				<p>
-					La Escuela comenzó a funcionar en la Avda. Belgrano 2640, y al
-					respecto -dice el Profesor José De Leo, era en una casa antigua de dos
-					plantas. La planta baja tenía entrepisos con un singular formato que
-					mereció el nombre de “el submarino”.
+					El Sub-jefe de preceptores Jorge Ángel Brea, que se recibió de técnico
+					mecánico cuando la institución se llamaba ENET nº 11 “Automotores”,
+					nos cuenta que en el edificio de calle Belgrano había muy pocos
+					alumnos porque el espacio era muy reducido. Actualmente funcionan tres
+					turnos y la carrera dura 6 años y el número de alumnos aumentó
+					considerablemente.
 				</p>
 				<Button type="noBgBlue">
 					<a href="https://www.wikipedia.org/" target="_blank" rel="noreferrer">
