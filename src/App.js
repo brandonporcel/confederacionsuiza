@@ -20,7 +20,7 @@ import Huerta from './components/Proyectos/Huerta';
 import MicroMinecraft from './components/Proyectos/MicroMinecraft';
 import RevistaSuiza2008 from './components/Proyectos/RevistaSuiza2008';
 import LoQueNoTeDicenDelAmor from './components/Proyectos/LoQueNoTeDicenDelAmor';
-import Fll2018 from './components/Proyectos/Fll2018';
+import Fll2019 from './components/Proyectos/Fll2019';
 import Cansat from './components/Proyectos/Cansat';
 import CopaRobotica from './components/Proyectos/CopaRobotica';
 
@@ -52,7 +52,7 @@ function App() {
 							path="/loquenotedicendelamor"
 							element={<LoQueNoTeDicenDelAmor />}
 						/>
-						<Route path="/ffl2018" element={<Fll2018 />} />
+						<Route path="/ffl2019" element={<Fll2019 />} />
 						<Route path="/cansat" element={<Cansat />} />
 					</Routes>
 					<Footer />

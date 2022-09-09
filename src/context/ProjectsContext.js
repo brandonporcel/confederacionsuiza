@@ -54,9 +54,9 @@ let allProjects = [
 		title: 'FFL 2019 - Convergencia 26',
 		link: '/ffl2019',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra eros, odio est arcu ipsum, risus pellentesque et',
-		thumbnail: './images/proyectos/fll2018.jpg',
-		year: '2018',
+			'IRST® LEGO League es un programa internacional que fomenta el aprendizaje práctico de las STEM',
+		thumbnail: './images/proyectos/torneo-fll2019.png',
+		year: '2019',
 	},
 	{
 		title: 'cansat argentina',
