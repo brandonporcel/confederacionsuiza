@@ -151,7 +151,7 @@ export default function FooterContent() {
 						/>
 					</div>
 					<h5 className="title-footer">
-						<span>Escuela Técnica</span> Confederacion Suiza
+						<span>Escuela Técnica</span> Confederación Suiza
 					</h5>
 				</div>
 				<FooterConactotSocial />

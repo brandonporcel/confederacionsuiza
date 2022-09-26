@@ -148,6 +148,12 @@ function Header() {
 							width="100px"
 							height="100px"
 						/>
+						{/* <img
+							src={logo}
+							alt="Logo ET26 Confederación suiza"
+							width="100px"
+							height="100px"
+						/> */}
 					</div>
 					<div className="navLogo-h1-ctn">
 						<h1>Confederación Suiza</h1>
@@ -187,15 +193,21 @@ function Header() {
 
 						<ul className="navList-submenu" ref={listMobile}>
 							<li className="navList-subItem">
-								<Link to="ciclobasico">Ciclo Básico</Link>
+								<Link onClick={toTop} to="primerciclo">
+									Primer Ciclo
+								</Link>
 							</li>
 							<hr />
 							<li className="navList-subItem">
-								<Link to="automotores">Automotores</Link>
+								<Link onClick={toTop} to="automotores">
+									Automotores
+								</Link>
 							</li>
 							<hr />
 							<li className="navList-subItem">
-								<Link to="computacion">Computación</Link>
+								<Link onClick={toTop} to="computacion">
+									Computación
+								</Link>
 							</li>
 						</ul>
 					</li>

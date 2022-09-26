@@ -7,7 +7,7 @@ export default function Huerta() {
 			title="La escuela tiene una huerta!"
 			when="2021"
 			specialClass=""
-			mainImg="./images/proyectos/huerta2.jpg"
+			mainImg="./images/proyectos/huerta/huerta2.jpg"
 		>
 			<SubTitleAndDescription
 				title="descripción"

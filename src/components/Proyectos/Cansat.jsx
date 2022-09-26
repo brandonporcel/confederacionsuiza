@@ -6,7 +6,7 @@ export default function Cansat() {
 	return (
 		<ProjectContainer
 			title="Cansat argentina 2022"
-			mainImg="./images/proyectos/cansat.jpg"
+			mainImg="./images/proyectos/cansat/cansat.jpg"
 			when="2022"
 			specialty="c"
 		>

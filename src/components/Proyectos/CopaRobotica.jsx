@@ -6,25 +6,25 @@ const error404GalleryImg = [
 		id: 0,
 		title: 'El robot del proyecto!',
 		active: null,
-		url: './images/proyectos/error1.jpg',
+		url: './images/proyectos/coparobotica2019/error1.jpg',
 	},
 	{
 		id: 1,
 		title: 'Foto de los chicos en el cole!',
 		active: null,
-		url: './images/proyectos/error2.jpg',
+		url: './images/proyectos/coparobotica2019/error2.jpg',
 	},
 	{
 		id: 2,
 		title: 'Madera Publicitaria',
 		active: null,
-		url: './images/proyectos/error3.jpg',
+		url: './images/proyectos/coparobotica2019/error3.jpg',
 	},
 	{
 		id: 3,
 		title: 'Error 404 en un programa de tv',
 		active: null,
-		url: './images/proyectos/error4.jpg',
+		url: './images/proyectos/coparobotica2019/error4.jpg',
 	},
 	{
 		id: 4,
@@ -39,7 +39,7 @@ export default function CopaRobotica() {
 	return (
 		<ProjectContainer
 			title="La escuela represento a CABA en la copa robotica nacional"
-			mainImg="./images/proyectos/coparobotica2019.webp"
+			mainImg="./images/proyectos/coparobotica2019/coparobotica2019.webp"
 			when="2019"
 			specialty="c"
 		>
@@ -84,7 +84,7 @@ export default function CopaRobotica() {
 				</p>
 
 				<img
-					src="./images/proyectos/flechacampeoncaba.jpg"
+					src="./images/proyectos/coparobotica2019/error404campeoncaba.jpg"
 					alt="Error 404 Confederacion Suiza campeón"
 					className="centerEmbedCode"
 					width="100%"
@@ -113,7 +113,7 @@ export default function CopaRobotica() {
 				</p>
 				<br />
 				<img
-					src="./images/proyectos/coparoboticacancha.jpg"
+					src="./images/proyectos/coparobotica2019/coparoboticacancha.jpg"
 					alt="Copa robotica 2019 cancha"
 					width="100%"
 					height="auto"

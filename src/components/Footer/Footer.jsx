@@ -66,7 +66,6 @@ export default function Footer() {
 			<FooterContent />
 			<div className="footer-bottom flexBetween">
 				<small>Av. Jujuy 255, CABA</small>
-
 				<small>
 					<a
 						href="https://github.com/brandonporcel/confederacionsuiza"

@@ -52,12 +52,12 @@ export default function EspecialidadItem({
 	title,
 	description,
 	thumbnail,
-	specialty,
+	linkToSpecialty,
 }) {
 	return (
 		<EspecialidadItemCtn>
 			<Link
-				to={`/${specialty}`}
+				to={`/${linkToSpecialty}`}
 				className={'lazy-background'}
 				style={{ backgroundImage: `url(${thumbnail}) ` }}
 			>

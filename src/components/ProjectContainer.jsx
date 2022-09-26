@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
+
 const ProyectoContainer = styled.main`
 	background: var(--conocelasuiza-color);
 	padding: 40px 0;
@@ -154,7 +156,6 @@ export default function ProjectContainer({
 	children,
 }) {
 	return (
-		// proptypes
 		<ProyectoContainer>
 			<div className="projectCtnBackground">
 				<div className="titleAndImg">
@@ -189,3 +190,11 @@ export default function ProjectContainer({
 		</ProyectoContainer>
 	);
 }
+
+ProjectContainer.propTypes = {
+	children: PropTypes.any,
+	title: PropTypes.string.isRequired,
+	specialty: PropTypes.string.isRequired,
+	mainImg: PropTypes.string.isRequired,
+	when: PropTypes.string.isRequired,
+};

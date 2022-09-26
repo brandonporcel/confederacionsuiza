@@ -13,6 +13,10 @@ const ProyectosCtn = styled.section`
 	}
 	.proyectos-ctn {
 		padding: 0 5px;
+		min-width: min-content;
+		max-width: 85%;
+
+		margin: 0 auto;
 	}
 	.seeMore {
 		margin-top: 40px;

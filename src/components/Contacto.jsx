@@ -39,6 +39,10 @@ const ContactoInfoCtn = styled.main`
 				font-weight: 500;
 				display: block;
 			}
+			.contact-item-title {
+				color: var(--gray);
+				font-weight: 600;
+			}
 			a {
 				color: var(--blue);
 				font-weight: 600;
@@ -53,7 +57,7 @@ const ContactoInfoCtn = styled.main`
 				margin-bottom: 20px;
 			}
 			.followUsCtn {
-				width: 50%;
+				width: 45%;
 				margin: 0 auto;
 				display: flex;
 				align-items: center;
@@ -75,6 +79,7 @@ const ContactoInfoCtn = styled.main`
 			iframe {
 				width: 100%;
 			}
+
 			.contact {
 				.followUsCtn {
 					width: 85%;
@@ -117,6 +122,7 @@ const TitleAndBanner = styled.div`
 		height: 100%;
 		background-color: rgba(0, 0, 0, 0.4);
 	}
+
 	h2 {
 		position: absolute;
 		top: 0;
@@ -160,17 +166,19 @@ export default function Contacto() {
 						title="mapa Escuela Tecnica confederacion suiza"
 						loading="lazy"
 					/>
+
+					{/* <hr className="hr" /> */}
 					<div className="infoLink">
-						<span>Telefono:</span>
+						<span className="contact-item-title">Telefono:</span>
 						<p>{number}</p>
 					</div>
 
 					<div className="infoLink">
-						<span>Mail de la escuela:</span>
+						<span className="contact-item-title">Mail de la escuela:</span>
 						<a href={`mailto:${mainMail}`}>{mainMail}</a>
 					</div>
 					<div className="infoLink">
-						<span>Regencia:</span>
+						<span className="contact-item-title">Regencia:</span>
 						<a href={`mailto:${regencia}`}>{regencia}</a>
 					</div>
 					<div className="contact">
@@ -179,13 +187,6 @@ export default function Contacto() {
 					</div>
 				</div>
 			</ContactoInfoCtn>
-
-			{/* <Containter className="section">
-				<div className="content">
-					<h1>Contacto</h1>
-				</div>
-			</Containter>
-			<NuestraEscuela /> */}
 		</>
 	);
 }

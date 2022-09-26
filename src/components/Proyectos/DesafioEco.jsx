@@ -6,7 +6,7 @@ export default function DesafioEco() {
 	return (
 		<ProjectContainer
 			title="Desafio Eco Edición 2013"
-			mainImg="./images/proyectos/eco_auto.webp"
+			mainImg="./images/proyectos/desafioeco2013/eco_auto.webp"
 			when="2013"
 			specialty="a"
 		>

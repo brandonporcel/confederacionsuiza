@@ -9,7 +9,7 @@ const galleryImages = [
 		id: 0,
 		title: 'confederacion suiza imagen institucional',
 		active: null,
-		url: './images/pruebaaa.jpg',
+		url: './images/institucional/foto-escuela-2022.jpg',
 	},
 	{
 		id: 1,
@@ -21,13 +21,13 @@ const galleryImages = [
 		id: 2,
 		title: 'confederacion suiza imagen institucional',
 		active: null,
-		url: './images/escudos.jpg',
+		url: './images/institucional/escudos.jpg',
 	},
 	{
 		id: 3,
 		title: 'confederacion suiza logos linetime',
 		active: null,
-		url: './images/linetime.jpg',
+		url: './images/institucional/linetime.jpg',
 	},
 ];
 export default function Institucional() {
@@ -82,28 +82,64 @@ export default function Institucional() {
 					y posteriormente a partir de 1952 se agregó el Ciclo Superior.
 					<br />
 					<br />
-					Desde los inicios –dice el profesor Héctor Cuñarro- “contó con dos
-					turnos y dos divisiones, una funcionaba a la mañana y otra a la tarde.
-					Era un edificio muy simpático y más que una Escuela era un edificio
-					que albergaba a una familia grande”. Posteriormente se agregó el turno
-					noche y el Ciclo superior. La carrera duraba 8 años: 4 de Ciclo Básico
-					y 4 años de Ciclo superior.
+					Desde los inicios contó con dos turnos y dos divisiones, una
+					funcionaba a la mañana y otra a la tarde. Posteriormente se agregó el
+					turno noche y el Ciclo superior. La carrera duraba 8 años: 4 de Ciclo
+					Básico y 4 años de Ciclo superior.
 				</p>
 				<br />
 				<ImgGallery galleryImages={galleryImages} />
 				<p>
-					El Sub-jefe de preceptores Jorge Ángel Brea, que se recibió de técnico
-					mecánico cuando la institución se llamaba ENET nº 11 “Automotores”,
-					nos cuenta que en el edificio de calle Belgrano había muy pocos
-					alumnos porque el espacio era muy reducido. Actualmente funcionan tres
-					turnos y la carrera dura 6 años y el número de alumnos aumentó
-					considerablemente.
+					Cuando las escuelas técnicas y escuelas fábricas pasaron a depender
+					del C.O.N.E.T (Consejo Nacional de Educación Técnica) -dice el
+					Profesor Héctor Cuñarro- algunas de las instituciones repetían la
+					numeración y se optó por una nueva numeración de acuerdo al orden de
+					creación, de ahí que nuestra Escuela pasó a llamarse ENET nº 26
+					“Automotores” (Escuela Nacional de Educación Técnica) desde el 18 de
+					agosto de 1966.
 				</p>
-				<Button type="noBgBlue">
-					<a href="https://www.wikipedia.org/" target="_blank" rel="noreferrer">
-						Ver Más
-					</a>
-				</Button>
+				<br />
+				<p>
+					En 1972, en la época del Director Laíño, la Escuela se mudó al actual
+					edificio en Jujuy 255. Este edificio –comenta el Profesor Cuñarro- no
+					fue hecho para una escuela sino que era una fábrica de accesorios para
+					colectivos, camiones y de cromados. La empresa que tenía ese edificio
+					cerró y el C.O.N.E.T lo compró para adaptarlo a las necesidades de la
+					escuela. El Ingeniero Civil Julio Fullone, quien más adelante fue
+					Director, adaptó el edificio para que funcione como escuela. Esa
+					remodelación terminó de realizarse en 1971 y se mudaron los
+					mobiliarios y máquinas para dar comienzo al ciclo lectivo 1972.
+				</p>
+				<p>
+					La Escuela adoptó un nombre producto de una resolución ministerial que
+					disponía la identificación de las escuelas con nombre de prócer o de
+					países –dice el Profesor José De Leo- y como el gobierno Suizo donó al
+					C.O.N.E.T. el dinero necesario para la remodelación del edificio,
+					luego la escuela tomó el nombre de ENET nº 26 “Confederación Suiza”.
+				</p>
+				<br />
+				<img
+					src="./images/institucional/enetlogo.jpg"
+					alt="enet 26 logo escuela confederacion suiza"
+				/>
+				<br />
+				<br />
+				<p>
+					Actualmente la Escuela Técnica nº 26 “Confederación Suiza” cuenta con
+					tres turnos, con varias divisiones por turno, dos especialidades como
+					Automotores y Computación y 1200 alumnos aproximadamente de acuerdo al
+					ultimo censo realizado. En la escuela seguimos impartiendo el respeto,
+					la responsabilidad, el compromiso y la excelencia para que los alumnos
+					tengan la mejor educación con un acompañamiento en todo momento.
+				</p>
+
+				<a
+					href="https://es.wikipedia.org/wiki/Usuario:Rustico400/Taller"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<Button type="noBgBlue">Ver Más</Button>
+				</a>
 			</SubTitleAndDescription>
 			<SubTitleAndDescription title="autoridades">
 				<Autoridades />

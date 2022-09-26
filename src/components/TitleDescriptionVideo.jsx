@@ -11,11 +11,6 @@ const DescripcionCtn = styled.div`
 		text-transform: capitalize;
 	}
 
-	hr {
-		margin: 20px 0;
-		background-color: var(--gray-line);
-	}
-
 	/* celulares */
 	@media only screen and (min-width: 320px) and (max-width: 675px) {
 		width: 100%;
@@ -51,7 +46,7 @@ export default function TitleDescriptionVideo({
 		<DescripcionCtn>
 			<h2>{especialidad}</h2>
 			{children}
-			<hr />
+			<hr className="hr" />
 			<iframe
 				width="560"
 				height="315"

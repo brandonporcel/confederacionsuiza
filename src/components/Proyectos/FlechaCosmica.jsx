@@ -8,19 +8,19 @@ const galleryImages = [
 		id: 0,
 		title: 'confederacion suiza imagen institucional',
 		active: null,
-		url: './images/proyectos/flecha.jpg',
+		url: './images/proyectos/flechacosmica/flecha.jpg',
 	},
 	{
 		id: 1,
 		title: 'confederacion suiza imagen institucional',
 		active: null,
-		url: './images/proyectos/flecha2.jpg',
+		url: './images/proyectos/flechacosmica/flecha2.jpg',
 	},
 	{
 		id: 2,
 		title: 'logo del proyecto',
 		active: null,
-		url: './images/proyectos/flechalogo.jpg',
+		url: './images/proyectos/flechacosmica/flechalogo.jpg',
 	},
 	{
 		id: 3,
@@ -39,7 +39,7 @@ export default function Proyecto() {
 	return (
 		<ProjectContainer
 			title="Flecha Cosmica: Los chicos ganaron la FLL y viajaron a Houston!"
-			mainImg="./images/proyectos/flechacampeon.webp"
+			mainImg="./images/proyectos/flechacosmica/flechacampeon.webp"
 			when="Diciembre, 2018"
 			specialty="c"
 		>

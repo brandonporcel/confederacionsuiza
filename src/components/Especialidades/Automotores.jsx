@@ -100,7 +100,13 @@ const automotoresGalleryImg = [
 		id: 2,
 		title: 'auto fabricado en el colegio',
 
-		url: './images/automotores1.webp',
+		url: './images/automotores/automotores1.webp',
+	},
+	{
+		id: 3,
+		title: 'Automotores',
+
+		url: './images/automotores/automotores.webp',
 	},
 ];
 const Alcance = styled.ul`

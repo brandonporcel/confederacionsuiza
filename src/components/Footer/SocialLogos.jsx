@@ -4,25 +4,20 @@ import Instagram from '../svg/Instagram';
 import Linkedin from '../svg/Linkedin';
 import Youtube from '../svg/Youtube';
 import styled from 'styled-components';
+import { useContext } from 'react';
+import ContactContext from '../../context/ContactContext';
 const SocialCtn = styled.div`
 	gap: 10px;
 	display: grid;
 	grid-template-columns: repeat(4, 30px);
-	/* a {
-		height: min-content;
-		width: min-content;
-		svg {
-			width: 20px;
-			height: 20px;
-			margin-right: 10px;
-		} */
-	/* } */
 `;
 export default function SocialLogos({ color, specialClass }) {
+	const { socialLinks } = useContext(ContactContext);
+	const { facebook, instagram, youtube, linkedin } = socialLinks;
 	return (
 		<SocialCtn className={`${specialClass ? specialClass : ''}`}>
 			<a
-				href="https://www.facebook.com/tecnica26/"
+				href={facebook}
 				target={'_blank'}
 				rel="noreferrer"
 				aria-label="Facebook Escuela Tecnica confederacion suiza"
@@ -30,7 +25,7 @@ export default function SocialLogos({ color, specialClass }) {
 				<Facebook color={color} />
 			</a>
 			<a
-				href="https://instagram.com/lasuizacompu"
+				href={instagram}
 				target={'_blank'}
 				rel="noreferrer"
 				aria-label="Instagram Escuela Tecnica confederacion suiza"
@@ -38,7 +33,7 @@ export default function SocialLogos({ color, specialClass }) {
 				<Instagram color={color} />
 			</a>
 			<a
-				href="https://www.youtube.com/channel/UCTKTGa96qO3ESC1t2JqzfzQ"
+				href={youtube}
 				target={'_blank'}
 				rel="noreferrer"
 				aria-label="Youtube Escuela Tecnica confederacion suiza"
@@ -46,7 +41,7 @@ export default function SocialLogos({ color, specialClass }) {
 				<Youtube color={color} />
 			</a>
 			<a
-				href="https://www.linkedin.com/school/et26suiza/"
+				href={linkedin}
 				target={'_blank'}
 				rel="noreferrer"
 				aria-label="Linkedin Escuela Tecnica confederacion suiza"

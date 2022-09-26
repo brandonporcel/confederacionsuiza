@@ -3,7 +3,7 @@ import EspecialidadProgramas from '../SubTitleAndDescription';
 import ProgramasTablas from './ProgramasTablas';
 import Banner from '../Banner';
 import SubTitleAndDescription from '../SubTitleAndDescription';
-const ciclobasicoMaterias = [
+const primerCicloMaterias = [
 	{
 		ano: '1',
 		programas:
@@ -44,21 +44,16 @@ const ciclobasicoMaterias = [
 		],
 	},
 ];
-export default function CicloBasico() {
-	// useEffect(() => {
-	// 	window.scrollTo(0, 0);
-	// }, []);
-
+export default function PrimerCiclo() {
 	return (
 		<div className="specialtyCtn">
-			{/* <Banner img="https://www.buenosaires.gob.ar/sites/gcaba/files/styles/interna_pagina/public/beron_de_astrada_6351_3_0.jpg?itok=mybR1fXT" /> */}
 			<Banner img="./images/cbasico.webp" />
 			<EspecialidadDescripcion
 				especialidad="ciclo básico"
 				video="https://www.youtube.com/embed/kpArfnc-tTQ"
 			>
 				<p>
-					El Ciclo Básico se compone de 1er y 2do año y su proposito es que
+					El Primer Ciclo se compone de 1er y 2do año y su proposito es que
 					todos los alumnos lleguen al primer año de la especialidad con el
 					nivel necesario, tanto de su disciplina elegida, como de conocimiento
 					general.
@@ -72,7 +67,7 @@ export default function CicloBasico() {
 				</p>
 			</EspecialidadDescripcion>
 			<EspecialidadProgramas title="Programas Curriculares">
-				<ProgramasTablas materias={ciclobasicoMaterias}></ProgramasTablas>
+				<ProgramasTablas materias={primerCicloMaterias}></ProgramasTablas>
 			</EspecialidadProgramas>
 			<SubTitleAndDescription title="taller">
 				<p>

@@ -25,13 +25,22 @@ const autoridades = [
 		nombre: 'enrique leiva',
 		cargo: 'Jefe gral. de Enseñanza Práctica',
 	},
+	{
+		nombre: 'Viviana Alonso',
+		cargo: 'Psicopedagoga TM',
+	},
+	{
+		nombre: 'Julieta González',
+		cargo: 'Psicopedagoga TT',
+	},
 ];
 const AutoridadesCtn = styled.div`
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
 	margin-bottom: 20px;
 	.autoridad-item {
-		padding: 10px 20px;
+		padding: 10px;
+
 		min-width: 200px;
 		text-align: center;
 		text-transform: capitalize;
@@ -51,7 +60,7 @@ export default function Autoridades() {
 		<AutoridadesCtn>
 			{autoridades.map(({ nombre, cargo }, i) => (
 				<div className="autoridad-item" key={i}>
-					<h5>{nombre} </h5>
+					<h5>{nombre}</h5>
 					<span>{cargo}</span>
 				</div>
 			))}

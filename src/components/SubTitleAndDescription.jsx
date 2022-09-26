@@ -9,7 +9,10 @@ const ProgramasCtn = styled.div`
 		color: var(--titles-color);
 		text-transform: capitalize;
 	}
-
+	audio {
+		width: 100%;
+		margin-top: 10px;
+	}
 	@media only screen and (min-width: 320px) and (max-width: 675px) {
 		width: 100%;
 		/* iframe {
