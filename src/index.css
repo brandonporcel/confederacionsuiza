@@ -122,9 +122,9 @@ br {
 	display: none;
 }
 /* computadoras pantralla grande, tv */
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1225px) {
 	.section.tooLarge {
-		max-width: 92%;
+		max-width: 85%;
 	}
 }
 

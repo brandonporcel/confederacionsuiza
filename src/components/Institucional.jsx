@@ -33,7 +33,7 @@ const galleryImages = [
 export default function Institucional() {
 	return (
 		<div className="specialtyCtn">
-			<Banner img="./images/prueba.jpg" />
+			<Banner img="./images/institucional/foto-escuela-2022.jpg" />
 
 			<TitleDescriptionVideo
 				especialidad="institucional"

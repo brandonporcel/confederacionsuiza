@@ -39,13 +39,13 @@ const masItems = [
 	},
 	{
 		key: 10,
-		name: 'Centro Estudiantes',
+		name: 'Centro de Estudiantes',
 		link: 'http://cecs.ar',
 	},
 	{
 		key: 11,
-		name: 'Google drive',
-		link: 'https://drive.google.com/drive/folders/1CpcPcihN9uKiCPa5Tz18yOJIIGJY9ThG',
+		name: 'programas curriculares',
+		link: 'https://drive.google.com/drive/folders/1OX_ZSrjh4DpRsJtE2NmuzJsxB24J3wFV?usp=sharing',
 	},
 	{
 		key: 12,

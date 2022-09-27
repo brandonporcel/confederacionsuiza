@@ -105,7 +105,7 @@ const Alcance = styled.ul`
 export default function Computacion() {
 	return (
 		<div className="specialtyCtn">
-			<Banner img="http://www.saladasinforma.com.ar/fotonotas/2011-05-07-23-12-47-758698-380935.jpg" />
+			<Banner img="./images/computacionbanner.jpg" />
 			<EspecialidadDescripcion
 				especialidad="Computación"
 				video="https://www.youtube.com/embed/aoPRIi7rsjg"

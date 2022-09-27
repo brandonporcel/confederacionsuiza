@@ -136,7 +136,7 @@ const GalleryAutomotoresContainer = styled.div`
 export default function Automotores() {
 	return (
 		<div className="specialtyCtn">
-			<Banner img="https://www.iam.kit.edu/wk/img/WS_001.jpg" />
+			<Banner img="./images/automotoresbanner.jpg" />
 			<EspecialidadDescripcion
 				especialidad="automotores"
 				video="https://www.youtube.com/embed/wZgSr_S5_nI"
