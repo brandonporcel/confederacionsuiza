@@ -22,7 +22,6 @@ import { ContactProvider } from './context/ContactContext';
 import FlechaCosmica from './components/Proyectos/FlechaCosmica';
 import DesafioEco from './components/Proyectos/DesafioEco';
 import Huerta from './components/Proyectos/Huerta';
-import MicroMinecraft from './components/Proyectos/MicroMinecraft';
 import RevistaSuiza2008 from './components/Proyectos/RevistaSuiza2008';
 import Fll2019 from './components/Proyectos/Fll2019';
 import Cansat from './components/Proyectos/Cansat';
@@ -49,7 +48,6 @@ function App() {
 					<Route path="/coparobotica2019" element={<CopaRobotica />} />
 					<Route path="/desafioeco2003" element={<DesafioEco />} />
 					<Route path="/huerta" element={<Huerta />} />
-					<Route path="/minecraftmicro" element={<MicroMinecraft />} />
 					<Route path="/revistasuiza2008" element={<RevistaSuiza2008 />} />
 
 					<Route path="/ffl2019" element={<Fll2019 />} />

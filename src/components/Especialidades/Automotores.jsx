@@ -11,7 +11,7 @@ const automotoresMaterias = [
 		programas:
 			'https://drive.google.com/drive/folders/1eof7ydGeFfb9SY3fGV8TucyZKgBuAcf_?usp=sharing',
 		materias: [
-			'Automotores',
+			'Lengua y Literatura',
 			'ed. fisica',
 			'ingles',
 			'física',
@@ -29,14 +29,14 @@ const automotoresMaterias = [
 		programas:
 			'https://drive.google.com/drive/folders/1XAR-Tcnj_FFIWAt_3Q7recy2kwYy2ILw?usp=sharing',
 		materias: [
-			'electricidad del automotor',
+			'Lengua y Literatura',
 			'ed. fisica',
 			'ingles',
 			'estatica y resist. de los materiales',
-			'matematica',
+			'matemática',
+			'electricidad del automotor',
 			'mecanica',
 			'mecanismos',
-			'Automotores',
 			'ciudadania y trabajo',
 			'taller',
 		],
@@ -52,7 +52,7 @@ const automotoresMaterias = [
 			'Elementos de Maquina',
 			'Motores de Combustion',
 			'Termodinamica',
-			'Automotores',
+			'Lengua y Literatura',
 			'Ed. Fisica',
 			'Ingles',
 			'matematica',

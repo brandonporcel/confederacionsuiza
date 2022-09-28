@@ -83,7 +83,10 @@ export default function PrimerCiclo() {
 					Informatica.
 				</p>
 				<br />
-				<p>Segundo año: Metales II, electricidad, Informatica II </p>
+				<p>
+					Segundo año: Temas Generales II, Metales II, electricidad II,
+					Informatica II y Tornería.{' '}
+				</p>
 			</SubTitleAndDescription>
 		</div>
 	);

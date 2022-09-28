@@ -31,15 +31,7 @@ let allProjects = [
 		thumbnail: './images/proyectos/huerta/huerta.jpg',
 		year: '2021 - ',
 	},
-	{
-		title: 'micro en Minecraft',
-		link: '/minecraftmicro',
-		description:
-			'El estudiante Gaspar Chu luego de las clases de taller de computación creó un microprocesador en Minecraft',
-		thumbnail:
-			'https://img3.schoolandcollegelistings.com/013/713/3933146630137133.jpg',
-		year: '2021',
-	},
+
 	{
 		title: 'revista suiza',
 		link: '/revistasuiza2008',

@@ -11,7 +11,7 @@ const computacionMaterias = [
 		programas:
 			'https://drive.google.com/drive/folders/1eof7ydGeFfb9SY3fGV8TucyZKgBuAcf_?usp=sharing',
 		materias: [
-			'Computación',
+			'Lengua y Literatura',
 			'ed. física',
 			'inglés',
 			'física',
@@ -29,7 +29,7 @@ const computacionMaterias = [
 		programas:
 			'https://drive.google.com/drive/folders/1KZHLS9IV1tMO7z41CUJG13QDYL1ThCNd?usp=sharing',
 		materias: [
-			'Computación',
+			'Lengua y Literatura',
 			'ed. física',
 			'inglés',
 			'física',
@@ -38,7 +38,8 @@ const computacionMaterias = [
 			'lógica computacional',
 			'organización de las computadoras',
 			'lab. algoritmos y estruct. de datos',
-			'taller',
+			'laboratorio de POO',
+			'proyecto 1',
 		],
 	},
 	{
@@ -52,8 +53,9 @@ const computacionMaterias = [
 			'Análisis de sistemas',
 			'economía y gestion de org.',
 			'programación de redes',
-			'computación',
-			'taller',
+			'Lengua y Literatura',
+			'laboratorio de POO 2',
+			'proyecto 2',
 		],
 	},
 	{

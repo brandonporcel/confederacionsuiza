@@ -139,7 +139,7 @@ const TitleAndBanner = styled.div`
 `;
 export default function Contacto() {
 	const { contactData } = useContext(ContactContext);
-	const { number, mainMail, regencia } = contactData;
+	const { number, mainMail, regencia, cooperadora, doe } = contactData;
 	return (
 		<>
 			<TitleAndBanner>
@@ -180,6 +180,16 @@ export default function Contacto() {
 					<div className="infoLink">
 						<span className="contact-item-title">Regencia:</span>
 						<a href={`mailto:${regencia}`}>{regencia}</a>
+					</div>
+					<div className="infoLink">
+						<span className="contact-item-title">Cooperadora:</span>
+						<a href={`mailto:${cooperadora}`}>{cooperadora}</a>
+					</div>
+					<div className="infoLink">
+						<span className="contact-item-title">
+							Departamento de Orientación al Estudiante:
+						</span>
+						<a href={`mailto:${doe}`}>{doe}</a>
 					</div>
 					<div className="contact">
 						<h4>Seguinos en las redes</h4>
