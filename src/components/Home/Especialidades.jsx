@@ -9,7 +9,7 @@ const especialidades = [
 			'El Primer Ciclo Común es una herramienta articuladora para que todos los alumnos lleguen al primer año de la carrera con el nivel necesario, tanto de su disciplina elegida, como de conocimiento general, característica particular que presentan generalmente los alumnos de esta casa de estudios',
 	},
 	{
-		thumbnail: './images/automotoresthumbnail.webp',
+		thumbnail: './images/822.jpg',
 		title: 'Automotores',
 		linkToSpecialty: 'automotores',
 		description:
@@ -17,6 +17,7 @@ const especialidades = [
 	},
 	{
 		thumbnail: './images/computacionthumbnail.jpg',
+
 		title: 'Computación',
 		linkToSpecialty: 'computacion',
 		description:
@@ -24,8 +25,8 @@ const especialidades = [
 	},
 ];
 const EspecialidadesContainer = styled.div`
-	max-width: 85%;
-	min-width: min-content;
+	/* max-width: 85%; */
+	/* min-width: min-content; */
 	margin: 0 auto;
 `;
 export default function Especialidades() {
@@ -37,7 +38,10 @@ export default function Especialidades() {
 				className="section"
 			>
 				<h3 className="sectionTitle">1er Ciclo y Especialidades</h3>
-				<EspecialidadesContainer className="flexBetween overflowAuto gap20">
+				<EspecialidadesContainer
+					className="flexBetween overflowAuto gap20"
+					style={{ width: '90%', margin: '0 auto' }}
+				>
 					{especialidades.map((el, i) => (
 						<EspecialidadItem
 							key={i}

@@ -7,6 +7,12 @@ const NovedadesCtn = styled.section`
 	}
 	iframe {
 		width: 90%;
+		margin-bottom: 10px;
+	}
+	@media only screen and (min-width: 320px) and (max-width: 675px) {
+		iframe {
+			width: 100%;
+		}
 	}
 `;
 export default function Novedades() {

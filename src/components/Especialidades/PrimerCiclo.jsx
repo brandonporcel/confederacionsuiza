@@ -10,16 +10,15 @@ const primerCicloMaterias = [
 			'https://drive.google.com/drive/folders/1QKVmEYNPEtTEHEBBKn6kbaRQkilGT6ur?usp=sharing',
 		materias: [
 			'historia',
-			'ed. fisica',
-			'ingles',
-			'educacion artistica',
-			'matematica',
+			'ed. física',
+			'inglés',
+			'educación artistica',
+			'matemática',
 			'lengua y literatura',
-			'biologia',
-			'historia',
-			'ed ciudadana',
-			'tecnologia de la representacion',
-			'geografia',
+			'biología',
+			'ed. ciudadana',
+			'tecnología de la representación',
+			'geografía',
 			'taller',
 		],
 	},
@@ -29,16 +28,16 @@ const primerCicloMaterias = [
 			'https://drive.google.com/drive/folders/1wL87b93OEhqXbDok9sLe_6gzSK_B76qa?usp=sharing',
 		materias: [
 			'historia',
-			'ed. fisica',
-			'ingles',
-			'educacion artistica',
-			'matematica',
+			'ed. física',
+			'inglés',
+			'educación artistica',
+			'matemática',
 			'lengua y literatura',
-			'biologia',
+			'biología',
+			'ed. ciudadana',
+			'tecnología de la representación',
+			'geografía',
 			'quimica',
-			'ed ciudadana',
-			'tecnologia de la representacion',
-			'geografia',
 			'fisica',
 			'taller',
 		],
@@ -47,9 +46,9 @@ const primerCicloMaterias = [
 export default function PrimerCiclo() {
 	return (
 		<div className="specialtyCtn">
-			<Banner img="./images/cbasico.webp" />
+			<Banner img="./images/primerciclo-banner.jpg" />
 			<EspecialidadDescripcion
-				especialidad="ciclo básico"
+				especialidad="primer ciclo"
 				video="https://www.youtube.com/embed/kpArfnc-tTQ"
 			>
 				<p>

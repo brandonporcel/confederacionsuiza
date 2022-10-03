@@ -12,7 +12,7 @@ const ContactoInfoCtn = styled.main`
 	display: flex;
 	justify-content: center;
 	/* esto tienen q ser mayor al height de .nuestraescuela */
-	height: 800px;
+	height: 900px;
 	z-index: 20;
 	.nuestraEscuelaaa {
 		box-shadow: var(--shadow);
@@ -30,9 +30,15 @@ const ContactoInfoCtn = styled.main`
 			font-size: 22px;
 			margin-bottom: 20px;
 		}
-
-		.infoLink {
-			margin: 20px 0;
+		.contactWayItemsContainer {
+			width: 60%;
+			margin: 0 auto;
+			margin-top: 30px;
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+		}
+		.contactWayItem {
+			margin: 10px 0;
 			span,
 			p {
 				color: var(--gray-third);
@@ -42,6 +48,7 @@ const ContactoInfoCtn = styled.main`
 			.contact-item-title {
 				color: var(--gray);
 				font-weight: 600;
+				text-transform: capitalize;
 			}
 			a {
 				color: var(--blue);
@@ -71,11 +78,13 @@ const ContactoInfoCtn = styled.main`
 	}
 	/* celulares */
 	@media only screen and (min-width: 320px) and (max-width: 675px) {
-		height: 750px;
+		height: 900px;
 		.nuestraEscuelaaa {
 			width: 100%;
 			border-radius: 15px;
-
+			.contactWayItemsContainer {
+				width: 100%;
+			}
 			iframe {
 				width: 100%;
 			}
@@ -88,10 +97,14 @@ const ContactoInfoCtn = styled.main`
 		}
 	}
 	@media only screen and (min-width: 676px) and (max-width: 768px) {
-		height: 750px;
+		height: 875px;
 		.nuestraEscuelaaa {
 			width: 600px;
+
 			border-radius: 15px;
+			.contactWayItemsContainer {
+				width: 90%;
+			}
 			.contact {
 				.followUsCtn {
 					width: 70%;
@@ -100,9 +113,13 @@ const ContactoInfoCtn = styled.main`
 		}
 	}
 	@media only screen and (min-width: 769px) and (max-width: 1024px) {
-		height: 750px;
+		height: 875px;
 		.nuestraEscuelaaa {
 			width: 700px;
+
+			.contactWayItemsContainer {
+				width: 80%;
+			}
 			.contact {
 				.followUsCtn {
 					width: 60%;
@@ -139,7 +156,7 @@ const TitleAndBanner = styled.div`
 `;
 export default function Contacto() {
 	const { contactData } = useContext(ContactContext);
-	const { number, mainMail, regencia, cooperadora, doe } = contactData;
+
 	return (
 		<>
 			<TitleAndBanner>
@@ -150,7 +167,7 @@ export default function Contacto() {
 			<ContactoInfoCtn className="section">
 				<div className="nuestraEscuelaaa">
 					<h3>Nuestra Escuela</h3>
-					<div className="infoLink">
+					<div className="contactWayItem">
 						<p>Avenida Jujuy 255 - 1083 CABA</p>
 					</div>
 
@@ -167,30 +184,36 @@ export default function Contacto() {
 						loading="lazy"
 					/>
 
-					{/* <hr className="hr" /> */}
-					<div className="infoLink">
-						<span className="contact-item-title">Telefono:</span>
-						<p>{number}</p>
+					<div className="contactWayItemsContainer">
+						{Object.keys(contactData).map((keyName, i) => (
+							<div className="contactWayItem" key={i}>
+								{typeof contactData[keyName] === 'object' ? (
+									<>
+										<span className="contact-item-title">{keyName}</span>
+										<span>
+											Coordinado por {contactData[keyName].coordinador}
+										</span>
+
+										<a href={`mailto:${contactData[keyName].contact}`}>
+											{contactData[keyName].contact}
+										</a>
+									</>
+								) : (
+									<>
+										<span className="contact-item-title">{keyName}:</span>
+										{keyName === 'telefono' ? (
+											<p>{contactData[keyName]}</p>
+										) : (
+											<a href={`mailto:${contactData[keyName]}`}>
+												{contactData[keyName]}
+											</a>
+										)}
+									</>
+								)}
+							</div>
+						))}
 					</div>
 
-					<div className="infoLink">
-						<span className="contact-item-title">Mail de la escuela:</span>
-						<a href={`mailto:${mainMail}`}>{mainMail}</a>
-					</div>
-					<div className="infoLink">
-						<span className="contact-item-title">Regencia:</span>
-						<a href={`mailto:${regencia}`}>{regencia}</a>
-					</div>
-					<div className="infoLink">
-						<span className="contact-item-title">Cooperadora:</span>
-						<a href={`mailto:${cooperadora}`}>{cooperadora}</a>
-					</div>
-					<div className="infoLink">
-						<span className="contact-item-title">
-							Departamento de Orientación al Estudiante:
-						</span>
-						<a href={`mailto:${doe}`}>{doe}</a>
-					</div>
 					<div className="contact">
 						<h4>Seguinos en las redes</h4>
 						<SocialLogos color="var(--blue)" specialClass="followUsCtn" />

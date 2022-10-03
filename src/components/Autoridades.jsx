@@ -6,7 +6,7 @@ const autoridades = [
 		cargo: 'rector',
 	},
 	{
-		nombre: 'maria de los angeles galeazzi',
+		nombre: 'maría de los angeles galeazzi',
 		cargo: 'vice-rectora',
 	},
 	{
@@ -18,11 +18,11 @@ const autoridades = [
 		cargo: 'regente TT',
 	},
 	{
-		nombre: 'liliana arena nuñez',
+		nombre: 'liliana arena núñez',
 		cargo: 'regente TN',
 	},
 	{
-		nombre: 'enrique leiva',
+		nombre: 'enrique leivas',
 		cargo: 'Jefe gral. de Enseñanza Práctica',
 	},
 	{

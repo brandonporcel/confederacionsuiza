@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 const EspecialidadItemCtn = styled.div`
-	height: 575px;
+	height: 550px;
 	min-width: 325px;
 	border-radius: 10px;
 	position: relative;

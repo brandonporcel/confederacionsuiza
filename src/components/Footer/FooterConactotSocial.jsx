@@ -1,5 +1,8 @@
 import styled from 'styled-components';
-import { telefono, mail } from '../../svg/svgAsImage';
+import {
+	telefono as telefonoIcon,
+	mail as mailIcon,
+} from '../../svg/svgAsImage';
 import SocialLogos from './SocialLogos';
 import ContactContext from '../../context/ContactContext';
 import { useContext } from 'react';
@@ -23,17 +26,17 @@ const ContactSocial = styled.div`
 
 export default function FooterConactotSocial() {
 	const { contactData } = useContext(ContactContext);
-	const { number, mainMail } = contactData;
+	const { telefono, escuela } = contactData;
 	return (
 		<ContactSocial>
 			<div className="contact">
 				<div className="contact-item-ctn">
-					<img className="svg" src={telefono} alt="telefono" />
-					<span>{number}</span>
+					<img className="svg" src={telefonoIcon} alt="telefono" />
+					<span>{telefono}</span>
 				</div>
 				<div className="contact-item-ctn">
-					<img className="svg" src={mail} alt="mail" />
-					<a href={`mailto:${mainMail}`}>{mainMail}</a>
+					<img className="svg" src={mailIcon} alt="mail" />
+					<a href={`mailto:${escuela}`}>{escuela}</a>
 				</div>
 			</div>
 			<SocialLogos color="var(--white)" />

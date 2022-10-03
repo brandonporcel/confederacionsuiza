@@ -5,31 +5,26 @@ const error404GalleryImg = [
 	{
 		id: 0,
 		title: 'El robot del proyecto!',
-		active: null,
 		url: './images/proyectos/coparobotica2019/error1.jpg',
 	},
 	{
 		id: 1,
 		title: 'Foto de los chicos en el cole!',
-		active: null,
 		url: './images/proyectos/coparobotica2019/error2.jpg',
 	},
 	{
 		id: 2,
 		title: 'Madera Publicitaria',
-		active: null,
 		url: './images/proyectos/coparobotica2019/error3.jpg',
 	},
 	{
 		id: 3,
 		title: 'Error 404 en un programa de tv',
-		active: null,
 		url: './images/proyectos/coparobotica2019/error4.jpg',
 	},
 	{
 		id: 4,
 		title: 'Video Presentacion Equipo',
-		active: null,
 		type: 'video',
 		url: './videos/coparobotica2.mp4',
 	},

@@ -171,14 +171,14 @@ export default function ProjectContainer({
 									? 'computacion'
 									: specialty === 'a'
 									? 'automotores'
-									: 'ciclobasico'
+									: 'primerciclo'
 							}`}
 						>
 							{specialty === 'c'
 								? 'computación'
 								: specialty === 'a'
 								? 'automotores'
-								: 'Ciclo Básico'}
+								: 'Primer ciclo'}
 						</Link>
 					</div>
 					<div className="img-project-suiza">

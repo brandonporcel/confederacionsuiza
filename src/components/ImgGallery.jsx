@@ -6,7 +6,7 @@ const GalleryCtn = styled.div`
 	flex-direction: column;
 	align-items: center;
 	margin: 0 0 10px;
-	padding: 0 20px;
+	padding: 0 10px;
 	.galleryImgCtn {
 		min-height: 400px;
 		max-height: min-content;
@@ -94,7 +94,7 @@ const GalleryCtn = styled.div`
 `;
 
 export default function ImgGallery({ galleryImages }) {
-	const [galleryImage, setGalleryImage] = useState(1);
+	const [galleryImage, setGalleryImage] = useState(0);
 
 	const changeImage = (e) => {
 		setGalleryImage(parseInt(e.target.getAttribute('data-id')));
@@ -103,7 +103,6 @@ export default function ImgGallery({ galleryImages }) {
 		galleryImage === 0
 			? setGalleryImage(galleryImages.length - 1)
 			: setGalleryImage((galleryImage) => galleryImage - 1);
-		console.log(galleryImages.length, galleryImage);
 	};
 	const nextImg = () => {
 		galleryImage === galleryImages.length - 1

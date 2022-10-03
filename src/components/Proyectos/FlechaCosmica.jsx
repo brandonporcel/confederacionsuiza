@@ -7,31 +7,26 @@ const galleryImages = [
 	{
 		id: 0,
 		title: 'confederacion suiza imagen institucional',
-		active: null,
 		url: './images/proyectos/flechacosmica/flecha.jpg',
 	},
 	{
 		id: 1,
 		title: 'confederacion suiza imagen institucional',
-		active: null,
 		url: './images/proyectos/flechacosmica/flecha2.jpg',
 	},
 	{
 		id: 2,
 		title: 'logo del proyecto',
-		active: null,
 		url: './images/proyectos/flechacosmica/flechalogo.jpg',
 	},
 	{
 		id: 3,
 		title: 'logo del proyecto',
-		active: null,
 		url: 'https://econojournal.com.ar/cntnt/uploads/2019/01/3.jpg',
 	},
 	{
 		id: 4,
 		title: 'logo del proyecto',
-		active: null,
 		url: 'https://econojournal.com.ar/cntnt/uploads/2019/01/7.jpg',
 	},
 ];

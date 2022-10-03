@@ -1,16 +1,20 @@
 const { createContext } = require('react');
 const contactData = {
-	number: '11 4931-1947',
-	mainMail: 'det_26_de6@bue.edu.ar',
+	telefono: '11 4931-1947',
+	escuela: 'det_26_de6@bue.edu.ar',
 	regencia: 'regencia@et26.edu.ar',
 	cooperadora: 'coopedelasuiza@gmail.com',
-	doe: 'doe@et26.edu.ar',
-	secretaria: 'det_26_de6@bue.edu.ar',
+	'Departamento de Orientación al Estudiante': 'doe@et26.edu.ar',
 	taller: 'et26.tallersuiza@gmail.com',
-	computación: 'computacion@et26.edu.ar',
-	automotores: 'automotores@et26.edu.ar',
+	computación: {
+		contact: 'computacion@et26.edu.ar',
+		coordinador: 'Pablo Fiscella',
+	},
+	automotores: {
+		contact: 'automotores@et26.edu.ar',
+		coordinador: 'Nombre Apellido',
+	},
 };
-
 const socialLinks = {
 	facebook: 'https://www.facebook.com/tecnica26',
 	instagram: 'https://instagram.com/lasuizacompu',

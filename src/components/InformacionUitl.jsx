@@ -34,7 +34,7 @@ const faqData = [
 	{
 		question: '¿Cómo me anoto en Beca Ciudad?',
 		answer:
-			'A traves de la web https://becasciudad.bue.edu.ar/ en las fechas de inscripcion correspondies; se estaran comunicando tal fechas a traves del facebook de la escuela.',
+			'A traves de la web becasciudad.bue.edu.ar/ en las fechas de inscripcion correspondies; se estaran comunicando tal fechas a traves del facebook de la escuela. Cualquier duda consultar a tecnica26becas2021@gmail.com',
 	},
 ];
 
@@ -60,15 +60,17 @@ const InfUtilCtn = styled.div`
 			margin-top: 15px;
 			padding-bottom: 10px;
 			border-bottom: 1px solid var(--gray-line);
+			cursor: pointer;
 			.question {
 				display: flex;
 				align-items: center;
 				justify-content: space-between;
-				cursor: pointer;
 				button {
 					background: none;
 					border: none;
+					display: flex;
 					span {
+						cursor: pointer;
 						padding: 10px 5px;
 					}
 				}

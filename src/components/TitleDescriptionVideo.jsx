@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 const DescripcionCtn = styled.div`
 	width: 60%;
 	margin: 0 auto;
@@ -60,3 +61,7 @@ export default function TitleDescriptionVideo({
 		</DescripcionCtn>
 	);
 }
+TitleDescriptionVideo.propTypes = {
+	children: PropTypes.any,
+	especialidad: PropTypes.string.isRequired,
+};

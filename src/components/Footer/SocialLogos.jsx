@@ -10,6 +10,13 @@ const SocialCtn = styled.div`
 	gap: 10px;
 	display: grid;
 	grid-template-columns: repeat(4, 30px);
+	/* celulares */
+	@media only screen and (min-width: 320px) and (max-width: 675px) {
+		justify-content: center;
+	}
+	@media only screen and (min-width: 676px) and (max-width: 768px) {
+		justify-content: center;
+	}
 `;
 export default function SocialLogos({ color, specialClass }) {
 	const { socialLinks } = useContext(ContactContext);

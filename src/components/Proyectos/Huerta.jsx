@@ -1,13 +1,19 @@
+import ImgGallery from '../ImgGallery';
 import ProjectContainer from '../ProjectContainer';
 import SubTitleAndDescription from '../SubTitleAndDescription';
-
+let huertaImages = [
+	{ id: 1, url: './images/proyectos/huerta/313.jpg', title: 'Huerta ET26' },
+	{ id: 2, url: './images/proyectos/huerta/314.jpg', title: 'Huerta ET26' },
+	{ id: 3, url: './images/proyectos/huerta/318.jpg', title: 'Huerta ET26' },
+	{ id: 4, url: './images/proyectos/huerta/326.jpg', title: 'Huerta ET26' },
+];
 export default function Huerta() {
 	return (
 		<ProjectContainer
 			title="La escuela tiene una huerta!"
 			when="2021"
 			specialClass=""
-			mainImg="./images/proyectos/huerta/huerta2.jpg"
+			mainImg="./images/proyectos/huerta/320.jpg"
 		>
 			<SubTitleAndDescription
 				title="descripción"
@@ -15,10 +21,30 @@ export default function Huerta() {
 				w="100"
 			>
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt placeat
-					enim tenetur voluptatibus odit tempore delectus ipsam corrupti libero
-					quas harum facere nisi, quibusdam repellendus ipsum iusto doloremque
-					quidem sint.
+					La profesora de lengua y literatura de 1er año Paula Luna incentivo a
+					sus alumnos del TM y TT a crear y sustentar una huerta en el patio del
+					2do piso.
+				</p>
+				<p>
+					La preceptora Cecilia Ligotti tambien está ayudando con el proyecto
+				</p>
+			</SubTitleAndDescription>
+			<ImgGallery galleryImages={huertaImages}></ImgGallery>
+			<SubTitleAndDescription
+				title="Redes Sociales"
+				specialClass="subtitleClassProject"
+				w="100"
+			>
+				<p>
+					Seguí a la cuenta de la huerta en{' '}
+					<a
+						href="https://instagram.com/lahuertadelasuiza"
+						target="_blank"
+						rel="noreferrer"
+						className="linktoa"
+					>
+						Instagram!
+					</a>
 				</p>
 			</SubTitleAndDescription>
 		</ProjectContainer>

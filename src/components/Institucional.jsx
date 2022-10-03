@@ -8,32 +8,33 @@ const galleryImages = [
 	{
 		id: 0,
 		title: 'confederacion suiza imagen institucional',
-		active: null,
 		url: './images/institucional/foto-escuela-2022.jpg',
 	},
 	{
 		id: 1,
 		title: 'confederacion suiza imagen institucional',
-		active: null,
 		url: 'http://1.bp.blogspot.com/_SrsBWUoWIYs/TFrzE84N1AI/AAAAAAAABKs/xcnuKfa0YxQ/s1600/Confederaci%C3%B3n+Suiza+2.jpg',
 	},
 	{
 		id: 2,
 		title: 'confederacion suiza imagen institucional',
-		active: null,
 		url: './images/institucional/escudos.jpg',
 	},
 	{
 		id: 3,
 		title: 'confederacion suiza logos linetime',
-		active: null,
 		url: './images/institucional/linetime.jpg',
+	},
+	{
+		id: 4,
+		title: 'biblioteca de la et26',
+		url: './images/institucional/biblioteca.jpg',
 	},
 ];
 export default function Institucional() {
 	return (
 		<div className="specialtyCtn">
-			<Banner img="./images/institucional/foto-escuela-2022.jpg" />
+			<Banner img="./images/institucional/banner.jpg" />
 
 			<TitleDescriptionVideo
 				especialidad="institucional"

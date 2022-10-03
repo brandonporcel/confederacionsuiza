@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 const Error404Ctn = styled.figure`
 	text-align: center;
@@ -14,6 +15,9 @@ export default function Error404() {
 		<Error404Ctn>
 			<img src="./images/error404.jpg" alt="Error 404 lasuizacompu" />
 			<figcaption>La página no fue encontrada:/</figcaption>
+			<Link to="/" className="linktoa">
+				Volver
+			</Link>
 		</Error404Ctn>
 	);
 }

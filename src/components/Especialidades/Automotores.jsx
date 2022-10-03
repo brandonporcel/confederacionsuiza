@@ -9,15 +9,15 @@ const automotoresMaterias = [
 	{
 		ano: '3',
 		programas:
-			'https://drive.google.com/drive/folders/1eof7ydGeFfb9SY3fGV8TucyZKgBuAcf_?usp=sharing',
+			'https://drive.google.com/drive/folders/1ChfHuB7ZcGR-5SuCAcgit9of1Q6kVn7y?usp=sharing',
 		materias: [
 			'Lengua y Literatura',
-			'ed. fisica',
-			'ingles',
+			'ed. física',
+			'inglés',
+			'matemática',
 			'física',
-			'matematica',
 			'quimica',
-			'ed. civica',
+			'ed. ciudadana',
 			'geografia',
 			'historia',
 			'tecnologia de la representacion',
@@ -30,10 +30,10 @@ const automotoresMaterias = [
 			'https://drive.google.com/drive/folders/1XAR-Tcnj_FFIWAt_3Q7recy2kwYy2ILw?usp=sharing',
 		materias: [
 			'Lengua y Literatura',
-			'ed. fisica',
-			'ingles',
-			'estatica y resist. de los materiales',
+			'ed. física',
+			'inglés',
 			'matemática',
+			'estatica y resist. de los materiales',
 			'electricidad del automotor',
 			'mecanica',
 			'mecanismos',
@@ -53,9 +53,9 @@ const automotoresMaterias = [
 			'Motores de Combustion',
 			'Termodinamica',
 			'Lengua y Literatura',
-			'Ed. Fisica',
-			'Ingles',
-			'matematica',
+			'Ed. Física',
+			'Inglés',
+			'matemática',
 		],
 	},
 	{
@@ -70,9 +70,9 @@ const automotoresMaterias = [
 			'Higiene y Seguridad Laboral',
 			'Lab. de Ensayos  de Motores',
 			'Vehiculos Especiales',
-			'Ed. Fisica',
-			'Ciencia y Tecnologia',
-			'Practicas profesionalizantes',
+			'Ed. Física',
+			'Ciencia y Tecnología',
+			'Prácticas profesionalizantes',
 		],
 	},
 ];
@@ -136,7 +136,7 @@ const GalleryAutomotoresContainer = styled.div`
 export default function Automotores() {
 	return (
 		<div className="specialtyCtn">
-			<Banner img="./images/automotoresbanner.jpg" />
+			<Banner img="./images/automotores/banner.jpg" />
 			<EspecialidadDescripcion
 				especialidad="automotores"
 				video="https://www.youtube.com/embed/wZgSr_S5_nI"

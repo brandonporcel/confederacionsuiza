@@ -5,6 +5,7 @@ import EspecialidadDescripcion from '../TitleDescriptionVideo';
 import SubTitleAndDescription from '../SubTitleAndDescription';
 import ProgramasTablas from './ProgramasTablas';
 import styled from 'styled-components';
+import ImgGallery from '../ImgGallery';
 const computacionMaterias = [
 	{
 		ano: '3',
@@ -17,8 +18,8 @@ const computacionMaterias = [
 			'física',
 			'matemática',
 			'química',
-			'ed. cívica',
-			'geografia',
+			'educación ciudadana',
+			'geografía',
 			'historia',
 			'tecnología de la representación',
 			'taller',
@@ -96,6 +97,23 @@ const computacionAlcances = [
 			'Asistir y asesorar a los usuarios para la elección, adquisición, instalación y personalización de aplicaciones de equipos y sistemas.',
 	},
 ];
+const computacionGalleryImg = [
+	{
+		id: 0,
+		title: 'lona robotica lego',
+		url: './images/computacion/lona-lego-robotica.jpg',
+	},
+	{
+		id: 1,
+		title: 'impresora 3d',
+		url: './images/computacion/impresora.jpg',
+	},
+	{
+		id: 2,
+		title: 'compus!',
+		url: './images/compus.jpg',
+	},
+];
 const Alcance = styled.ul`
 	list-style: initial;
 	margin-left: 20px;
@@ -104,10 +122,25 @@ const Alcance = styled.ul`
 		color: var(--gray-third);
 	}
 `;
+const GalleryComputacionContainer = styled.div`
+	width: 60%;
+	margin: 0 auto;
+	padding: 20px;
+	@media only screen and (min-width: 320px) and (max-width: 675px) {
+		width: 100%;
+	}
+	@media only screen and (min-width: 676px) and (max-width: 768px) {
+		width: 80%;
+	}
+
+	@media only screen and (min-width: 769px) and (max-width: 1024px) {
+		width: 70%;
+	}
+`;
 export default function Computacion() {
 	return (
 		<div className="specialtyCtn">
-			<Banner img="./images/computacionbanner.jpg" />
+			<Banner img="./images/computacion/banner.jpg" />
 			<EspecialidadDescripcion
 				especialidad="Computación"
 				video="https://www.youtube.com/embed/aoPRIi7rsjg"
@@ -155,8 +188,11 @@ export default function Computacion() {
 				</Alcance>
 			</SubTitleAndDescription>
 			<SubTitleAndDescription title="Programas Curriculares">
-				<ProgramasTablas materias={computacionMaterias}></ProgramasTablas>
+				<ProgramasTablas materias={computacionMaterias} />
 			</SubTitleAndDescription>
+			<GalleryComputacionContainer>
+				<ImgGallery galleryImages={computacionGalleryImg} />
+			</GalleryComputacionContainer>
 		</div>
 	);
 }

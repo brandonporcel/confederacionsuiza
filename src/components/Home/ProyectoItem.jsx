@@ -66,6 +66,7 @@ const ProyectoItemCtn = styled.article`
 			-webkit-box-orient: vertical;
 			overflow: hidden;
 			text-overflow: ellipsis;
+			text-transform: capitalize;
 		}
 	}
 
