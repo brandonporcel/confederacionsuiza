@@ -170,7 +170,9 @@ export default function Contacto() {
 					<div className="contactWayItem">
 						<p>Avenida Jujuy 255 - 1083 CABA</p>
 					</div>
-
+					<div className="contactWayItem">
+						<p>Lunes a Viernes de 7:45 a 23:15</p>
+					</div>
 					<iframe
 						width="500"
 						height="300"

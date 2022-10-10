@@ -95,6 +95,7 @@ const GalleryCtn = styled.div`
 
 export default function ImgGallery({ galleryImages }) {
 	const [galleryImage, setGalleryImage] = useState(0);
+	const [loadImage, setLoadImage] = useState(false);
 
 	const changeImage = (e) => {
 		setGalleryImage(parseInt(e.target.getAttribute('data-id')));
@@ -112,6 +113,7 @@ export default function ImgGallery({ galleryImages }) {
 	return (
 		<GalleryCtn>
 			<div className="galleryImgCtn">
+				{!loadImage && 'Cargando...'}
 				{galleryImages[galleryImage].type ? (
 					<video width="400" controls muted>
 						<source src={galleryImages[galleryImage].url} type="video/mp4" />
@@ -122,6 +124,9 @@ export default function ImgGallery({ galleryImages }) {
 						src={galleryImages[galleryImage].url}
 						alt={galleryImages[galleryImage].title}
 						className={'galleryImg active'}
+						onLoadCapture={() => {
+							setLoadImage(true);
+						}}
 					/>
 				)}
 				<button onClick={prevImg}>
