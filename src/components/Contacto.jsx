@@ -202,7 +202,7 @@ export default function Contacto() {
 									</>
 								) : (
 									<>
-										<span className="contact-item-title">{keyName}:</span>
+										<span className="contact-item-title">{keyName}</span>
 										{keyName === 'telefono' ? (
 											<p>{contactData[keyName]}</p>
 										) : (

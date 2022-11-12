@@ -89,7 +89,7 @@ const InfUtilCtn = styled.div`
 			}
 			.answer {
 				display: none;
-
+				cursor: initial;
 				p {
 					margin-top: 10px;
 					font-style: initial;

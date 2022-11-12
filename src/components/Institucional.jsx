@@ -15,20 +15,21 @@ const galleryImages = [
 		title: 'confederacion suiza imagen institucional',
 		url: 'http://1.bp.blogspot.com/_SrsBWUoWIYs/TFrzE84N1AI/AAAAAAAABKs/xcnuKfa0YxQ/s1600/Confederaci%C3%B3n+Suiza+2.jpg',
 	},
+
 	{
 		id: 2,
-		title: 'confederacion suiza imagen institucional',
-		url: './images/institucional/escudos.jpg',
-	},
-	{
-		id: 3,
 		title: 'confederacion suiza logos linetime',
 		url: './images/institucional/linetime.jpg',
 	},
 	{
-		id: 4,
+		id: 3,
 		title: 'biblioteca de la et26',
-		url: './images/institucional/biblioteca.jpg',
+		url: './images/institucional/lasuizabiblio.jpg',
+	},
+	{
+		id: 4,
+		title: 'Laboratorio de computación - Pasado',
+		url: './images/institucional/labcompu.jpg',
 	},
 ];
 export default function Institucional() {
@@ -42,16 +43,17 @@ export default function Institucional() {
 			>
 				<p>
 					La Escuela Técnica N°26 Confederación Suiza D.E 6 es un colegio
-					secundario publico ubicado en el barrio de Balvanera, CABA.
+					secundario público ubicado en el barrio de Balvanera, en la Ciudad
+					Autónoma de Buenos Aires.
 				</p>
 				<p>
 					Esta secundaria ofrece las especialidades de{' '}
 					<b> Automotores y Computación</b> y se pueden cursan en el turno
-					mañana, tarde o noche. La institución pertenece a las Secundarias del
-					Futuro por lo que cuenta con netbooks, un espacio digital, proyectores
-					y pizarras interactivas digitales en cada aula . Participa de la Feria
-					de Ciencias, Arte y Tecnología y del programa de campamentos
-					escolares.
+					mañana, tarde o noche. La institución pertenece al programa
+					Secundarias del Futuro por lo que cuenta con netbooks, un espacio
+					digital, proyectores y pizarras interactivas digitales en cada aula.
+					Participa de la Feria de Ciencias, Arte y Tecnología y del programa de
+					campamentos escolares.
 				</p>
 				<br />
 				<p>
@@ -135,7 +137,7 @@ export default function Institucional() {
 				</p>
 
 				<a
-					href="https://es.wikipedia.org/wiki/Usuario:Rustico400/Taller"
+					href="https://es.wikipedia.org/wiki/Usuario:Tecnica26/Taller"
 					target="_blank"
 					rel="noreferrer"
 				>

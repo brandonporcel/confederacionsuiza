@@ -18,7 +18,7 @@ const autoridades = [
 		cargo: 'regente TT',
 	},
 	{
-		nombre: 'liliana arena núñez',
+		nombre: 'claudio chapela',
 		cargo: 'regente TN',
 	},
 	{

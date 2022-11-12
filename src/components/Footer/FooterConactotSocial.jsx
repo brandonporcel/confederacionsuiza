@@ -26,7 +26,7 @@ const ContactSocial = styled.div`
 
 export default function FooterConactotSocial() {
 	const { contactData } = useContext(ContactContext);
-	const { telefono, escuela } = contactData;
+	const { telefono, regencia } = contactData;
 	return (
 		<ContactSocial>
 			<div className="contact">
@@ -36,7 +36,7 @@ export default function FooterConactotSocial() {
 				</div>
 				<div className="contact-item-ctn">
 					<img className="svg" src={mailIcon} alt="mail" />
-					<a href={`mailto:${escuela}`}>{escuela}</a>
+					<a href={`mailto:${regencia}`}>{regencia}</a>
 				</div>
 			</div>
 			<SocialLogos color="var(--white)" />

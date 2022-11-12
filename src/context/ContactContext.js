@@ -1,8 +1,8 @@
 const { createContext } = require('react');
 const contactData = {
 	telefono: '11 4931-1947',
-	escuela: 'det_26_de6@bue.edu.ar',
 	regencia: 'regencia@et26.edu.ar',
+	secretaría: 'det_26_de6@bue.edu.ar',
 	cooperadora: 'coopedelasuiza@gmail.com',
 	'Departamento de Orientación al Estudiante': 'doe@et26.edu.ar',
 	taller: 'et26.tallersuiza@gmail.com',

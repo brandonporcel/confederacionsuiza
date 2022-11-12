@@ -27,7 +27,12 @@ const especialidades = [
 const EspecialidadesContainer = styled.div`
 	/* max-width: 85%; */
 	/* min-width: min-content; */
+
+	width: 90%;
 	margin: 0 auto;
+	@media only screen and (min-width: 1500px) {
+		width: 82%;
+	}
 `;
 export default function Especialidades() {
 	return (
@@ -38,10 +43,7 @@ export default function Especialidades() {
 				className="section"
 			>
 				<h3 className="sectionTitle">1er Ciclo y Especialidades</h3>
-				<EspecialidadesContainer
-					className="flexBetween overflowAuto gap20"
-					style={{ width: '90%', margin: '0 auto' }}
-				>
+				<EspecialidadesContainer className="flexBetween overflowAuto gap20">
 					{especialidades.map((el, i) => (
 						<EspecialidadItem
 							key={i}
