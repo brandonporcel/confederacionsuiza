@@ -9,7 +9,7 @@ const especialidades = [
 			'El Primer Ciclo Común es una herramienta articuladora para que todos los alumnos lleguen al primer año de la carrera con el nivel necesario, tanto de su disciplina elegida, como de conocimiento general, característica particular que presentan generalmente los alumnos de esta casa de estudios',
 	},
 	{
-		thumbnail: './images/822.jpg',
+		thumbnail: './images/automotoresthumbnail.jpg',
 		title: 'Automotores',
 		linkToSpecialty: 'automotores',
 		description:
