@@ -106,12 +106,12 @@ const computacionGalleryImg = [
 	{
 		id: 1,
 		title: 'impresora 3d',
-		url: './images/computacion/impresora.jpg',
+		url: './images/computacion/impresora.JPG',
 	},
 	{
 		id: 2,
 		title: 'compus!',
-		url: './images/compus.jpg',
+		url: './images/compus.JPG',
 	},
 ];
 const Alcance = styled.ul`
@@ -140,7 +140,7 @@ const GalleryComputacionContainer = styled.div`
 export default function Computacion() {
 	return (
 		<div className="specialtyCtn">
-			<Banner img="./images/computacion/banner.jpg" />
+			<Banner img="./images/computacion/banner.JPG" />
 			<EspecialidadDescripcion
 				especialidad="Computación"
 				video="https://www.youtube.com/embed/aoPRIi7rsjg"

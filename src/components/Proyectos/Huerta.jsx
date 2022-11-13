@@ -2,10 +2,10 @@ import ImgGallery from '../ImgGallery';
 import ProjectContainer from '../ProjectContainer';
 import SubTitleAndDescription from '../SubTitleAndDescription';
 let huertaImages = [
-	{ id: 1, url: './images/proyectos/huerta/313.jpg', title: 'Huerta ET26' },
-	{ id: 2, url: './images/proyectos/huerta/314.jpg', title: 'Huerta ET26' },
-	{ id: 3, url: './images/proyectos/huerta/318.jpg', title: 'Huerta ET26' },
-	{ id: 4, url: './images/proyectos/huerta/326.jpg', title: 'Huerta ET26' },
+	{ id: 1, url: './images/proyectos/huerta/313.JPG', title: 'Huerta ET26' },
+	{ id: 2, url: './images/proyectos/huerta/314.JPG', title: 'Huerta ET26' },
+	{ id: 3, url: './images/proyectos/huerta/318.JPG', title: 'Huerta ET26' },
+	{ id: 4, url: './images/proyectos/huerta/326.JPG', title: 'Huerta ET26' },
 ];
 export default function Huerta() {
 	return (

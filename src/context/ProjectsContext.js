@@ -28,7 +28,7 @@ let allProjects = [
 		title: 'Huerta',
 		link: '/huerta',
 		description: 'los chicos hicieron una huerta en el 2do piso!',
-		thumbnail: './images/proyectos/huerta/320.jpg',
+		thumbnail: './images/proyectos/huerta/320.JPG',
 		year: '2021 - ',
 	},
 
