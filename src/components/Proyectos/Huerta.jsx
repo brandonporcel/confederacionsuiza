@@ -26,7 +26,7 @@ export default function Huerta() {
 					2do piso.
 				</p>
 				<p>
-					La preceptora Cecilia Ligotti tambien está ayudando con el proyecto
+					La preceptora Cecilia Ligotti tambien está ayudando con el proyecto.
 				</p>
 			</SubTitleAndDescription>
 			<ImgGallery galleryImages={huertaImages}></ImgGallery>
