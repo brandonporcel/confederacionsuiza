@@ -1,6 +1,6 @@
 # ET26 Confederación Suiza
 
->Sitio web para la institución. [confederacionsuiza.com](https://confederacionsuiza.com).
+>Sitio web para la institución. [https://et26.vercel.app/](https://et26.vercel.app/).
 
 ## Index
 * [Descripción](#descripcion)
