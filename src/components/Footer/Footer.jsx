@@ -28,7 +28,7 @@ const FooterCtn = styled.footer`
 			align-items: center;
 		}
 		.right {
-			grid-template-columns: repeat(auto-fill, 150px);
+			grid-template-columns: repeat(auto-fill, 175px);
 			justify-content: center;
 		}
 		.footer-bottom {
@@ -55,7 +55,7 @@ const FooterCtn = styled.footer`
 			align-items: center;
 		}
 		.right {
-			grid-template-columns: repeat(3, 150px);
+			grid-template-columns: repeat(3, 175px);
 			justify-content: center;
 		}
 	}

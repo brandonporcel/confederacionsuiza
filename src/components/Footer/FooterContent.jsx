@@ -35,7 +35,7 @@ const masItems = [
 	{
 		key: 9,
 		name: 'github institucional',
-		link: 'https://github.com/brandonporcel/tecnica26',
+		link: 'https://github.com/tecnica26',
 	},
 	{
 		key: 10,

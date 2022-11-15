@@ -78,7 +78,7 @@ const ContactoInfoCtn = styled.main`
 	}
 	/* celulares */
 	@media only screen and (min-width: 320px) and (max-width: 675px) {
-		height: 900px;
+		height: 1175px;
 		.nuestraEscuelaaa {
 			width: 100%;
 			border-radius: 15px;

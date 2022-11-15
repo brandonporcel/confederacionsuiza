@@ -139,7 +139,7 @@ export default function MobileHeaderr({ openMenu, setOpenMenu, toTop }) {
 				>
 					<Link
 						className={`navLinks`}
-						to="/ciclobasico"
+						to="/primerciclo"
 						onClick={() => {
 							setOpenMenu();
 							toTop();
