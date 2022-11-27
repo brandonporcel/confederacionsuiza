@@ -12,7 +12,7 @@ const ContactoInfoCtn = styled.main`
 	display: flex;
 	justify-content: center;
 	/* esto tienen q ser mayor al height de .nuestraescuela */
-	height: 900px;
+	height: 915px;
 	z-index: 20;
 	.nuestraEscuelaaa {
 		box-shadow: var(--shadow);
@@ -78,9 +78,10 @@ const ContactoInfoCtn = styled.main`
 	}
 	/* celulares */
 	@media only screen and (min-width: 320px) and (max-width: 675px) {
-		height: 1175px;
+		height: 1160px;
+
 		.nuestraEscuelaaa {
-			width: 100%;
+			width: 98%;
 			border-radius: 15px;
 			.contactWayItemsContainer {
 				width: 100%;
@@ -96,8 +97,13 @@ const ContactoInfoCtn = styled.main`
 			}
 		}
 	}
+	/* tablet? */
+	@media only screen and (min-width: 450px) and (max-width: 765px) {
+		height: 900px;
+	}
 	@media only screen and (min-width: 676px) and (max-width: 768px) {
 		height: 875px;
+
 		.nuestraEscuelaaa {
 			width: 600px;
 
@@ -171,7 +177,7 @@ export default function Contacto() {
 						<p>Avenida Jujuy 255 - 1083 CABA</p>
 					</div>
 					<div className="contactWayItem">
-						<p>Lunes a Viernes de 7:45 a 23:15</p>
+						<p>Lunes a Viernes de 7:45 a 22:30</p>
 					</div>
 					<iframe
 						width="500"

@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import ProjectsContext from '../../context/ProjectsContext';
+import Button from '../Button';
 import ProyectoItem from './ProyectoItem';
 
 const ProyectosCtn = styled.section`
@@ -12,7 +13,7 @@ const ProyectosCtn = styled.section`
 		}
 	}
 	.proyectos-ctn {
-		padding: 0 5px;
+		padding: 4px;
 		/* min-width: min-content; */
 		/* max-width: 85%; */
 
@@ -48,9 +49,13 @@ export default function ProyectosSection() {
 				))}
 			</div>
 
-			<Link to="proyectos" className="seeMore">
-				Ver más
+			<Link to="proyectos" onClick={() => window.scrollTo(0, 0)}>
+				<Button>Ver más</Button>
 			</Link>
+
+			{/* <Link to="proyectos" className="seeMore">
+				Ver más
+			</Link> */}
 		</ProyectosCtn>
 	);
 }

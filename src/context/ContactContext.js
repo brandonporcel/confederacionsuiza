@@ -12,7 +12,7 @@ const contactData = {
 	},
 	automotores: {
 		contact: 'automotores@et26.edu.ar',
-		coordinador: 'Nombre Apellido',
+		coordinador: 'Horacio Galacho',
 	},
 };
 const socialLinks = {

@@ -16,11 +16,11 @@ const automotoresMaterias = [
 			'inglés',
 			'matemática',
 			'física',
-			'quimica',
+			'Química',
 			'ed. ciudadana',
-			'geografia',
+			'Geografía',
 			'historia',
-			'tecnologia de la representacion',
+			'Tecnología de la Representación ',
 			'taller',
 		],
 	},
@@ -33,9 +33,9 @@ const automotoresMaterias = [
 			'ed. física',
 			'inglés',
 			'matemática',
-			'estatica y resist. de los materiales',
+			'Estática y resist. de los materiales',
 			'electricidad del automotor',
-			'mecanica',
+			'mecánica',
 			'mecanismos',
 			'ciudadania y trabajo',
 			'taller',
@@ -46,12 +46,12 @@ const automotoresMaterias = [
 		programas:
 			'https://drive.google.com/drive/folders/1Ch9GdWMaYoFFNPCDSIRp-ttCtTc0WqhV?usp=sharing',
 		materias: [
-			'Dinamica del Automotor',
-			'Tecnologia de los Materiales',
-			'Electronica del Automotor',
-			'Elementos de Maquina',
-			'Motores de Combustion',
-			'Termodinamica',
+			'Dinámica del Automotor',
+			'Tecnología de los Materiales',
+			'Electrónica del Automotor',
+			'Elementos de Máquina',
+			'Motores de Combustión',
+			'Termodinámica',
 			'Lengua y Literatura',
 			'Ed. Física',
 			'Inglés',
@@ -64,9 +64,9 @@ const automotoresMaterias = [
 			'https://drive.google.com/drive/folders/1DIsQDm8Q0VvSMEAWoYDY7ualtI1D6lmZ?usp=sharing',
 		materias: [
 			'Calc. de Estr. y Mecan. del Automotor',
-			'Diagnostico del Sist. del Automotor',
-			'Dinamica. de Motores de Comb. Int.',
-			'Economia y Gestion de las Organiz.',
+			'Diagnóstico del Sist. del Automotor',
+			'Dinámica. de Motores de Comb. Int.',
+			'Economía y Gestion de las Organiz.',
 			'Higiene y Seguridad Laboral',
 			'Lab. de Ensayos  de Motores',
 			'Vehiculos Especiales',
@@ -162,7 +162,7 @@ export default function Automotores() {
 				<p>
 					En la especialidad los alumnos van a adquirir una formacion amplia en
 					lo que difieren a los autos. Aprenderan sobre electronica,
-					automatizacion,mecanica, termodinamica y más profundazando cada vez
+					automatizacion,mecánica, termoDinámica y más profundazando cada vez
 					mas en cada año.
 				</p>
 				<br />

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import DownArrow from './svg/DownArrow';
 const MobileHeaderCtn = styled.nav`
 	position: absolute;
 	top: 80px;
@@ -24,6 +25,9 @@ const MobileHeaderCtn = styled.nav`
 			/* &:hover {
 				color: var(--gray-third);
 			} */
+			.rotate180 {
+				transform: rotate(180deg);
+			}
 			.navList-submenu {
 				position: absolute;
 				width: 175px;
@@ -121,13 +125,12 @@ export default function MobileHeaderr({ openMenu, setOpenMenu, toTop }) {
 				>
 					<div
 						className={`${
-							selected === true ? 'acordeonTitle selected' : 'acordeonTitle'
+							selected === true ? 'verticalAlign selected' : 'verticalAlign'
 						}`}
 					>
-						<a href="#especialidades">Especialidades</a>
-						<button>
-							<span>{selected === true ? '-' : '+'}</span>
-						</button>
+						<a href="#especialidades">Especialidades </a>
+
+						{selected === true ? <DownArrow rotate="180" /> : <DownArrow />}
 					</div>
 				</li>
 				<ul
@@ -145,7 +148,7 @@ export default function MobileHeaderr({ openMenu, setOpenMenu, toTop }) {
 							toTop();
 						}}
 					>
-						<li className="navList-item">Ciclo Basico</li>
+						<li className="navList-item">Primer Ciclo</li>
 					</Link>
 					<Link
 						className={`navLinks`}

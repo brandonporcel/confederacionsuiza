@@ -25,6 +25,7 @@ a {
 
 	--main-font: 'Encode Sans', sans-serif;
 	--white: #fff;
+
 	--gray: #333333;
 	--gray-secondary: #595b61;
 	--gray-third: #5d666e;
@@ -46,6 +47,7 @@ a {
 body {
 	font-family: var(--main-font);
 	width: 100%;
+	background-color: #fafafa;
 }
 /* globals classes */
 .linktoa {
@@ -117,6 +119,10 @@ br {
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
+}
+.verticalAlign {
+	display: flex;
+	align-items: center;
 }
 .none {
 	display: none;

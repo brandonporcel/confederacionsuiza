@@ -27,11 +27,15 @@ const autoridades = [
 	},
 	{
 		nombre: 'Viviana Alonso',
-		cargo: 'Psicopedagoga TM',
+		cargo: 'asesora pedagógica TM',
 	},
 	{
 		nombre: 'Julieta González',
-		cargo: 'Psicopedagoga TT',
+		cargo: 'asesora pedagógica TT',
+	},
+	{
+		nombre: 'betina altieri',
+		cargo: 'psicóloga',
 	},
 ];
 const AutoridadesCtn = styled.div`

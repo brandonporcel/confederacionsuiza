@@ -37,7 +37,7 @@ const primerCicloMaterias = [
 			'ed. ciudadana',
 			'tecnología de la representación',
 			'geografía',
-			'quimica',
+			'Química',
 			'fisica',
 			'taller',
 		],
@@ -78,13 +78,13 @@ export default function PrimerCiclo() {
 				</p>
 				<br />
 				<p>
-					Primer año: Metales, Temas Generales, Electricidad, carpinteria e
-					Informatica.
+					Primer año: Metales, Temas Generales, Electricidad, Carpintería e
+					Informática.
 				</p>
 				<br />
 				<p>
-					Segundo año: Temas Generales II, Metales II, electricidad II,
-					Informatica II y Tornería.{' '}
+					Segundo año: Metales II, Temas Generales II, Electricidad II, Tornería
+					e Informática II.{' '}
 				</p>
 			</SubTitleAndDescription>
 		</div>

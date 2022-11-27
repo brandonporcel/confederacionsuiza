@@ -122,6 +122,7 @@ export default function InformacionUitl() {
 	const handleAnswer = (i) => {
 		// si habia un item seleccionado, se deselecciona(?)
 		if (selected === i) setSelected();
+
 		setSelected(i);
 	};
 	return (
