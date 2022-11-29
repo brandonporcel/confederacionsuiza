@@ -84,7 +84,7 @@ export default function ConoceLaSuiza() {
 				loading="lazy"
 			></iframe>
 			<div>
-				<Link to="/contacto">
+				<Link to="/contacto" onClick={()=>window.scrollTo(0, 0)}>
 					<Button type="bg">Contacto</Button>
 				</Link>
 			</div>

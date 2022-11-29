@@ -38,7 +38,7 @@ const primerCicloMaterias = [
 			'tecnología de la representación',
 			'geografía',
 			'Química',
-			'fisica',
+			'Física',
 			'taller',
 		],
 	},

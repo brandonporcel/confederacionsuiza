@@ -57,7 +57,7 @@ body {
 	text-decoration: underline;
 }
 .section {
-	padding: 70px 100px 40px;
+	padding: 75px 100px 40px;
 }
 .sectionWrapper:nth-child(even) {
 	background-color: #f3fbfe;
