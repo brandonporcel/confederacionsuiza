@@ -31,7 +31,7 @@ Llegamos a hacer una entrevista con el rector Pablo Conrado para profundizar en 
 El repositorio está abierto a contribuciones. <br>
 Si sos del colegio y queres aportar, consultá a profesores de computación o al centro de estudiantes sobre la pagina del colegio y explicales como queres ayudar!
 
-Existe un manual de uso en el que se explica como modificar la pagina. [Drive](https://docs.google.com/document/d/13Q-LhzdSwG1pHdHgYyHmJhZz1SDtCVYylg3UF7fjS8E/edit?usp=sharing)
+Existe un manual de uso en el que se explica como modificar la pagina y subir los cambios. Consultar.
 
 <hr/> 
 
