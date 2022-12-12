@@ -35,6 +35,9 @@ const EspecialidadesContainer = styled.div`
 	}
 `;
 export default function Especialidades() {
+	const toTop = () => {
+		window.scrollTo(0, 0);
+	};
 	return (
 		<section className="tooLarge sectionWrapper">
 			<div
@@ -51,6 +54,7 @@ export default function Especialidades() {
 							description={el.description}
 							thumbnail={el.thumbnail}
 							linkToSpecialty={el.linkToSpecialty}
+							toTop={toTop}
 						/>
 					))}
 				</EspecialidadesContainer>

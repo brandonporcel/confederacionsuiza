@@ -40,7 +40,7 @@ const masItems = [
 	{
 		key: 10,
 		name: 'Centro de Estudiantes',
-		link: 'http://cecs.ar',
+		link: 'https://www.instagram.com/c.e.c.s_/',
 	},
 	{
 		key: 11,
@@ -50,7 +50,7 @@ const masItems = [
 	{
 		key: 12,
 		name: 'Biblioteca Virtual',
-		link: 'http://lasuizabiblioteca.herokuapp.com',
+		link: 'https://lasuizabiblioteca.onrender.com/',
 	},
 ];
 const FooterContentCtn = styled.div`

@@ -85,11 +85,11 @@ export default function ProyectoItem({
 	description,
 	year,
 	thumbnail,
-	specialty,
 	link,
+	toTop,
 }) {
 	return (
-		<ProyectoItemCtn>
+		<ProyectoItemCtn onClick={toTop}>
 			<Link to={`${link}`}>
 				<div className="projectImg">
 					<img src={thumbnail} alt={title} loading="lazy" />

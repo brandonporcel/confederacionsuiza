@@ -24,7 +24,7 @@ const galleryImages = [
 	{
 		id: 3,
 		title: 'biblioteca de la et26',
-		url: './images/institucional/lasuizabiblio.jpg',
+		url: './images/institucional/biblioteca3piso.jpg',
 	},
 	{
 		id: 4,

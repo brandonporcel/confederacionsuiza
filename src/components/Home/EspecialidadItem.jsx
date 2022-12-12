@@ -53,9 +53,10 @@ export default function EspecialidadItem({
 	description,
 	thumbnail,
 	linkToSpecialty,
+	toTop,
 }) {
 	return (
-		<EspecialidadItemCtn>
+		<EspecialidadItemCtn onClick={toTop}>
 			<Link
 				to={`/${linkToSpecialty}`}
 				className={'lazy-background'}

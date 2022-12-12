@@ -31,7 +31,7 @@ const autoridades = [
 	},
 	{
 		nombre: 'Julieta González',
-		cargo: 'asesora pedagógica TT',
+		cargo: 'Psicopedagoga TT',
 	},
 	{
 		nombre: 'betina altieri',

@@ -72,7 +72,7 @@ export default function Footer() {
 						target="_blank"
 						rel="noreferrer"
 					>
-						Sitio desarrollado por estudiantes de 6°10 2022
+						Sitio desarrollado por estudiantes de 6°10, 2022
 					</a>
 				</small>
 			</div>

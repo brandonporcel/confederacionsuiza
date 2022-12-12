@@ -29,7 +29,7 @@ const ProyectosCtn = styled.section`
 `;
 export default function ProyectosSection() {
 	const { firstThree } = useContext(ProjectsContext);
-
+	const toTop = () => window.scrollTo(0, 0);
 	return (
 		<ProyectosCtn id="proyectos" className="section tooLarge">
 			<h3 className="sectionTitle">
@@ -43,13 +43,13 @@ export default function ProyectosSection() {
 						link={el.link}
 						description={el.description}
 						year={el.year}
-						specialty={el.specialty}
 						thumbnail={el.thumbnail}
+						toTop={toTop}
 					/>
 				))}
 			</div>
 
-			<Link to="proyectos" onClick={() => window.scrollTo(0, 0)}>
+			<Link to="proyectos" onClick={toTop}>
 				<Button>Ver más</Button>
 			</Link>
 
