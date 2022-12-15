@@ -51,6 +51,13 @@ export default function Novedades() {
 				title="FORMULARIO DE INSCRIPCIÓN DE 2DO A 6TO AÑO"
 				loading="lazy"
 			></iframe>
+			<br />
+			<br />
+			<br />
+			<h3 className="sectionTitle biggerFont">
+				CRONOGRAMA DE INSCRIPCIÓN 2023
+			</h3>
+			<img src="./images/novedades/cronograma-inscripcion.jpg" alt="cronograma 2023" />
 		</NovedadesCtn>
 	);
 }
