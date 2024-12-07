@@ -137,7 +137,7 @@ export default function Institucional() {
 				</p>
 
 				<TitleDescriptionVideo
-				video="https://www.youtube.com/embed/hPB4I61D6b0"
+				video="https://www.youtube.com/embed/th1h6FXFmqw"
 			>
 			</TitleDescriptionVideo>
 				<br/>
@@ -146,7 +146,7 @@ export default function Institucional() {
 					target="_blank"
 					rel="noreferrer"
 				>
-					<Button type="noBgBlue">Ver Más</Button>
+					<Button type="noBgBlue">Conocer Más</Button>
 				</a>
 			</SubTitleAndDescription>
 			<SubTitleAndDescription title="autoridades">
