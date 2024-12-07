@@ -136,6 +136,11 @@ export default function Institucional() {
 					tengan la mejor educación con un acompañamiento en todo momento.
 				</p>
 
+				<TitleDescriptionVideo
+				video="https://www.youtube.com/embed/hPB4I61D6b0"
+			>
+			</TitleDescriptionVideo>
+				<br/>
 				<a
 					href="https://es.wikipedia.org/wiki/Usuario:Tecnica26/Taller"
 					target="_blank"
