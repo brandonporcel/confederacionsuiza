@@ -8,6 +8,7 @@ import Institucional from './components/Institucional';
 import PrimerCiclo from './components/Especialidades/PrimerCiclo';
 import Automotores from './components/Especialidades/Automotores';
 import Computacion from './components/Especialidades/Computacion';
+import Archive from './components/Archive';
 
 import Home from './components/Home/Home';
 import Proyectos from './components/Proyectos';
@@ -39,6 +40,7 @@ function App() {
 					<Route path="/automotores" element={<Automotores />} />
 					<Route path="/computacion" element={<Computacion />} />
 					<Route path="/proyectos" element={<Proyectos />} />
+					<Route path="/archivo" element={<Archive />} />
 
 					<Route path="/contacto" element={<Contacto />} />
 					<Route path="/informacionutil" element={<InformacionUitl />} />
