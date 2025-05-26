@@ -10,7 +10,7 @@ const galleryImages = [
   {
     id: 1,
     title: "Imagen random 2",
-    url: "./images/random-2.JPG",
+    url: "./images/random-2.jpg",
   },
 ];
 
